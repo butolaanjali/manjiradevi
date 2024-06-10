@@ -18,21 +18,50 @@ const OurSchool = () => {
 
   const slides = [
     {
-      title: 'Dev Bhoomi Medical College of Ayurveda ',
-      image: 'img1.jpeg',
+      title: 'School of Engineering ',
+      image: 'mechanical.jpeg',
       link: '#',
     },
     {
-      title: 'Dev Bhoomi Institute of Polytechnic (DBIP)',
-      image: 'img2.jpg',
+      title: 'School of Science And Technology',
+      image: 'bsc.jpg',
       link: '#',
     },
     {
-      title: 'School of Engineering & Computing (SoEC)',
-      image: 'img3.jpeg',
+      title: 'School of Commerce And Management Studies',
+      image: 'bcom.jpeg',
       link: '#',
     },
-    // Add more slides as needed
+    {
+      title: 'School of Agriculture',
+      image: 'agri.jpeg',
+      link: '#',
+    },
+    {
+      title: 'School of Arts And Humanities',
+      image: 'tour.jpeg',
+      link: '#',
+    },
+    {
+      title: 'School of Yogic Science And Naturopathy',
+      image: 'yogic.jpeg',
+      link: '#',
+    },
+    {
+      title: 'School of Nursing, Paramedical And Allied Science',
+      image: 'nursing.jpeg',
+      link: '#',
+    },
+    {
+      title: 'School of Legal',
+      image: 'llb.jpeg',
+      link: '#',
+    },
+    {
+      title: 'School of Hotel Management And Tourism',
+      image: 'dhm.jpg',
+      link: '#',
+    },
   ];
 
   return (
