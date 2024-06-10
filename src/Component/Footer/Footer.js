@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className="explore">
                     <h2>EXPLORE</h2>
                     <br/>
-                    <a href="#">About Us</a>
+                    <a href="/about">About Us</a>
                     <a href="#">Placements</a>
                     <a href="#">Alumni</a>
                     <a href="#">Research</a>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <div className="quick-links">
                     <h2>QUICK LINKS</h2>
                     <br/>
-                    <a href="#">Vision & Mission</a>
+                    <a href="/vision">Vision & Mission</a>
                     <a href="#">Download Brochure</a>
                     <a href="#">Annual Report</a>
                     <a href="#">Internship Registration</a>

@@ -15,6 +15,7 @@ import Academics from './Component/Academics/Academics';
 import Research from './Component/Research/Research';
 import Layout from './Component/Layout/Layout';
 import Lifemanjira from './Component/Lifemanjira/Lifemanjira';
+import Vision from './Component/About/vision';
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
    <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path='about' element ={<About/>}/>
+    <Route path='vision' element={<Vision/>}/>
     <Route path='Program' element={<Program/>}/>
     <Route path='Contact' element={<Contact/>}/>
     <Route path='school' element={<OurSchool/>}/>
