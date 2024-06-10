@@ -27,7 +27,7 @@ function Home() {
     <h1 class="text-white  display-3 bg21 " data-aos="fade-down" >Smt. <span className="bg22">Manjira</span><br/>Devi University</h1>
    
       <p class="text-white bg23" data-aos="fade-up" >Established Under Govt. Of Uttarakhand Vide Act No.05 of 2024</p>
-      <a  class="btn mt-3 px-4 py-3  bg24 " data-aos="fade-up">Contact Us</a>
+      <a  href="/Contact"class="btn mt-3 px-4 py-3  bg24 " data-aos="fade-up">Contact Us</a>
                 </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ function Home() {
     <div class="col-md-3 bg1 p-5">
       <h2 class="text-center"><i class="bi bi-people-fill"></i></h2>
       <h4 class="text-center">Certified Teachers</h4>
-      <p class="text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse et augue  iaculis  dapibus urna. Mauris malesuada.</p>
+      <p class="text-center ">Teaching excellence, nurturing minds, shaping futures, fostering growth, inspiring learning, empowering students, guiding brilliance.</p>
       
     </div>
      
@@ -48,13 +48,15 @@ function Home() {
   <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
 </svg></h2>
       <h4 class="text-center">Best Education</h4>
-      <p class="text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse et augue  iaculis  dapibus urna. Mauris malesuada.</p>
+      <p class="text-center ">Empowering minds, fostering curiosity,  fostering innovation, promoting critical thinking, transforming lives, shaping futures.
+
+</p>
       
     </div>
     <div class="col-sm-3 p-5 bg1">
        <h2 class="text-center"><i class="bi bi-book-fill"></i></h2>
       <h4 class="text-center">Book & Library</h4>
-      <p class="text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse et augue  iaculis  dapibus urna. Mauris malesuada.</p>
+      <p class="text-center ">Books unlock worlds, knowledge hub, wisdom repository, imagination's playground, sanctuary of stories, reader's treasure trove.</p>
       
     </div>
     <div class="col-sm-3 p-5 bg2">
@@ -63,7 +65,7 @@ function Home() {
   <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
 </svg></h2>
       <h4 class="text-center">Bachelor’s and Master’s</h4>
-      <p class="text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse et augue  iaculis  dapibus urna. Mauris malesuada.</p>
+      <p class="text-center "> Undergraduate journey: discovery, growth, foundation. Graduate studies: specialization, mastery, expertise, advancement.</p>
       
     </div>
   </div>
@@ -104,21 +106,21 @@ function Home() {
               <div className="card bf mt-2">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a  class="btn  bf4  " data-aos="fade-up">Read more</a></center>
+      <center> <a  href="/Program"class="btn  bf4  " data-aos="fade-up">Read more</a></center>
     </div>
               </div>
               <div className="col-md-4   ">
               <div className="card bf mt-2 ">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a  class="btn  bf4  " data-aos="fade-up">Read more</a></center>
+      <center> <a href="/Program" class="btn bf4 " data-aos="fade-up">Read more</a></center>
     </div>
               </div>
               <div className="col-md-4   ">
               <div className="card bf mt-2 ">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a  class="btn  bf4  " data-aos="fade-up">Read more</a></center>
+      <center> <a href="/Program" class="btn bf4 " data-aos="fade-up">Read more</a></center>
     </div>
               </div>
 
@@ -138,7 +140,7 @@ function Home() {
                 Welcome to Smt. Manjira Devi University Our university is housed in a magnificent, expansive building that offers a refreshing environment, naturally inspiring students to excel. We are dedicated to providing the highest quality education, facilitated by our experienced and highly educated faculty members. We proudly offer a full-time, two-year Bachelor of Education program, approved by the National Council for Teacher Education (NCTE) in Jaipur and affiliated with H.N.B. Garhwal University in Sri Nagar, Uttarakhand. Our faculty members are not only well-qualified but also deeply committed to their roles, ensuring that every student receives individual attention and support. At Smt. Manjira Devi University, we strive to cultivate an enriching educational experience that empowers students to achieve academic excellence and professional success.
               </p>
               
-              <a  class="btn  bgd   " data-aos="fade-up">Know more</a>
+              <a href="/About" class="btn  bgd   " data-aos="fade-up">Know more</a>
             </center>
           </div>
           <div className="col-md-2"></div>

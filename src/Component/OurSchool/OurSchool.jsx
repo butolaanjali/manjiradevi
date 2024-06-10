@@ -47,7 +47,7 @@ const OurSchool = () => {
     },
     {
       title: 'School of Science And Technology',
-      image: 'msc.jpg',
+      image: 'bcom.jpeg',
       link: '#',
     },
     {
@@ -88,7 +88,7 @@ const OurSchool = () => {
   ];
 
   return (
-    <div className="our-schools-slider mb-4 ">
+    <div className="our-schools-slider mb-4 mt-5 ">
       <h2 className="slider-title">Our Schools</h2>
       <p className="slider-subtitle">THE RIGHT CHOICE IS RIGHT IN FRONT OF YOU</p>
       <Slider {...settings}>
@@ -97,7 +97,7 @@ const OurSchool = () => {
             <img src={slide.image} alt={slide.title} className="slide-image" />
             <div className="slide-content">
               <h3 className="slide-title">{slide.title}</h3>
-              <a href={slide.link} className="slide-button">Know more</a>
+              <a href="/school" className="slide-button">Know more</a>
             </div>
           </div>
         ))}
