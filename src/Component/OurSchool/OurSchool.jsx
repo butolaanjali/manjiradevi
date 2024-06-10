@@ -65,7 +65,7 @@ const OurSchool = () => {
   ];
 
   return (
-    <div className="our-schools-slider mb-4 ">
+    <div className="our-schools-slider mb-4 mt-5 ">
       <h2 className="slider-title">Our Schools</h2>
       <p className="slider-subtitle">THE RIGHT CHOICE IS RIGHT IN FRONT OF YOU</p>
       <Slider {...settings}>
