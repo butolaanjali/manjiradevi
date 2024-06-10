@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome C
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer mt-3">
             <div className="footer-content">
                 <div className="get-in-touch">
                     <h2>GET IN TOUCH</h2>
@@ -110,7 +110,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="footer-copy">
                     <p>&copy; 2024 by Manjira Devi University, All Rights Reserved.</p>
-                    <p>Developed by Digital Team, Manjira Devi University.</p>
+                    <p>Developed by Upscale Technologies, Manjira Devi University.</p>
                 </div>
                 <div className="footer-admissions">
                     <a href="#">Admissions Open 2024</a>
@@ -119,5 +119,5 @@ const Footer = () => {
         </footer>
     );
 };
-export default Footer;
 
+export default Footer;

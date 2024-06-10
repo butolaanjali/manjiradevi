@@ -11,10 +11,10 @@ function Program() {
       <div className="dbuu-programmes">
         <div className="programme-types">
           <ul>
-            <li className='bd2 text-white text-center'>UNDERGRADUATE</li>
-            <li>POSTGRADUATE</li>
-            <li>DIPLOMA</li>
-            <li>DOCTORATE</li>
+            <a href='/Program' className='a1'><li className='bd2 text-white text-center'>UNDERGRADUATE</li></a>
+            <a href='/Program' className='a1'><li>POSTGRADUATE</li></a>
+            <a href='/Program' className='a1'><li>DIPLOMA</li></a>
+            <a href='/Program' className='a1'><li>DOCTORATE</li></a>
           </ul>
         </div>
         <div
