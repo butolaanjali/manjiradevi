@@ -91,7 +91,7 @@ const Layout = () => {
                   <p>{slide.date}</p>
                   <p>{slide.location}</p>
                   <p>{slide.type}</p>
-                  <a href="#" className="slide-button">Read More</a>
+                  <a href="/layout" className="slide-button">Read More</a>
                 </div>
               </div>
             ))}

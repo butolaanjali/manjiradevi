@@ -74,7 +74,7 @@ const OurSchool = () => {
             <img src={slide.image} alt={slide.title} className="slide-image" />
             <div className="slide-content">
               <h3 className="slide-title">{slide.title}</h3>
-              <a href={slide.link} className="slide-button">Know more</a>
+              <a href="/school" className="slide-button">Know more</a>
             </div>
           </div>
         ))}
