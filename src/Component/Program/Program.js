@@ -22,28 +22,38 @@ function Program() {
           
         >
           <div className="programme-section">
-            <h3>School of Engineering & Computing</h3>
+            <h3>School of Engineering</h3>
             <ul>
-              <li>Bachelor of Technology</li>
-              <li>Bachelor of Technology CSE with specialization</li>
-              <li>BCA/B.Sc.</li>
-              <li>BCA Cyber Security</li>
-              <li>BCA UX</li>
+              <li>Diploma in CE</li>
+              <li>Diploma in ME</li>
+              <li>Diploma in CSE</li>
             </ul>
-            <h3>School of Pharmacy & Research</h3>
+            <h3>School of Science And Technology</h3>
             <ul>
-              <li>Bachelor of Pharmacy(B.Pharm)</li>
-              <li>Doctor of Pharmacy (Pharm.D)</li>
+            <li>B.Sc</li>
+            <li>BCA</li>
+              <li>M.Sc</li>
+              <li>MCA</li>
+              <li>Diploma in AI and Machine Learning</li>
+              <li>Data Science & Cloud Technology</li>
+              <li>Cyber Security</li>
+              <li>Forensic Science</li>
             </ul>
-            <h3>Dev Bhoomi Medical College of Ayurveda & Hospital</h3>
+            <h3>School Of Commerce And Management Studies</h3>
             <ul>
-              <li>Bachelor of Ayurvedic Medicine & Surgery (BAMS)</li>
+              <li>B.Com</li>
+              <li>BBA</li>
+              <li>M.Com</li>
+              <li>MBA</li>
+              <li>Ph.D</li>
             </ul>
-            <h3>School of Nursing</h3>
+            <h3>School of Agriculture</h3>
             <ul>
-              <li>Bachelor of Science - Nursing</li>
+              <li>B.Sc (Agriculture)</li>
+              <li>Diploma in Agriculture</li>
+              <li>M.Sc (Agriculture/Horticulture)</li>
             </ul>
-            <h3>Dev Bhoomi Medical College of Paramedical Sciences</h3>
+            <h3>School of Arts and Humanity</h3>
             <ul>
               <li>Bachelor of Science</li>
               <li>Bachelor of Hospital Administration (BHA)</li>
@@ -55,34 +65,12 @@ function Program() {
               <li>B.Des. Fashion Design</li>
               <li>B.Sc. Fashion Design</li>
             </ul>
-            <h3>School of Management & Commerce</h3>
-            <ul>
-              <li>Bachelor of Business Administration</li>
-              <li>BBA HR/Marketing/Finance/International Business</li>
-              <li>B.Com. Hons</li>
-              <li>BBA - Aviation and Airport Management</li>
-            </ul>
-            <h3>Dev Bhoomi School of Architecture, Planning & Design</h3>
-            <ul>
-              <li>Bachelor of Design</li>
-              <li>Bachelor of Architecture</li>
-              <li>Bachelor of Planning</li>
-              <li>Bachelor of Science - Animation & Gaming</li>
-            </ul>
-            <h3>School of Agriculture</h3>
-            <ul>
-              <li>B.Sc.- Agriculture(Hons.)</li>
-              <li>B.Tech - Dairy Technology</li>
-            </ul>
-            <h3>School of Allied Sciences</h3>
-            <ul>
-              <li>Bachelor of Science (Hons.)</li>
-            </ul>
+            
             <h3>School of Hotel Management & Tourism</h3>
             <ul>
-              <li>Bachelor of Science - Hotel & Hospitality Management (HHM)</li>
+              <li>Diploma - Hotel Management</li>
               <li>Bachelor of Hotel Management</li>
-              <li>BBA - Tourism and Event Management</li>
+              <li>BBA - Tourism </li>
             </ul>
           </div>
         </div>
