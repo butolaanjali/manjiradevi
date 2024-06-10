@@ -47,7 +47,7 @@ const OurSchool = () => {
     },
     {
       title: 'School of Science And Technology',
-      image: 'msc.jpg',
+      image: 'bcom.jpeg',
       link: '#',
     },
     {
