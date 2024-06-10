@@ -1,0 +1,183 @@
+.our-schools-slider {
+  padding: 50px 100px;
+  background-color: #0D1128;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.slider-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.slider-subtitle {
+  font-size: 19px;
+  color: #f96e5b;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 40px;
+}
+
+.slide {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+  margin: 0px -10px; /* Add margin to create gaps between slides */
+}
+
+.slide-image {
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.slide-content {
+  text-align: center;
+}
+
+.slide-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.slide-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FD5F00;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.slick-prev, .slick-next {
+  background-color: #0D1128;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;  /* Position arrows near the bottom of the image */
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 24px;
+  color: white;
+}
+
+.slick-dots {
+  bottom: 20px;  /* Align dots with arrows */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Adjust margin for dot spacing */
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .our-schools-slider {
+    padding: 40px 50px;
+  }
+
+  .slider-title {
+    font-size: 26px;
+  }
+
+  .slider-subtitle {
+    font-size: 17px;
+  }
+
+  .slide-title {
+    font-size: 18px;
+  }
+
+  .slide-button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-schools-slider {
+    padding: 30px 20px;
+  }
+
+  .slider-title {
+    font-size: 24px;
+  }
+
+  .slider-subtitle {
+    font-size: 16px;
+  }
+
+  .slide-title {
+    font-size: 16px;
+  }
+
+  .slide-button {
+    padding: 6px 12px;
+  }
+
+  .slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-schools-slider {
+    padding: 20px 10px;
+  }
+
+  .slider-title {
+    font-size: 20px;
+  }
+
+  .slider-subtitle {
+    font-size: 14px;
+  }
+
+  .slide-title {
+    font-size: 14px;
+  }
+
+  .slide-button {
+    padding: 4px 8px;
+  }
+
+  .slick-prev, .slick-next {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,101 @@
+.student-life {
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+  background-color: lightgray;
+  font-family: serif;
+}
+
+.student-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  margin-top: 20px;
+}
+
+.student-card {
+  width: 300px;
+  padding: 25px;
+  text-align: center;
+}
+
+.student-card img {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 15px;
+  border-radius: 40px;
+}
+
+.student {
+  padding: 1px;
+}
+
+.student img {
+  width: 101%;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+
+.stud {
+  color: #FD5F00;
+}
+
+.stud1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  font-weight: bold;
+  font-family: serif;
+  text-align: center;
+}
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .student-card, .student {
+    width: 45%;
+    padding: 15px;
+  }
+
+  .student img {
+    width: 100%;
+    height: auto;
+  }
+
+  .student-card img {
+    height: auto;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .student-card, .student {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .student-card img, .student img {
+    height: auto;
+    max-height: 240px;
+  }
+
+  .stud1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .student-card img, .student img {
+    height: auto;
+    max-height: 200px;
+  }
+
+  .stud1 {
+    font-size: 24px;
+  }
+
+  .student-card, .student {
+    padding: 10px;
+  }
+}
