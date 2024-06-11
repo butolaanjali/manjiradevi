@@ -134,4 +134,16 @@
   .slick-dots {
     bottom: 10px; /* Adjust position closer to the bottom for smaller screens */
   }
+
+  /* Ensure slide content is stacked vertically */
+  .slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Ensure each slide takes full width on mobile */
+  .slide {
+    width: 100% !important;
+  }
 }

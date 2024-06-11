@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import './OurSchool.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom';
 
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
@@ -25,6 +26,7 @@ const CustomNextArrow = (props) => {
     />
   );
 };
+
 const OurSchool = () => {
   const settings = {
     dots: true,
@@ -37,6 +39,15 @@ const OurSchool = () => {
     arrows: true,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
+    responsive: [
+      {
+        breakpoint: 768, // for mobile devices
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const slides = [
@@ -71,7 +82,7 @@ const OurSchool = () => {
       link: '#',
     },
     {
-      title: 'School of Nursing, Paramedical And Allied Science',
+      title: 'School of Nursing, Paramedical & Allied Science',
       image: 'nursing.jpeg',
       link: '#',
     },
@@ -88,7 +99,7 @@ const OurSchool = () => {
   ];
 
   return (
-    <div className="our-schools-slider mb-4 mt-5 ">
+    <div className="our-schools-slider mb-4 mt-5">
       <h2 className="slider-title">Our Schools</h2>
       <p className="slider-subtitle">THE RIGHT CHOICE IS RIGHT IN FRONT OF YOU</p>
       <Slider {...settings}>
@@ -97,7 +108,7 @@ const OurSchool = () => {
             <img src={slide.image} alt={slide.title} className="slide-image" />
             <div className="slide-content">
               <h3 className="slide-title">{slide.title}</h3>
-              <a href="/school" className="slide-button">Know more</a>
+              <Link to="/school" className="slide-button">Know more</Link>
             </div>
           </div>
         ))}

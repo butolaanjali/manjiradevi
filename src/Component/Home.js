@@ -27,7 +27,9 @@ function Home() {
     <h1 class="text-white  display-3 bg21 " data-aos="fade-down" >Smt. <span className="bg22">Manjira</span><br/>Devi University</h1>
    
       <p class="text-white bg23" data-aos="fade-up" >Established Under Govt. Of Uttarakhand Vide Act No.05 of 2024</p>
-      <a  href="/Contact"class="btn mt-3 px-4 py-3  bg24 " data-aos="fade-up">Contact Us</a>
+      <Link to="/contact" className="btn mt-3 px-4 py-3 bg24" data-aos="fade-up">
+    Contact Us
+  </Link>
                 </div>
       </div>
     </div>
@@ -106,21 +108,21 @@ function Home() {
               <div className="card bf mt-2">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a  href="/Program"class="btn  bf4  " data-aos="fade-up">Read more</a></center>
+      <center> <Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
     </div>
               </div>
               <div className="col-md-4   ">
               <div className="card bf mt-2 ">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a href="/Program" class="btn bf4 " data-aos="fade-up">Read more</a></center>
+      <center> <Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
     </div>
               </div>
               <div className="col-md-4   ">
               <div className="card bf mt-2 ">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a href="/Program" class="btn bf4 " data-aos="fade-up">Read more</a></center>
+      <center><Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
     </div>
               </div>
 
@@ -151,7 +153,7 @@ function Home() {
                        excellence and professional success.</center>
               </p>
               
-              <a href="/About" class="btn  bgd   " data-aos="fade-up">Know more</a>
+              <Link to="/about" class="btn  bgd   " data-aos="fade-up">Know more</Link>
             </center>
           </div>
           <div className="col-md-2"></div>

@@ -27,7 +27,7 @@ function Nav() {
             <p className="a11">Call us:+919089098987</p>
           </div>
           <div className="col-md-2 mt-2 mb-1 ">
-            <a href="/Contact" className="btn  ms-auto me-auto a2" data-aos="fade-up">Contact Us</a>
+            <Link to="/contact" className="btn  ms-auto me-auto a2" data-aos="fade-up">Contact Us</Link>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ function Nav() {
                 <Link className="nav-link text-white ms-4" to="/school">Schools</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white ms-4" to="/Program">Programmes</Link>
+                <Link className="nav-link text-white ms-4" to="/program">Programmes</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white ms-4" to="/admission">Admissions</Link>
@@ -76,7 +76,7 @@ function Nav() {
                 <Link className="nav-link text-white ms-4" to="/lifemanjira">Life@MANJIRA</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white ms-4" to="/Contact">Contact Us</Link>
+                <Link className="nav-link text-white ms-4" to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
