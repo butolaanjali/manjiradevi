@@ -109,6 +109,34 @@
   background-color: #0D1128;
   color: white;
 }
+.navbar .dropdown-toggle-no-arrow::after {
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .dropdown-menu.no-arrow {
+  margin-top: 0;
+  padding-top: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar .dropdown-menu.no-arrow .dropdown-item {
+  color: #000; 
+  background-color: #fff; 
+}
+
+.navbar .dropdown-menu.no-arrow .dropdown-item:hover {
+  background-color: #f8f9fa; 
+}
+
+.navbar .dropdown-menu {
+  position: absolute;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   /* styles for mobile devices */
