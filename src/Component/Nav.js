@@ -51,8 +51,19 @@ function Nav() {
               <li className="nav-item">
                 <Link className="nav-link active ms-4" aria-current="page" to="/">Home</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white ms-4" to="/about">About Us</Link>
+              <li className="nav-item dropdown">
+                <Link 
+                  className="nav-link text-white ms-4 dropdown-toggle-no-arrow"  
+                  id="navbarDropdown" 
+                  role="button"
+                  aria-expanded="false"
+                >
+                  About Us
+                </Link>
+                <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdown">
+                  <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
+                  <li><Link className="dropdown-item" to="/vision">Our Vision and Mission</Link></li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white ms-4" to="/school">Schools</Link>
