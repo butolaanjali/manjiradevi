@@ -14,26 +14,27 @@ import Academics from './Component/Academics/Academics';
 import Research from './Component/Research/Research';
 import Layout from './Component/Layout/Layout';
 import Lifemanjira from './Component/Lifemanjira/Lifemanjira';
+
 function App() {
   return (
     <div>
-    <BrowserRouter>
-     <Nav/>
-   <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path='about' element ={<About/>}/>
-    <Route path='program' element={<Program/>}/>
-    <Route path='contact' element={<Contact/>}/>
-    <Route path='school' element={<OurSchool/>}/>
-    <Route path='admission' element={<Addmission/>}/>
-    <Route path='academics' element={<Academics/>}/>
-    <Route path='research' element={<Research/>}/>
-    <Route path='layout' element={<Layout/>}/>
-    <Route path='lifemanjira' element={<Lifemanjira/>}/>
-     </Routes>
-     <Footer/>
-     </BrowserRouter>
-      </div>
+      <Router>
+        <Nav/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="about" element={<About/>}/>
+          <Route path="program" element={<Program/>}/>
+          <Route path="contact" element={<Contact/>}/>
+          <Route path="school" element={<OurSchool/>}/>
+          <Route path="admission" element={<Admission/>}/>
+          <Route path="academics" element={<Academics/>}/>
+          <Route path="research" element={<Research/>}/>
+          <Route path="layout" element={<Layout/>}/>
+          <Route path="lifemanjira" element={<Lifemanjira/>}/>
+        </Routes>
+        <Footer/>
+      </Router>
+    </div>
   );
 }
 

@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome C
 
 const Footer = () => {
     return (
-        <footer className="footer mt-3">
+        <footer className="footer mt-2">
             <div className="footer-content">
                 <div className="get-in-touch">
                     <h2>GET IN TOUCH</h2>

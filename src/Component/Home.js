@@ -132,33 +132,34 @@ function Home() {
       </div>
 
       <div className="container-fluid mt-5 about mb-5">
-        <div className="row p-5">
-          <div className="col-md-2"></div>
-          <div className="col-md-8">
+    <div className="row p-5">
+        <div className="col-md-2"></div>
+        <div className="col-md-8">
             <center>
-              <h1 className="bga">Manjira Devi University</h1>
-              <h1 className="bgb">The Best University in Uttarkashi, Uttarakhand</h1>
-              <p className="bgc">
-                Welcome to Smt. Manjira Devi University Our university is housed in a magnificent,
-                 expansive building that offers a refreshing environment, naturally inspiring
-                  students to excel. We are dedicated to providing the highest quality education,
-                   facilitated by our experienced and highly educated faculty members.
+                <h1 className="bga">Manjira Devi University</h1>
+                <h1 className="bgb">The Best University in Uttarkashi, Uttarakhand</h1>
+                <p className="bgc">
+                    Welcome to Smt. Manjira Devi University Our university is housed in a magnificent,
+                    expansive building that offers a refreshing environment, naturally inspiring
+                    students to excel. We are dedicated to providing the highest quality education,
+                    facilitated by our experienced and highly educated faculty members.
                     We proudly offer a full-time, two-year Bachelor of Education program,
-                     approved by the National Council for Teacher Education (NCTE) in Jaipur 
-                     and affiliated with H.N.B. Garhwal University in Sri Nagar, Uttarakhand. 
-                     Our faculty members are not only well-qualified but also deeply committed 
-                     to their roles, ensuring that every student receives individual attention 
-                     and support. At Smt. Manjira Devi University, we strive to cultivate an 
-                     enriching educational experience that empowers students to achieve <center>academic
-                       excellence and professional success.</center>
-              </p>
-              
-              <Link to="/about" class="btn  bgd   " data-aos="fade-up">Know more</Link>
+                    approved by the National Council for Teacher Education (NCTE) in Jaipur
+                    and affiliated with H.N.B. Garhwal University in Sri Nagar, Uttarakhand.
+                    Our faculty members are not only well-qualified but also deeply committed
+                    to their roles, ensuring that every student receives individual attention
+                    and support. At Smt. Manjira Devi University, we strive to cultivate an
+                    enriching educational experience that empowers students to achieve
+                    <center>academic excellence and professional success.</center>
+                </p>
+
+                <Link to="/about" class="btn bgd" data-aos="fade-up">Know more</Link>
             </center>
-          </div>
-          <div className="col-md-2"></div>
         </div>
-      </div>
+        <div className="col-md-2"></div>
+    </div>
+</div>
+
       <Program/>
       <OurSchool/>
       <Layout/>
