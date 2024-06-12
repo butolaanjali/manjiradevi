@@ -60,7 +60,7 @@ const Layout = () => {
     {
       title: 'WORLD Environment manjira devi university college uttarkashi',
       date: '05-Jun-2024 | 10:00 AM',
-      location: 'Manjira Devi Campus',
+      location: 'Manjira  Devi  Campus',
       type: 'Celebration',
       image: 'path/to/image3.jpg',
     },

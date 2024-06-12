@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import './vision.css';
 
 const Vision = () => {
   return (
@@ -10,7 +12,7 @@ const Vision = () => {
         </div>
         <img src="/vision.png" alt="Vision Background" />
       </div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="content">
           <div className="vision">
             <h2>Our Vision</h2>
@@ -28,7 +30,7 @@ const Vision = () => {
           </div>
         </div>
       </div>
-      <div className="journey">
+      <div className="journey mb-3">
         <div className="journey-content">
           <div className="image-container">
             <img src="/vision.png" alt="Journey" className="journey-image" />
@@ -37,11 +39,12 @@ const Vision = () => {
                 <br/>Journey</h2><br/>
             </div>
           </div>
-          <div className="journey-text">
-            <p style={{ fontfamily: "Gill Sans Extrabold, sans-serif" }}>Our journey is about creating a sustainable and inclusive environment where every individual can thrive. We believe in the power of education and innovation to transform lives and communities. Together, we strive to push boundaries and explore new horizons.</p>
+          <div className="journey-text ">
+            <p  className='vp'>Our journey is about creating a sustainable and inclusive environment where every individual can thrive. We believe in the power of education and innovation to transform lives and communities. Together, we strive to push boundaries and explore new horizons.</p>
           </div>
         </div>
       </div>
+     
     </div>
   );
 }

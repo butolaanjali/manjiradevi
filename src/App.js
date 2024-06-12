@@ -14,6 +14,9 @@ import Academics from './Component/Academics/Academics';
 import Research from './Component/Research/Research';
 import Layout from './Component/Layout/Layout';
 import Lifemanjira from './Component/Lifemanjira/Lifemanjira';
+import Vision from './Component/About/vision';
+import Map from './Component/Map/Map';
+
 
 function App() {
   return (
@@ -31,7 +34,9 @@ function App() {
           <Route path="research" element={<Research/>}/>
           <Route path="layout" element={<Layout/>}/>
           <Route path="lifemanjira" element={<Lifemanjira/>}/>
+          <Route path="vision" element={<Vision/>}/>
         </Routes>
+        <Map/>
         <Footer/>
       </Router>
     </div>

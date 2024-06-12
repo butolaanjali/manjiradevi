@@ -3,7 +3,7 @@ import './about.css';
 import { Link } from "react-router-dom";
 import { Carousel } from 'react-responsive-carousel';
 import Gallery from '../Gallery/Gallery';
-import Map from '../Map/Map';
+
 const About = () => {
   return <div>
      <div class="container-fluid aboutimage  ">
@@ -87,7 +87,7 @@ const About = () => {
     </div>
 </div>
 <Gallery/>
-<Map/>
+
         </div>
       
         

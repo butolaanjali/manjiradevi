@@ -159,7 +159,7 @@
 
   .bg24 {
       margin-left: 5%;
-      width: 90%;
+      width: 45%;
   }
 
   .bgd {
@@ -273,4 +273,7 @@
 .bf4:hover {
   background-color: #0D1128;
   color: white;
+}
+.a10{
+  margin-right: 50px;
 }

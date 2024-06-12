@@ -4,11 +4,14 @@ import { Carousel } from 'react-responsive-carousel';
 import OurSchool from '../Component/OurSchool/OurSchool';
 import Program from '../Component/Program/Program';
 
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Nav.css";
 import Layout from "./Layout/Layout";
 import StudentSpeak from "./Testimonial/StudentSpeak";
 import StudentLife from "./Studentlife/Studentlife";
+import Gallery from "./Gallery/Gallery";
+
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -161,10 +164,13 @@ function Home() {
 </div>
 
       <Program/>
+      <Gallery/>
       <OurSchool/>
       <Layout/>
+      
       <StudentSpeak/>
       <StudentLife/>
+      
       
      
     </div>
