@@ -112,7 +112,10 @@
   font-weight: bold;
   border-radius: 20px;
 }
-
+.bg24:hover{
+  background-color: #0D1128;
+  color: white;
+}
 .bg11 {
   background-color: #FD5F00;
   color: white;

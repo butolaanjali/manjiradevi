@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 
+
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
@@ -99,6 +100,7 @@ const OurSchool = () => {
   ];
 
   return (
+    <div>
     <div className="our-schools-slider mb-4 mt-5">
       <h2 className="slider-title">Our Schools</h2>
       <p className="slider-subtitle">THE RIGHT CHOICE IS RIGHT IN FRONT OF YOU</p>
@@ -113,6 +115,9 @@ const OurSchool = () => {
           </div>
         ))}
       </Slider>
+      
+    </div>
+   
     </div>
   );
 };

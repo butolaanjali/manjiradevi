@@ -1,0 +1,25 @@
+.library{
+    background-color: #0D1128;
+}
+.libray1-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .library-text{
+    font-family: serif;
+   
+    
+  }
+  .library-span{
+    color: #FD5F00;
+  }
+  .library-heading{
+    font-weight: bold;
+    font-family: serif;
+  }
+  .library-text1{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 16px;
+  }

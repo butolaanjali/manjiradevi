@@ -15,13 +15,8 @@ import Research from './Component/Research/Research';
 import Layout from './Component/Layout/Layout';
 import Lifemanjira from './Component/Lifemanjira/Lifemanjira';
 import Vision from './Component/About/vision';
-import Engineer from './Component/Engineer/Engineer';
-import School1 from './Component/Engineer/School1';
-import Mechanic from './Component/Engineer/Mechanic';
-import Cse from './Component/Engineer/Cse';
-import School2 from './Component/Science/School2';
+import Nursing from './Component/Nursing/Nursing';
 
-import Map from './Component/Map/Map';
 
 
 function App() {
@@ -41,13 +36,9 @@ function App() {
           <Route path="layout" element={<Layout/>}/>
           <Route path="lifemanjira" element={<Lifemanjira/>}/>
           <Route path="vision" element={<Vision/>}/>
-          <Route path ="school1" element={<School1/>}/>
-          <Route path ="engineer" element={<Engineer/>}/>
-          <Route path ="mechanic" element={<Mechanic/>}/>
-          <Route path ="cse" element={<Cse/>}/>
-          <Route path ="school2" element={<School2/>}/>
+          <Route path="nursing" element={<Nursing/>}/>
         </Routes>
-        <Map/>
+      
         <Footer/>
       </Router>
     </div>
