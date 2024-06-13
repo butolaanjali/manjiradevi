@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./school2.css";
+import Library from "../Library/Library";
 
 function School2() {
   return (
@@ -29,19 +30,7 @@ function School2() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-            The School of Engineering is known for its ability to enhance creative
-            skills through excellent teaching and hands-on training. We intend to
-            meet the requirements of the students in almost all the engineering
-            disciplines of the university. The school aims to produce versatile
-            students, making them ready to be employed in both the private and
-            government sectors.The courses are designed to equip students with
-            lifelong learning skills, a focus on a wide range of contemporary
-            issues, and mandatory social and professional training. Engineering
-            is applied to many areas of work, so the coursework starts broad with
-            introductory and foundational courses, and concludes with topics like
-            management, computer systems, electrical engineering, and applied
-            mechanics. The school has well-equipped laboratories and innovative
-            pedagogy that focuses on creating links between theory and practical.
+            The School of Science and Technology is a dynamic academic division dedicated to fostering innovation and excellence in scientific and technological education. This department offers a wide range of programs in fields such as biology, chemistry, physics, computer science, engineering, and environmental science. With a commitment to cutting-edge research and hands-on learning, the school provides students with access to state-of-the-art laboratories, advanced technology, and collaborative projects. Faculty members are distinguished experts in their respective fields, contributing to both academic and industry advancements. Through interdisciplinary curricula and a focus on problem-solving skills, the School of Science and Technology prepares graduates to meet the challenges of the rapidly evolving scientific landscape and to become leaders in their chosen careers. The department also emphasizes community engagement and global perspectives, ensuring that students are well-equipped to contribute to society in meaningful ways.
           </div>
           <div className="col-md-4 image-column">
             <img
@@ -55,37 +44,103 @@ function School2() {
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">Diploma in CE</h5>
+              <h5 className="card-title">B.Sc</h5>
               <p className="card-text">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/engineer" className="btn btn-primary">
+              <a href="/bsc" className="btn btn-primary">
                 Know More
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">Diploma in ME</h5>
+              <h5 className="card-title">BCA</h5>
               <p className="card-text">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/mechanic" className="btn btn-primary">
+              <a href="/bca" className="btn btn-primary">
                 Know More
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title" >Diploma in CSE</h5>
+              <h5 className="card-title" >Diploma in AI and Machine Learning</h5>
               <p className="card-text">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
               </p>
-              <a href="/cse" className="btn btn-primary">
+              <a href="/ai" className="btn btn-primary">
+                Know More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-5">
+          <div className="col-md-4">
+            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+              <h5 className="card-title">M.Sc</h5>
+              <p className="card-text">
+                Learn the fundamentals of Civil Engineering and develop skills in
+                designing, building, and maintaining infrastructure.
+              </p>
+              <a href="/msc" className="btn btn-primary">
+                Know More
+              </a>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+              <h5 className="card-title">MCA</h5>
+              <p className="card-text">
+                Explore the world of Mechanical Engineering and develop skills in
+                designing, manufacturing, and maintaining mechanical systems.
+              </p>
+              <a href="/mca" className="btn btn-primary">
+                Know More
+              </a>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+              <h5 className="card-title" >Data Science And Cloud Technology</h5>
+              <p className="card-text">
+                Dive into the world of Computer Science and Engineering and
+                develop skills in designing, developing, and maintaining software
+                systems.
+              </p>
+              <a href="/data" className="btn btn-primary">
+                Know More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-5">
+          <div className="col-md-2"></div>
+          <div className="col-md-4">
+            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+              <h5 className="card-title">Cyber Security </h5>
+              <p className="card-text">
+                Learn the fundamentals of Civil Engineering and develop skills in
+                designing, building, and maintaining infrastructure.
+              </p>
+              <a href="/cyber" className="btn btn-primary">
+                Know More
+              </a>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+              <h5 className="card-title">Forensic Science</h5>
+              <p className="card-text">
+                Explore the world of Mechanical Engineering and develop skills in
+                designing, manufacturing, and maintaining mechanical systems.
+              </p>
+              <a href="/foresic" className="btn btn-primary">
                 Know More
               </a>
             </div>
@@ -113,13 +168,19 @@ function School2() {
           <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="/img2.jpg" className="d-block w-100 carousel-image" alt="Slide 1" />
+      <img src="/science1.jpeg" className="d-block w-100 carousel-image" alt="Slide 1" />
     </div>
     <div className="carousel-item">
-      <img src="/img3.jpeg" className="d-block w-100 carousel-image" alt="Slide 2" />
+      <img src="/science2.jpeg" className="d-block w-100 carousel-image" alt="Slide 2" />
     </div>
     <div className="carousel-item">
-      <img src="/img5.jpg" className="d-block w-100 carousel-image" alt="Slide 3" />
+      <img src="/science3.jpeg" className="d-block w-100 carousel-image" alt="Slide 3" />
+    </div>
+    <div className="carousel-item">
+      <img src="/science4.jpeg" className="d-block w-100 carousel-image" alt="Slide 3" />
+    </div>
+    <div className="carousel-item">
+      <img src="/science5.jpeg" className="d-block w-100 carousel-image" alt="Slide 3" />
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
@@ -134,6 +195,7 @@ function School2() {
           </div>
         </div>
         </div>
+        <Library/>
     </div>
   );
 }

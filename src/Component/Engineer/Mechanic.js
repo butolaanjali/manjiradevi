@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./school1.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Library from "../Library/Library";
 
 function Mechanic() {
   return (
@@ -75,6 +76,7 @@ Note: In case any student has studied Physics instead of Science then also eligi
           </div>
         </div>
       </div>
+      <Library/>
     </div>
   );
 }

@@ -19,9 +19,9 @@ function Nav() {
   };
 
   return (
-    <div>
+    <div >
       <div className="container">
-        <div className="row  mb-0">
+        <div className="row  mb-0" >
           <div className="col-md-5 mt-0 ">
             <img src="manjira.png" height="70px" width="100px" alt="Manjira Logo" />
           </div>
@@ -40,7 +40,7 @@ function Nav() {
       </div>
 
       <nav className="navbar navbar-expand-lg navbar-dark mt-0 p-2">
-        <div className="container-fluid">
+        <div className="container-fluid" >
           <button
             className="navbar-toggler"
             type="button"
@@ -93,14 +93,14 @@ function Nav() {
         </ul>
         <li><Link className="dropdown-item" to="/school2"><i className="fas fa-arrow-circle-right"></i> School of Science And Technology</Link></li>
         <ul  style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">B.Sc</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">BCA</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Diploma in AI And Machine Learning</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">M.Sc</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">MCA</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Data Science & Cloud Technology</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Cyber Security</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Foresic Science</Link></li>
+          <li><Link className="dropdown-item" to="/bsc">B.Sc</Link></li>
+          <li><Link className="dropdown-item" to="/bca">BCA</Link></li>
+          <li><Link className="dropdown-item" to="/ai">Diploma in AI And Machine Learning</Link></li>
+          <li><Link className="dropdown-item" to="/data">Diploma in Data Science & Cloud Technology</Link></li>
+          <li><Link className="dropdown-item" to="/cyber">Diploma in Cyber Security</Link></li>
+          <li><Link className="dropdown-item" to="/foresic">Diploma in Forensic Science</Link></li>
+          <li><Link className="dropdown-item" to="/msc">M.Sc</Link></li>
+          <li><Link className="dropdown-item" to="/mca">MCA</Link></li>
         </ul>
         <li><Link className="dropdown-item" to="/school3"><i className="fas fa-arrow-circle-right"></i> School Of Commerce And Management Studies</Link></li>
         <ul style={{columns:'2'}}>

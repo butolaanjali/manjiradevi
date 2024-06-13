@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./school1.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Library from "../Library/Library";
 
 function School1() {
   return (
@@ -135,6 +136,8 @@ function School1() {
           </div>
         </div>
         </div>
+        
+        <Library/>
     </div>
   );
 }

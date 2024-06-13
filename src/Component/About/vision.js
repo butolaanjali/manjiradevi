@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import './vision.css';
 
 const Vision = () => {
   return (
     <div className="vision-page">
       <div className="header">
-        <div className="overlay">
-          <h1><span className="pipe">|</span> 
+        <div className="overlay1" >
+          <h1 style={{position:'absolute'}} ><span className="pipe">|</span> 
            <span className="text" style={{ fontSize: '2.3rem' }}>Vision & Mission</span></h1>
         </div>
         <img src="/vision.png" alt="Vision Background" />
