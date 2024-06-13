@@ -1,0 +1,28 @@
+.aboutimage {
+    background-image:linear-gradient(to left,rgba(85, 80, 76, 0.4),rgba(82, 79, 75, 0.4)), url("/public/aboutimage.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+   .aboutsmt {
+   
+    font-weight: bold;
+    padding-top: 11%; 
+    font-size: 45px;
+    font-family: serif;
+  }
+  .aboutbg2{
+    background-color: rgb(211, 211, 211,0.2);
+
+}
+.about-h1{
+    font-family: serif;
+}
+.about-p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+.about-span{
+    color: #FD5F00;
+}

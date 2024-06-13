@@ -1,13 +1,18 @@
-.bd{
+/* General Styles */
+.bd {
   background-color: #f4f4f4;
+  overflow: hidden;
 }
-.bd2{
-  background-color:#FD5F00;
+
+.bd2 {
+  background-color: #FD5F00;
   color: white;
 }
-.bd3{
+
+.bd3 {
   color: #FD5F00;
 }
+
 .dbuu-container {
   padding: 20px;
   max-width: 1200px;
@@ -26,7 +31,7 @@
 
 .dbuu-programmes {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -36,17 +41,7 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.programme-types ul, .programme-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.programme-types ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  min-width: 250px;
 }
 
 .programme-types ul, .programme-section ul {
@@ -54,12 +49,13 @@
   padding: 0;
   margin: 0;
 }
+
 .programme-types li {
   padding: 15px;
   cursor: pointer;
   font-size: 18px;
   color: #003366;
-  text-align: center; 
+  text-align: center;
   border-bottom: 1px solid #ddd;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -83,19 +79,9 @@
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 20px;
-  color: #003366; 
-  border-bottom: 2px solid #003366; 
+  color: #003366;
+  border-bottom: 2px solid #003366;
   padding-bottom: 5px;
-}
-
-.programme-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-}
-.a1{
-  text-decoration: none;
 }
 
 .programme-section li {
@@ -103,14 +89,18 @@
   font-size: 16px;
   color: #555;
 }
-@media (max-width: 480px) {
-  .choose-programme h2 {
-    font-size: 20px;
+
+.a1 {
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .dbuu-programmes {
+    flex-direction: column;
   }
 
-  .programme-types li {
-    font-size: 16px;
-    padding: 10px;
+  .programme-types {
+    margin-bottom: 20px;
   }
 
   .programme-section h3 {
@@ -119,5 +109,32 @@
 
   .programme-section li {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .choose-programme h2 {
+    font-size: 24px;
+  }
+
+  .programme-types li {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .programme-section h3 {
+    font-size: 16px;
+  }
+
+  .programme-section li {
+    font-size: 12px;
+  }
+
+  .programme-sections {
+    padding: 10px;
+  }
+
+  .programme-types {
+    padding: 10px;
   }
 }

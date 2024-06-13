@@ -4,11 +4,14 @@ import { Carousel } from 'react-responsive-carousel';
 import OurSchool from '../Component/OurSchool/OurSchool';
 import Program from '../Component/Program/Program';
 
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Nav.css";
 import Layout from "./Layout/Layout";
 import StudentSpeak from "./Testimonial/StudentSpeak";
 import StudentLife from "./Studentlife/Studentlife";
+import Gallery from "./Gallery/Gallery";
+
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +30,9 @@ function Home() {
     <h1 class="text-white  display-3 bg21 " data-aos="fade-down" >Smt. <span className="bg22">Manjira</span><br/>Devi University</h1>
    
       <p class="text-white bg23" data-aos="fade-up" >Established Under Govt. Of Uttarakhand Vide Act No.05 of 2024</p>
-      <a  href="/Contact"class="btn mt-3 px-4 py-3  bg24 " data-aos="fade-up">Contact Us</a>
+      <Link to="/contact" className="btn mt-3 px-4 py-3 bg24" data-aos="fade-up">
+    Contact Us
+  </Link>
                 </div>
       </div>
     </div>
@@ -106,21 +111,21 @@ function Home() {
               <div className="card bf mt-2">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a  href="/Program"class="btn  bf4  " data-aos="fade-up">Read more</a></center>
+      <center> <Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
     </div>
               </div>
               <div className="col-md-4   ">
               <div className="card bf mt-2 ">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a href="/Program" class="btn bf4 " data-aos="fade-up">Read more</a></center>
+      <center> <Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
     </div>
               </div>
               <div className="col-md-4   ">
               <div className="card bf mt-2 ">
             <center><h5 className="bf1 g-0 p-1">14-06-2924</h5></center>
             <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <a href="/Program" class="btn bf4 " data-aos="fade-up">Read more</a></center>
+      <center><Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
     </div>
               </div>
 
@@ -130,27 +135,42 @@ function Home() {
       </div>
 
       <div className="container-fluid mt-5 about mb-5">
-        <div className="row p-5">
-          <div className="col-md-2"></div>
-          <div className="col-md-8">
+    <div className="row p-5">
+        <div className="col-md-2"></div>
+        <div className="col-md-8">
             <center>
-              <h1 className="bga">Manjira Devi University</h1>
-              <h1 className="bgb">The Best University in Uttarkashi, Uttarakhand</h1>
-              <p className="bgc">
-                Welcome to Smt. Manjira Devi University Our university is housed in a magnificent, expansive building that offers a refreshing environment, naturally inspiring students to excel. We are dedicated to providing the highest quality education, facilitated by our experienced and highly educated faculty members. We proudly offer a full-time, two-year Bachelor of Education program, approved by the National Council for Teacher Education (NCTE) in Jaipur and affiliated with H.N.B. Garhwal University in Sri Nagar, Uttarakhand. Our faculty members are not only well-qualified but also deeply committed to their roles, ensuring that every student receives individual attention and support. At Smt. Manjira Devi University, we strive to cultivate an enriching educational experience that empowers students to achieve academic excellence and professional success.
-              </p>
-              
-              <a href="/About" class="btn  bgd   " data-aos="fade-up">Know more</a>
+                <h1 className="bga">Manjira Devi University</h1>
+                <h1 className="bgb">The Best University in Uttarkashi, Uttarakhand</h1>
+                <p className="bgc">
+                    Welcome to Smt. Manjira Devi University Our university is housed in a magnificent,
+                    expansive building that offers a refreshing environment, naturally inspiring
+                    students to excel. We are dedicated to providing the highest quality education,
+                    facilitated by our experienced and highly educated faculty members.
+                    We proudly offer a full-time, two-year Bachelor of Education program,
+                    approved by the National Council for Teacher Education (NCTE) in Jaipur
+                    and affiliated with H.N.B. Garhwal University in Sri Nagar, Uttarakhand.
+                    Our faculty members are not only well-qualified but also deeply committed
+                    to their roles, ensuring that every student receives individual attention
+                    and support. At Smt. Manjira Devi University, we strive to cultivate an
+                    enriching educational experience that empowers students to achieve
+                    <center>academic excellence and professional success.</center>
+                </p>
+
+                <Link to="/about" class="btn bgd" data-aos="fade-up">Know more</Link>
             </center>
-          </div>
-          <div className="col-md-2"></div>
         </div>
-      </div>
+        <div className="col-md-2"></div>
+    </div>
+</div>
+
       <Program/>
+      <Gallery/>
       <OurSchool/>
       <Layout/>
+      
       <StudentSpeak/>
       <StudentLife/>
+      
       
      
     </div>

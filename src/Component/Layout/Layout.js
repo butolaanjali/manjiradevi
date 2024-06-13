@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import './layout.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom';
 
 const Layout = () => {
   const settings = {
@@ -59,7 +60,7 @@ const Layout = () => {
     {
       title: 'WORLD Environment manjira devi university college uttarkashi',
       date: '05-Jun-2024 | 10:00 AM',
-      location: 'Manjira Devi Campus',
+      location: 'Manjira  Devi  Campus',
       type: 'Celebration',
       image: 'path/to/image3.jpg',
     },
@@ -91,7 +92,7 @@ const Layout = () => {
                   <p>{slide.date}</p>
                   <p>{slide.location}</p>
                   <p>{slide.type}</p>
-                  <a href="/layout" className="slide-button">Read More</a>
+                  <Link to="/layout" className="slide-button">Read More</Link>
                 </div>
               </div>
             ))}
