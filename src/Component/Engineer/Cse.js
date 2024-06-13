@@ -37,7 +37,7 @@ Upon completion of this diploma program, students can pursue various career path
           </div>
           <div className="col-md-4 image-column"><br></br>
             <img
-              style={{ height: "85%" }}
+              style={{ height: "75%" }}
               src="/vision.png"
               alt="School Vision"
             />

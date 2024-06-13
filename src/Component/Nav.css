@@ -131,8 +131,6 @@
   display: block;
 }
 
-<<<<<<< HEAD
-=======
 .navbar .dropdown-menu.no-arrow {
   margin-top: 0;
   padding-top: 0;
@@ -152,7 +150,6 @@
 .navbar .dropdown-menu {
   position: absolute;
 }
->>>>>>> 876b453cafbc099df3510c31cbae771ca8af1840
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
@@ -278,18 +275,6 @@
   background-color: #0D1128;
   color: white;
 }
-<<<<<<< HEAD
-/*dropdown */
-ul{
-  columns: 2;
-  column-gap: 2px;
-  margin-right: 10px;
-}
-.dropdown-menu-columns {
-  columns: 4;
-  position: relative;
-=======
 .a10{
   margin-right: 50px;
->>>>>>> 876b453cafbc099df3510c31cbae771ca8af1840
 }

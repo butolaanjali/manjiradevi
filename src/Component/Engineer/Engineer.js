@@ -36,9 +36,9 @@ While there is no lack of theoretically determined practitioners in Civil Engine
 
 The highly qualified faculties provide in-depth theoretical knowledge and render thorough guidance through the lab sessions. The practical sessions impart all the required skills to the students and equip them to progress from the basics to more distinguished order skills like Planning, Creating, and Managing small and significant structures. The students also develop the ability to assess designs & plans project infrastructure. Acquainted with software like AUTOCAD & STAAD, they are also competent in effectively evaluating and managing risks, resources, and time.
           </div>
-          <div className="col-md-4 image-column"><br></br>
+          <div className="col-md-4 image-column"><br/><br/><br/>
             <img
-              style={{ height: "75%" }}
+              style={{ height: "65%" }}
               src="/vision.png"
               alt="School Vision"
             />
