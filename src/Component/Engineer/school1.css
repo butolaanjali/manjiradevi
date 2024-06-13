@@ -23,12 +23,12 @@
   justify-content: left;
   align-items: end;
   color: rgb(250, 244, 244);
-  z-index: 1; /* Ensure this is lower than the navbar */
+  z-index: 1; 
 }
 
 .navbar {
   position: relative;
-  z-index: 2; /* Ensure the navbar is above the layer */
+  z-index: 2; 
 }
 /* card */
 .card {
@@ -89,6 +89,32 @@
   border-radius: 50%;
 }
 .carousel-image {
-  height: 430px; /* Adjust as needed */
-  object-fit: cover; /* Ensures the image covers the entire carousel container */
+  height: 430px; 
+  object-fit: cover; 
+}
+/* Mobile view*/
+@media (max-width: 767px) {
+  .head img {
+    height: 300px;
+  }
+
+  .layer {
+    top: -15%;
+    left: 10%;
+    width: 80%;
+    height: 120%;
+  }
+
+  .vision-section h2,
+  .mission-section h2 {
+    font-size: 24px;
+  }
+
+  .carousel-image {
+    height: 250px;
+  }
+
+  .text-column {
+    font-size: 1rem;
+  }
 }

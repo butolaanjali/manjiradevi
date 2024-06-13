@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./school1.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";

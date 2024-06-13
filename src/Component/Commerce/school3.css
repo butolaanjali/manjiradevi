@@ -89,32 +89,32 @@
     border-radius: 50%;
   }
   .carousel-image {
-    height: 430px;
+    height: 430px; 
     object-fit: cover; 
   }
-  /* Mobile view*/
+  /* Mobile design */
 @media (max-width: 767px) {
-  .head img {
-    height: 300px;
+    .head img {
+      height: 300px;
+    }
+  
+    .layer {
+      top: -15%;
+      left: 10%;
+      width: 80%;
+      height: 120%;
+    }
+  
+    .vision-section h2,
+    .mission-section h2 {
+      font-size: 24px;
+    }
+  
+    .carousel-image {
+      height: 250px;
+    }
+  
+    .text-column {
+      font-size: 1rem;
+    }
   }
-
-  .layer {
-    top: -15%;
-    left: 10%;
-    width: 80%;
-    height: 120%;
-  }
-
-  .vision-section h2,
-  .mission-section h2 {
-    font-size: 24px;
-  }
-
-  .carousel-image {
-    height: 250px;
-  }
-
-  .text-column {
-    font-size: 1rem;
-  }
-}

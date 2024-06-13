@@ -104,11 +104,11 @@ function Nav() {
         </ul>
         <li><Link className="dropdown-item" to="/school3"><i className="fas fa-arrow-circle-right"></i> School Of Commerce And Management Studies</Link></li>
         <ul style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">B.Com</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">BBA</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">M.Com</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">MBA</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Ph.D</Link></li>
+          <li><Link className="dropdown-item" to="/bcom">B.Com</Link></li>
+          <li><Link className="dropdown-item" to="/bba">BBA</Link></li>
+          <li><Link className="dropdown-item" to="/mcom">M.Com</Link></li>
+          <li><Link className="dropdown-item" to="/mba">MBA</Link></li>
+          <li><Link className="dropdown-item" to="/phd">Ph.D</Link></li>
         </ul>
         <li><Link className="dropdown-item" to="/school4"><i className="fas fa-arrow-circle-right"></i> School of Agriculture</Link></li>
         <ul style={{columns:'2'}}>

@@ -29,6 +29,7 @@ import Data from './Component/Science/Data';
 import Foresic from './Component/Science/Foresic';
 import Mca from './Component/Science/Mca';
 import Msc from './Component/Science/Msc';
+import School3 from './Component/Commerce/School3';
 
 
 
@@ -63,6 +64,7 @@ function App() {
           <Route path="foresic" element={<Foresic/>}/>
           <Route path="mca" element={<Mca/>}/>
           <Route path="msc" element={<Msc/>}/>
+          <Route path='school3' element={<School3/>}/>
           </Routes>
       
         <Footer/>
