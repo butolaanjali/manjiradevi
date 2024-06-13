@@ -16,6 +16,12 @@ import Research from './Component/Research/Research';
 import Layout from './Component/Layout/Layout';
 import Lifemanjira from './Component/Lifemanjira/Lifemanjira';
 import Vision from './Component/About/vision';
+import Engineer from './Component/Engineer/Engineer';
+import School1 from './Component/Engineer/School1';
+import Mechanic from './Component/Engineer/Mechanic';
+import Cse from './Component/Engineer/Cse';
+import School2 from './Component/Science/School2';
+
 function App() {
   return (
     <div>
@@ -33,6 +39,12 @@ function App() {
     <Route path='research' element={<Research/>}/>
     <Route path='layout' element={<Layout/>}/>
     <Route path='lifemanjira' element={<Lifemanjira/>}/>
+    <Route path='engineer' element={<Engineer/>}/>
+    <Route path='school1' element={<School1/>}/>
+    <Route path='mechanic' element={<Mechanic/>}/>
+    <Route path='cse' element={<Cse/>}/>
+    <Route path='school2' element={<School2/>}/>
+     
      </Routes>
      <Footer/>
      </BrowserRouter>

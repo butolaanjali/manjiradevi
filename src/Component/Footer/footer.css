@@ -108,6 +108,7 @@
 
     .footer-content > div {
         margin: 10px 0;
+        text-align: center; /* Center-align text for all sections */
     }
 
     .footer-bottom {
@@ -121,6 +122,16 @@
 
     .footer-bottom .footer-copy {
         margin: 10px 0;
+    }
+
+    /* Center the underline for headings */
+    .footer h2 {
+        text-align: center;
+    }
+
+    .footer h2::after {
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
