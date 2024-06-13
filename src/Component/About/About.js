@@ -3,6 +3,7 @@ import './about.css';
 import { Link } from "react-router-dom";
 import { Carousel } from 'react-responsive-carousel';
 import Gallery from '../Gallery/Gallery';
+import Library from '../Library/Library';
 
 const About = () => {
   return <div>
@@ -87,6 +88,7 @@ const About = () => {
     </div>
 </div>
 <Gallery/>
+<Library/>
 
         </div>
       

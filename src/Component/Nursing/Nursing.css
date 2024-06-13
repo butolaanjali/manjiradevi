@@ -1,0 +1,70 @@
+.nursingimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/nursing1.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+   .nursingsmt {
+   
+    font-weight: bold;
+    padding-top: 11%; 
+    font-size: 45px;
+    font-family: serif;
+  }
+  .nursingbg2{
+    background-color: rgb(211, 211, 211,0.2);
+
+}
+.nursing-h1{
+  font-family: serif;
+}
+.nursing-p{
+  text-align: justify;
+  font-family: sans-serif;
+}
+.nursing-span{
+  color: #FD5F00;
+}
+.nursingimage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.cad-col{
+  border-radius: 17px;
+ 
+}
+.cad-col:hover{
+  background-color: #0D1128;
+  color: white;
+}
+
+.card-image1{
+  height:auto;
+  width: auto;
+  border-radius: 15px;
+
+}
+.cardh{
+
+	
+	font-weight: bold;
+	font-family: serif;
+  margin-left:15px;
+
+}
+
+.bt {
+  color: white;
+  background-color: #FD5F00;
+  width: 150px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left:15px;
+  border-radius: 15px;
+}
+.bt:hover{
+  background-color: gray;
+  color: white;
+}
