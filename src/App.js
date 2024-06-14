@@ -22,7 +22,7 @@ import Cse from './Component/Engineer/Cse';
 import School2 from './Component/Science/School2';
 import Nursing from './Component/Nursing/Nursing';
 
-import  from './Component/Science/Ai';
+import Ai from './Component/Science/Ai';
 import Bca from './Component/Science/Bca';
 import Bsc from './Component/Science/Bsc';
 import Cyber from './Component/Science/Cyber';
@@ -67,7 +67,6 @@ function App() {
           <Route path ="cse" element={<Cse/>}/>
           <Route path ="school2" element={<School2/>}/>
           <Route path="nursing" element={<Nursing/>}/>
-
           <Route path='ai' element={<Ai/>}/>
           <Route path="bca" element={<Bca/>}/>
           <Route path="bsc" element={<Bsc/>}/>
