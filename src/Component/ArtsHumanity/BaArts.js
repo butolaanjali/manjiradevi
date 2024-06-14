@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './Bnys.css';
+import './BaArts.css';
 
 import Library from '../Library/Library';
-import Yogiccourses from './Yogiccourses';
-const Bnys = () => {
+import Artscourses from './Artscourses';
+
+const BaArts = () => {
   return <div>
      <div class="container-fluid bnysimage  ">
  <div class="container">
@@ -37,10 +38,10 @@ const Bnys = () => {
 
   </div>
 </div>
-<Yogiccourses/>
+<Artscourses/>
 <Library/>
 </div>
 
 }
 
-export default Bnys;
+export default BaArts;

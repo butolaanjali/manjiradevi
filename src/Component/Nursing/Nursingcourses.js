@@ -8,28 +8,28 @@ const Nursingcourses = () => {
   <h1 className=' library-heading mb-3'>Our <span className='library-span'>Courses</span> </h1>
     <div className='row'>
 <div className='col-md-3 hhover mt-2 '>
-<div class="card cad-col">
+<div class="card1 cad-col">
 <img src="course1.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >M.sc(Clinical Psychology)</h4>
-<Link  to="/msc"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
+<Link  to="/msccp"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course8.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >D.Pharma</h4>
 <Link  to="/dpharma"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course3.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >B.sc Nursing</h4>
 <Link  to="/nursing"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course9.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >B.Pharma</h4>
 <Link  to="/bpharma"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
@@ -39,28 +39,28 @@ const Nursingcourses = () => {
 </div>
 <div className='row mt-3'>
 <div className='col-md-3 hhover mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course2.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  > Master of Public Health(MPH)</h4>
 <Link  to="/mph"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course6.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >Bachelor of Physiotherapy (BPT)</h4>
 <Link  to="/bpt"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course4.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >General Nursing and Midwifery(GNM)</h4>
 <Link  to="/gnm"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
-<div class="card cad-col">
+<div class=" cad-col">
 <img src="course5.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >Auxiliary Nurse and Midwife(ANM)</h4>
 <Link  to="/anm"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>

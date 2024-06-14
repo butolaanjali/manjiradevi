@@ -84,7 +84,7 @@ function Nav() {
   {isDropdownOpen && (
   <div className="dropdown-fullpage" >
     <div className="dropdown-menu-columns" >
-      <ul className="dropdown-menu"  style={{columns:'2', fontSize: '14px', lineHeight: '1.2'}}>
+      <ul className="dropdown-menu"  style={{columns:'2', fontSize: '13px', lineHeight: '1.2'}}>
         <li><Link className="dropdown-item" to="/school1"><i className="fas fa-arrow-circle-right"></i> School of Engineering</Link></li>
         <ul  style={{columns:'2'}}>
           <li><Link className="dropdown-item" to="/engineer">Diploma in CE</Link></li>

@@ -10,7 +10,7 @@ const Bscyogic = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 bscyogic-smt mt-5 " data-aos="fade-down" >B.sc in Yogic Science & Naturopathy</h2></center>
+   <center> <h2 class="text-white  display-3 bscyogic-smt mt-5" data-aos="fade-down" >B.sc in Yogic Science & Naturopathy</h2></center>
    
   </div>
       </div>
@@ -20,16 +20,13 @@ const Bscyogic = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 bnys-h1'><span className='bnys-span'>Best BNYS</span> College in Uttarkashi</h2>
-    <p className='mt-3 bnys-p'>
-    The Bachelor of Naturopathy and Yoga Sciences (BNYS) program at Smt. Manjira Devi University is a comprehensive degree that combines traditional naturopathy and yoga with modern medical science. The program spans five and a half years, including a one-year internship. The curriculum covers a wide range of subjects, including anatomy, physiology, biochemistry, pathology, microbiology, and community medicine. Students also receive in-depth training in yoga therapy, nutrition, herbology, and acupuncture. The course is designed to equip students with the skills to promote holistic health and wellness. Graduates can pursue careers in healthcare, wellness centers, research, and education. The program emphasizes hands-on experience and practical training, ensuring students are well-prepared for professional practice.
-    </p>
-
-
-    </div>
- 
-    <div class="col-md-6 ">
-    <img src="yoga1.jpg" alt="" className="bnys1image" />
+    <h2 className='mb-2 mt-2 bscyogic-h1'><span className='bscyogic-span'>Best B.sc in Yogic Science & Naturopathy</span> College in Uttarkashi</h2>
+    <p className='mt-3 bscyogic-p'>
+    Smt. Manjira Devi University offers a B.Sc. in Yogic Science and Naturopathy, combining traditional yoga practices with naturopathic treatments. This 3-year program includes training in yoga asanas, pranayama, meditation, diet, hydrotherapy, and herbal medicine, along with studies in anatomy, physiology, and preventive healthcare. Graduates can work as yoga instructors, naturopaths, wellness coaches, or health educators. Admission requires higher secondary education, preferably in science. The course emphasizes holistic health, preparing students for various wellness industry roles. For more information, visit the university's official website or contact the admissions office.
+</p>
+ </div>
+ <div class="col-md-6 ">
+    <img src="yogic.jpeg" alt="" className="bscyogicimage" />
         
       </div>
 
