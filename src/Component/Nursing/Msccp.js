@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './Nursing.css';
 import Nursingcourses from './Nursingcourses';
 import Library from '../Library/Library';
-const Msc = () => {
+const Msccp = () => {
   return <div>
      <div class="container-fluid psychologyimage1  ">
  <div class="container">
@@ -43,4 +43,4 @@ const Msc = () => {
 
 }
 
-export default Msc;
+export default Msccp;
