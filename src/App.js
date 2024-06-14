@@ -21,7 +21,8 @@ import Mechanic from './Component/Engineer/Mechanic';
 import Cse from './Component/Engineer/Cse';
 import School2 from './Component/Science/School2';
 import Nursing from './Component/Nursing/Nursing';
-import Ai from './Component/Science/Ai';
+
+import  from './Component/Science/Ai';
 import Bca from './Component/Science/Bca';
 import Bsc from './Component/Science/Bsc';
 import Cyber from './Component/Science/Cyber';
@@ -32,6 +33,16 @@ import Msc from './Component/Science/Msc';
 import School3 from './Component/Commerce/School3';
 
 
+
+import Msc from './Component/Nursing/Msc';
+import Gnm from './Component/Nursing/Gnm';
+import Pharma from './Component/Nursing/Pharma';
+import Bpharma from './Component/Nursing/Bpharma';
+import Anm from './Component/Nursing/Anm';
+import Bpt from './Component/Nursing/Bpt';
+import Mph from './Component/Nursing/Mph';
+import Bnys from './Component/Yogicscience/Bnys';
+import Bscyogic from './Component/Yogicscience/Bscyogic';
 
 function App() {
   return (
@@ -56,6 +67,7 @@ function App() {
           <Route path ="cse" element={<Cse/>}/>
           <Route path ="school2" element={<School2/>}/>
           <Route path="nursing" element={<Nursing/>}/>
+
           <Route path='ai' element={<Ai/>}/>
           <Route path="bca" element={<Bca/>}/>
           <Route path="bsc" element={<Bsc/>}/>
@@ -66,6 +78,17 @@ function App() {
           <Route path="msc" element={<Msc/>}/>
           <Route path='school3' element={<School3/>}/>
           </Routes>
+
+          <Route path="msc" element={<Msc/>}/>
+          <Route path="gnm" element={<Gnm/>}/>
+          <Route path="dpharma" element={<Pharma/>}/>
+          <Route path="bpharma" element={<Bpharma/>}/>
+          <Route path="anm" element={<Anm/>}/>
+          <Route path="bpt" element={<Bpt/>}/>
+          <Route path="mph" element={<Mph/>}/>
+          <Route path="bnys" element={<Bnys/>}/>
+          <Route path="bscyogic" element={<Bscyogic/>}/>
+</Routes>
       
         <Footer/>
       </Router>

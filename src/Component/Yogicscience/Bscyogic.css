@@ -1,0 +1,30 @@
+.bscyogic-image {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/yoga4.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .bscyogic-smt {
+   
+    font-weight: bold;
+    padding-top: 11%; 
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .bnys-h1{
+    font-family: serif;
+  }
+  .bnys-p{
+    text-align: justify;
+    font-family:serif;
+    font-size: 18px;
+  }
+  .bnys-span{
+    color: #FD5F00;
+  }
+  .bnys1image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
