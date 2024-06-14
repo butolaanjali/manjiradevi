@@ -16,8 +16,15 @@ import Layout from './Component/Layout/Layout';
 import Lifemanjira from './Component/Lifemanjira/Lifemanjira';
 import Vision from './Component/About/vision';
 import Nursing from './Component/Nursing/Nursing';
-
-
+import Msc from './Component/Nursing/Msc';
+import Gnm from './Component/Nursing/Gnm';
+import Pharma from './Component/Nursing/Pharma';
+import Bpharma from './Component/Nursing/Bpharma';
+import Anm from './Component/Nursing/Anm';
+import Bpt from './Component/Nursing/Bpt';
+import Mph from './Component/Nursing/Mph';
+import Bnys from './Component/Yogicscience/Bnys';
+import Bscyogic from './Component/Yogicscience/Bscyogic';
 
 function App() {
   return (
@@ -37,7 +44,16 @@ function App() {
           <Route path="lifemanjira" element={<Lifemanjira/>}/>
           <Route path="vision" element={<Vision/>}/>
           <Route path="nursing" element={<Nursing/>}/>
-        </Routes>
+          <Route path="msc" element={<Msc/>}/>
+          <Route path="gnm" element={<Gnm/>}/>
+          <Route path="dpharma" element={<Pharma/>}/>
+          <Route path="bpharma" element={<Bpharma/>}/>
+          <Route path="anm" element={<Anm/>}/>
+          <Route path="bpt" element={<Bpt/>}/>
+          <Route path="mph" element={<Mph/>}/>
+          <Route path="bnys" element={<Bnys/>}/>
+          <Route path="bscyogic" element={<Bscyogic/>}/>
+</Routes>
       
         <Footer/>
       </Router>

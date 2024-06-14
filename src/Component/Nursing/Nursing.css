@@ -5,23 +5,92 @@
     width: 100%;
     background-repeat: no-repeat;
   }
+  .psychologyimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/psychology.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .dpharmaimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/dpharma.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .bpharmaimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/bpharma.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .gnmimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/gnm2.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .anmimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/anm2.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .mphimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/mph.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .bptimage1 {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/theraphy.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
    .nursingsmt {
    
     font-weight: bold;
     padding-top: 11%; 
     font-size: 45px;
-    font-family: serif;
+    font-family: 'Times New Roman', Times, serif;
   }
   .nursingbg2{
-    background-color: rgb(211, 211, 211,0.2);
+    background-color: rgba(192, 178, 178, 0.2);
 
 }
-.nursing-h1{
+.nursingh{
+  font-family: serif;
+  
+}
+.anm-h1{
+  font-family: serif;
+}
+.gnm-h1{
+  font-family: serif;
+}
+.mph-h1{
+  font-family: serif;
+}
+.dpharma-h1{
+  font-family: serif;
+}
+.msc-h1{
+  font-family: serif;
+}
+.bpt-h1{
   font-family: serif;
 }
 .nursing-p{
   text-align: justify;
-  font-family: sans-serif;
+  font-family:serif;
+  font-size: 18px;
 }
 .nursing-span{
   color: #FD5F00;
@@ -31,8 +100,14 @@
   height: auto;
   border-radius: 20px;
 }
+.psychologyimage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
 .cad-col{
   border-radius: 17px;
+  box-shadow: 4px 4px 12px white;
  
 }
 .cad-col:hover{
