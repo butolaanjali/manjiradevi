@@ -48,7 +48,7 @@ const Yogiccourses = () => {
           </div>
           <div className='col-md-4 hhover  mt-2 '>
 <div class="card cad-col">
-<img src="yoga6.jpg" class="card-img-top" alt="..." className='card-image1'/>
+<img src="yoga.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >PGD in Yogic Science & Naturopathy </h4>
 <Link  to="/pgdyogic"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>

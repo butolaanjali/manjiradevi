@@ -25,6 +25,13 @@ import Bpt from './Component/Nursing/Bpt';
 import Mph from './Component/Nursing/Mph';
 import Bnys from './Component/Yogicscience/Bnys';
 import Bscyogic from './Component/Yogicscience/Bscyogic';
+import Mscyogic from './Component/Yogicscience/Mscyogic';
+import Mayogic from './Component/Yogicscience/Mayogic';
+import Phdyogic from './Component/Yogicscience/Phdyogic';
+import Pgdyogic from './Component/Yogicscience/Pgdyogic';
+import BaArts from './Component/ArtsHumanity/BaArts';
+
+
 
 function App() {
   return (
@@ -53,6 +60,13 @@ function App() {
           <Route path="mph" element={<Mph/>}/>
           <Route path="bnys" element={<Bnys/>}/>
           <Route path="bscyogic" element={<Bscyogic/>}/>
+          <Route path="mscyogic" element={<Mscyogic/>}/>
+          <Route path="mayogic" element={<Mayogic/>}/>
+          <Route path="phdyogic" element={<Phdyogic/>}/>
+          <Route path="pgdyogic" element={<Pgdyogic/>}/>
+          <Route path="baarts" element={<BaArts/>}/>
+          
+        
 </Routes>
       
         <Footer/>

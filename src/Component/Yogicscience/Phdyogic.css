@@ -1,29 +1,29 @@
-.bscyogic-image {
-    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/yoga5.jpg");
+.phdyogic-image {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/phdyogic.jpg");
     background-size: cover;
     height: 550px;
     width: 100%;
     background-repeat: no-repeat;
   }
-  .bscyogic-smt {
+  .phdyogic-smt {
    
     font-weight: bold;
     padding-top: 15%; 
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
   }
-  .bscyogic-h1{
+  .phdyogic-h1{
     font-family: serif;
   }
-  .bscyogic-p{
+  .phdyogic-p{
     text-align: justify;
     font-family:serif;
     font-size: 18px;
   }
-  .bscyogic-span{
+  .phdyogic-span{
     color: #FD5F00;
   }
-  .bscyogicimage {
+  .phdyogicimage {
     width: 100%;
     height: auto;
     border-radius: 20px;
