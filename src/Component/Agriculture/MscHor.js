@@ -1,20 +1,20 @@
 import React from "react";
-import "./school3.css";
+import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bba() {
+function Bcom() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-            Master of Commerce (M.Com.)
+            <span className="text" style={{ fontSize: "2.3rem", color:'black' }}>
+            MSc Horticulture
             </span>
-          </h1>
+          </h1> 
         </div>
-        <img src="/science6.jpeg" alt="School Background" />
+        <img src="/hor2.jpeg" alt="School Background" />
       </div>
       <div className="container mt-3">
         <div
@@ -31,8 +31,8 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           Master of Commerce (MCom) is a postgraduate degree, which deals with commerce, accounting, management, and economics. The two-year degree course opens career opportunities in the corporate and finance sectors. It offers specialization in accounting, taxation, finance, and human resource management. This is a four-semester choice based credit system course and has approval from UGC. After completing a two-year course, students get an academic degree from the respective university which is designated as a Master of Commerce.<br></br>
-           Master of Commerce (M.Com) course is considered as an entry point for professions like chartered accountancy, company secretary, cost and work accountancy, and insurance and banking services. One can also pursue higher studies and become the lecturer and assistant professor at universities. In this article, we will discuss M Com full form, M Com general subjects, eligibility, admission, career opportunities.</div>
+          MSc Horticulture is a postgraduate degree program focused on the study of horticultural sciences within the field of agriculture. The duration of this course is typically two years. SGRR University, the best Msc Agriculture in Horticulture course college in Dehradun Uttarakhand makes sure that the students majorly learn about various aspects of horticulture, including plant breeding, crop production and management, plant pathology, soil science, post-harvest technology, and sustainable horticulture practices. They gain knowledge and skills in areas such as plant propagation, pest and disease management, greenhouse management, and landscape design. MSc Agriculture Horticulture equips students with advanced knowledge and practical skills to contribute to the development and improvement of horticultural practices, crop yields, and sustainable agriculture.
+          </div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}
@@ -74,4 +74,4 @@ function Bba() {
   );
 }
 
-export default Bba;
+export default Bcom;

@@ -3,16 +3,16 @@ import "./school3.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bba() {
+function Bcom() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
             <span className="text" style={{ fontSize: "2.3rem" }}>
-            Bachelor of Computer Applications (BCA)
+            Bachelor of Commerce (B.Com.)
             </span>
-          </h1>
+          </h1> l
         </div>
         <img src="/science6.jpeg" alt="School Background" />
       </div>
@@ -31,9 +31,11 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           The Department of Bachelor of Computer Applications (BCA) is a dynamic and forward-thinking division within the School of Science and Technology, dedicated to providing a comprehensive education in computer science and applications. The BCA program is meticulously designed to equip students with a solid foundation in computer science principles, software development, and information technology, preparing them for successful careers in the ever-evolving tech industry.
-           The BCA curriculum offers a balanced blend of theoretical knowledge and practical skills, covering essential topics such as programming languages (e.g., Java, Python, C++), database management, web development, software engineering, computer networks, and cybersecurity. The program also includes courses in mathematics, statistics, and business management to provide a well-rounded education that integrates technical expertise with analytical and problem-solving skills.<br/>
-           The Department of BCA is committed to nurturing skilled and versatile IT professionals who can contribute to technological advancements and drive innovation in various sectors.</div>
+           Bachelor of Commerce (B.Com.) are 3 year undergraduate degree programs that provide students with a comprehensive understanding of various aspects of business, economics, finance, accounting, and management. Programs offer a solid foundation in business principles and practices, preparing students for a wide range of career opportunities in the corporate world, government agencies, non-profit organizations, and entrepreneurship ventures.
+
+The program is designed to increase various facets of commerce business understanding in students. The program's curriculum teaches theoretical and practical components of the study; it has been designed to provide the qualified candidates' specialization in an expansive range of organizational and accounting skills while at the same time building competence in a specific area of business.
+
+Our School of Management and Commerce offered this program with the objective of the managing and contributing to the modern global business world by pursuing state-of-the-art research in the domain. B.Com. offers an opportunity to do a cutting-edge study on diverse topics associated with accounting, business, and management. This program allows the students to make a firm foundation to pursue courses like ICWA, CMA, CA, along with equipping them for pursuing a master's degree.</div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}
@@ -75,4 +77,4 @@ function Bba() {
   );
 }
 
-export default Bba;
+export default Bcom;

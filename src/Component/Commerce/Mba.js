@@ -10,7 +10,7 @@ function Bba() {
         <div className="layer">
           <h1>
             <span className="text" style={{ fontSize: "2.3rem" }}>
-            Bachelor of Computer Applications (BCA)
+            Master of Business Administration (MBA)
             </span>
           </h1>
         </div>
@@ -31,9 +31,7 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           The Department of Bachelor of Computer Applications (BCA) is a dynamic and forward-thinking division within the School of Science and Technology, dedicated to providing a comprehensive education in computer science and applications. The BCA program is meticulously designed to equip students with a solid foundation in computer science principles, software development, and information technology, preparing them for successful careers in the ever-evolving tech industry.
-           The BCA curriculum offers a balanced blend of theoretical knowledge and practical skills, covering essential topics such as programming languages (e.g., Java, Python, C++), database management, web development, software engineering, computer networks, and cybersecurity. The program also includes courses in mathematics, statistics, and business management to provide a well-rounded education that integrates technical expertise with analytical and problem-solving skills.<br/>
-           The Department of BCA is committed to nurturing skilled and versatile IT professionals who can contribute to technological advancements and drive innovation in various sectors.</div>
+           Master of Business Administration (MBA) is a 2-year postgraduate program designed to equip students with a comprehensive understanding of the business world and develop their managerial skills. The program at dbuu one of the best mba college in uttarakhand focuses on providing a strong foundation in core business disciplines while also offering specializations in HR, Marketing, Finance, and International Business, Logistics & Supply Chain Management and Agri Business. With a rigorous curriculum, experienced faculty, and a practical approach to learning, the MBA program prepares students to excel in today's dynamic and competitive business environment. The School of Management and Commerce at DBUU offers MBA programs with the following specializations, allowing you to choose according to your interests.</div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}

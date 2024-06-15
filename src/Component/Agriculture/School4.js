@@ -1,16 +1,16 @@
 import React from "react";
-import "./school3.css";
+import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function School3() {
+function School4() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
             <span className="text" style={{ fontSize: "2.3rem" }}>
-              School Of Commerce and Management
+              School Of Agriculture
             </span>
           </h1>
         </div>
@@ -28,8 +28,7 @@ function School3() {
           <br></br>
           <div className="col-md-0"></div>
           <div className="col-md-6 text-column" style={{ fontSize: "1.2rem" }}>
-            The School of Commerce and Management is a premier center for education in business, finance, and management. It aims to equip students with the skills, knowledge, and professional acumen necessary to excel in the dynamic world of commerce and business. The department offers a range of undergraduate and postgraduate programs designed to develop proficient professionals who can contribute to various sectors, including corporate, public, and entrepreneurial domains.<br></br>
-            The Department of Commerce and Management is committed to providing high-quality education and fostering a learning environment that prepares students for successful careers in business and management. With a focus on academic excellence, practical experience, and holistic development, the department aims to produce competent and responsible professionals who can contribute effectively to the global economy.
+          The School of Agriculture is dedicated to imparting the best quality of learning atmosphere, which makes it a key aspect of Manjira DEvi Uttarakhand University. is the top Agriculture University for modern agro-professional and advanced agricultural education, along with undergraduate and postgraduate degree programmes running under the school that emphasize the development of technical and professional skills, experiential learning for entrepreneurship and job opportunities, innovative research and extension, and many that integrate student progress in smart agriculture. SOA offers top-notch facilities and encourages students to meet a variety of local, regional, national, and international criteria.
           </div>
           <div className="col-md-4 image-column">
             <img style={{ height: "85%" }} src="/comm1.jpeg" alt="commerce" className="img-fluid" />
@@ -39,37 +38,37 @@ function School3() {
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">B.Com</h5>
+              <h5 className="card-title">B.Sc in Agriculture</h5>
               <p className="card-text">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/bcom" className="btn btn-primary">
+              <a href="/BscAgr" className="btn btn-primary">
                 Know More
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">BBA</h5>
+              <h5 className="card-title">Diploma in Agriculture</h5>
               <p className="card-text">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/bba" className="btn btn-primary">
+              <a href="/Diploma" className="btn btn-primary">
                 Know More
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">M.Com</h5>
+              <h5 className="card-title">M.Sc in Agriculture</h5>
               <p className="card-text">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
               </p>
-              <a href="/mcom" className="btn btn-primary">
+              <a href="/MscAgr" className="btn btn-primary">
                 Know More
               </a>
             </div>
@@ -79,16 +78,17 @@ function School3() {
           <div className="col-md-4"></div>
           <div className="col-md-4">
             <div className="card" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">P.hd</h5>
+              <h5 className="card-title">M.Sc in Horticulture</h5>
               <p className="card-text">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/phd" className="btn btn-primary">
+              <a href="/MscHor" className="btn btn-primary">
                 Know More
               </a>
             </div>
           </div>
+
         </div>
       </div>
       <div className="container mt-5">
@@ -138,4 +138,4 @@ function School3() {
   );
 }
 
-export default School3;
+export default School4;

@@ -38,6 +38,11 @@ import Mph from './Component/Nursing/Mph';
 import Bnys from './Component/Yogicscience/Bnys';
 import Bscyogic from './Component/Yogicscience/Bscyogic';
 import Ai from './Component/Science/Ai';
+import BscAgr from './Component/Agriculture/BscAgr';
+import Diploma from './Component/Agriculture/Diploma';
+import MscAgr from './Component/Agriculture/MscAgr';
+import MscHor from './Component/Agriculture/MscHor';
+import School4 from './Component/Agriculture/School4';
 
 function App() {
   return (
@@ -80,6 +85,11 @@ function App() {
           <Route path="mph" element={<Mph/>}/>
           <Route path="bnys" element={<Bnys/>}/>
           <Route path="bscyogic" element={<Bscyogic/>}/>
+          <Route path='bscagr' element ={<BscAgr/>}/>
+          <Route path='diploma' element={<Diploma/>}/>
+          <Route path='mscagr' element={<MscAgr/>}/>
+          <Route path='mschor' element={<MscHor/>}/>
+          <Route path='school4' element={<School4/>}/>
 </Routes>
       
         <Footer/>

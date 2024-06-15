@@ -1,20 +1,20 @@
 import React from "react";
-import "./school3.css";
+import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bba() {
+function Bcom() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-            Master of Commerce (M.Com.)
+            <span className="text" style={{ fontSize: "2.3rem",color:'black' }}>
+            M.Sc. Agriculture 
             </span>
-          </h1>
+          </h1> l
         </div>
-        <img src="/science6.jpeg" alt="School Background" />
+        <img src="/agr2.jpeg" alt="School Background" />
       </div>
       <div className="container mt-3">
         <div
@@ -31,8 +31,9 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           Master of Commerce (MCom) is a postgraduate degree, which deals with commerce, accounting, management, and economics. The two-year degree course opens career opportunities in the corporate and finance sectors. It offers specialization in accounting, taxation, finance, and human resource management. This is a four-semester choice based credit system course and has approval from UGC. After completing a two-year course, students get an academic degree from the respective university which is designated as a Master of Commerce.<br></br>
-           Master of Commerce (M.Com) course is considered as an entry point for professions like chartered accountancy, company secretary, cost and work accountancy, and insurance and banking services. One can also pursue higher studies and become the lecturer and assistant professor at universities. In this article, we will discuss M Com full form, M Com general subjects, eligibility, admission, career opportunities.</div>
+           M.Sc. Agriculture  is a postgraduate programme devised to equip a footing and scientific knowledge of crop production via adequate field management. It incorporates an in-depth understanding of crop physiology, organic farming, weed science, water & nutrient management, and other related disciplines. Agronomy, or scientific agriculture, applies several soil and plant sciences to soil management and crop production. Modern concepts in drought physiology, herbicides, crop production, and crop production, physiological aspects of crop yield, principles of physiology of crop plants, advanced irrigation agronomy, crop nutrition, advanced crop ecology, applied conservation agronomy, arid zone agronomy, agricultural research organizations, cropping and farming systems, and agro-meteorology are some of the subjects covered in this degree, Students who complete the P.G. degree in M.Sc. Agronomy will have several options in various areas.
+
+Our School of Agriculture offers a master's degree in agriculture that aims to provide instruction to qualified applicants on enhancing agricultural output and, as a result, food security and help society streamline more effective food production processes. By integrating research with in-depth training in Climatology, Genetics, Biochemistry, Physiology, and Plant Breeding, students are trained to apply such information to real-world settings where scientific concepts around agronomy are implemented.</div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}
@@ -74,4 +75,4 @@ function Bba() {
   );
 }
 
-export default Bba;
+export default Bcom;

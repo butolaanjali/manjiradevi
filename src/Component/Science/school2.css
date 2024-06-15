@@ -117,4 +117,44 @@
   .text-column {
     font-size: 1rem;
   }
+  .container {
+    padding: 10px; /* add padding to container to prevent content from going out of space */
+  }
+ .row {
+    margin: 0; 
+  }
+ .col-md-6 {
+    padding: 10px; 
+  }
+ .card {
+    margin: 10px; /* add margin to cards to separate them */
+  }
+ .vision-section {
+    padding: 10px; 
+  }
+ .carousel-inner {
+    height: 200px; 
+  }
+ .carousel-image {
+    height: 100%;
+    object-fit: cover; 
+  }
+ .head {
+    flex-direction: column; 
+  }
+ .head h1 {
+    margin-bottom: 0;
+  }
+ .head img {
+    width: 100%; 
+    height: auto; 
+    margin: 10px 0; 
+  }
+  .image-column {
+    text-align: center;
+  }
+  .image-column img {
+    width: 100%; 
+    height: auto; 
+  }
 }

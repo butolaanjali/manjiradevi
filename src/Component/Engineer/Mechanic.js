@@ -9,8 +9,8 @@ function Mechanic() {
       <div className="head">
         <div className="layer">
           <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-              Diploma In Mechanical Engineering
+            <span className="text" style={{ fontSize: "2.2rem" }}>
+             <b/> Diploma In Mechanical Engineering
             </span>
           </h1>
         </div>

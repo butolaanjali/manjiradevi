@@ -10,7 +10,7 @@ function Bba() {
         <div className="layer">
           <h1>
             <span className="text" style={{ fontSize: "2.3rem" }}>
-            Bachelor of Computer Applications (BCA)
+            Ph.D in Management
             </span>
           </h1>
         </div>
@@ -31,9 +31,9 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           The Department of Bachelor of Computer Applications (BCA) is a dynamic and forward-thinking division within the School of Science and Technology, dedicated to providing a comprehensive education in computer science and applications. The BCA program is meticulously designed to equip students with a solid foundation in computer science principles, software development, and information technology, preparing them for successful careers in the ever-evolving tech industry.
-           The BCA curriculum offers a balanced blend of theoretical knowledge and practical skills, covering essential topics such as programming languages (e.g., Java, Python, C++), database management, web development, software engineering, computer networks, and cybersecurity. The program also includes courses in mathematics, statistics, and business management to provide a well-rounded education that integrates technical expertise with analytical and problem-solving skills.<br/>
-           The Department of BCA is committed to nurturing skilled and versatile IT professionals who can contribute to technological advancements and drive innovation in various sectors.</div>
+           Ph.D. in Management is a research-based academic programme with a professional orientation. The programme aims to equip individuals of exceptional promise and possibility for professions in higher education as faculty members employed in education and analysis and for high-level managerial and research careers in the public and private domains. Individuals after the completion of the degree programme will demonstrate an in-depth knowledge of international business research methods and a high potential for driving noteworthy assistance to their domain of specialization in business.
+
+The curriculum of this program at DBUU offers the breadth of knowledge of the critical elements of business administration and the depth of area specialization acceptable to allow the student to make significant contributions to the discipline. The flexibility in the curriculum permits each student to create upon his or her own powers and to acclimate students to various classes of practice in an expansive variety of fields. A Ph.D. in Business Management demands competence in the basic disciplines of research tools, international business, and one of the subsequent concentrations: supply chain management, finance, information technology, marketing, or strategic management. An essential set of outcomes that will be associated with this program will be the success of our Ph.D. graduates in teaching and conducting research in business associated with emerging economies. Therefore, the likely career path of our Ph.D. graduates will be primarily within the faculties of business schools mainly related to these regions.</div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}

@@ -1,20 +1,20 @@
 import React from "react";
-import "./school3.css";
+import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bba() {
+function Bcom() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-            Master of Commerce (M.Com.)
+            <span className="text" style={{ fontSize: "2.3rem" ,color:'black'}}>
+            Diploma in Agriculture
             </span>
-          </h1>
+          </h1> l
         </div>
-        <img src="/science6.jpeg" alt="School Background" />
+        <img src="/agr1.jpeg" alt="School Background" />
       </div>
       <div className="container mt-3">
         <div
@@ -31,8 +31,9 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           Master of Commerce (MCom) is a postgraduate degree, which deals with commerce, accounting, management, and economics. The two-year degree course opens career opportunities in the corporate and finance sectors. It offers specialization in accounting, taxation, finance, and human resource management. This is a four-semester choice based credit system course and has approval from UGC. After completing a two-year course, students get an academic degree from the respective university which is designated as a Master of Commerce.<br></br>
-           Master of Commerce (M.Com) course is considered as an entry point for professions like chartered accountancy, company secretary, cost and work accountancy, and insurance and banking services. One can also pursue higher studies and become the lecturer and assistant professor at universities. In this article, we will discuss M Com full form, M Com general subjects, eligibility, admission, career opportunities.</div>
+           Diploma in Agriculture is a foundation program delivering an experience for students who are new to the agricultural sector. It offers the opportunity to understand the high-tech solutions being employed to ensure profitability and sustainability in agri-businesses today.
+
+The curriculum varies, from learning about agricultural meteorology, soil science, production to protection of crops, and agriculture economics with a balanced summation of theory and practical. The final year of the course comprises hands-on training, which helps in tying up everything that the students have learned in the first year, to make students job-ready.</div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}
@@ -74,4 +75,4 @@ function Bba() {
   );
 }
 
-export default Bba;
+export default Bcom;

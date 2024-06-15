@@ -1,20 +1,20 @@
 import React from "react";
-import "./school3.css";
+import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bba() {
+function BscAgr() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
             <span className="text" style={{ fontSize: "2.3rem" }}>
-            Master of Commerce (M.Com.)
+            B.Sc. in Agriculture
             </span>
-          </h1>
+          </h1> l
         </div>
-        <img src="/science6.jpeg" alt="School Background" />
+        <img src="/agr4.jpeg" alt="School Background" />
       </div>
       <div className="container mt-3">
         <div
@@ -31,8 +31,9 @@ function Bba() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-           Master of Commerce (MCom) is a postgraduate degree, which deals with commerce, accounting, management, and economics. The two-year degree course opens career opportunities in the corporate and finance sectors. It offers specialization in accounting, taxation, finance, and human resource management. This is a four-semester choice based credit system course and has approval from UGC. After completing a two-year course, students get an academic degree from the respective university which is designated as a Master of Commerce.<br></br>
-           Master of Commerce (M.Com) course is considered as an entry point for professions like chartered accountancy, company secretary, cost and work accountancy, and insurance and banking services. One can also pursue higher studies and become the lecturer and assistant professor at universities. In this article, we will discuss M Com full form, M Com general subjects, eligibility, admission, career opportunities.</div>
+          B Sc. Agriculture deals with rendering the knowledge about various aspects of agriculture and its related specializations. B.Sc Agriculture. from DBUU, covers an in-depth study of the subjects such as Agronomy, Plant Pathology, Entomology, Soil Science, Food Technology, Agricultural Economics, Genetics, Plant Breeding, Horticulture, Food Microbiology, Animal Husbandry, Basic Sciences, Humanities, and Agricultural Engineering.
+
+School of Agriculture, at DBUU follows modern teaching pedagogy, which deals with a stable teaching approach, thus including the practical and theoretical phases of the subject. Agriculture Course includes imparting relevant theoretical knowledge about the topics like the machinery and techniques and use of modern scientific instruments in Plant and Animal- Land Surveying Soil Science, Water Resource Management, Based Farming Systems, Animal and Poultry Management, basics of Biotechnology etc., also make sure to enhance the intellectual and pragmatic skills of the students through the adequate exposure to make them industry-ready. B Sc. in Agriculture(Hons.) possesses an agricultural farm inside the college campus that is maintained and managed by the students to give hands-on understanding and experience of the real environment, working environment and the industry.</div>
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}
@@ -74,4 +75,4 @@ function Bba() {
   );
 }
 
-export default Bba;
+export default BscAgr;

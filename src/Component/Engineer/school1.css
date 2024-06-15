@@ -31,7 +31,7 @@
   z-index: 2; 
 }
 /* card */
-.card {
+.card1 {
   position: relative; 
   transition: transform 0.2s;
   cursor: pointer;
@@ -41,7 +41,7 @@
   padding-bottom: 15px;
 }
 
-.card:hover {
+.card1:hover {
   transform: scale(1.05);
 }
 
@@ -92,7 +92,7 @@
   height: 430px; 
   object-fit: cover; 
 }
-/* Mobile view*/
+/* Mobile design */
 @media (max-width: 767px) {
   .head img {
     height: 300px;
@@ -117,4 +117,14 @@
   .text-column {
     font-size: 1rem;
   }
-}
+    .head {
+      flex-direction: column;
+    }
+    .head h1 {
+      margin-bottom: 0;
+    }
+    .head img {
+      width: 100%;
+      height: auto;
+    }
+  }
