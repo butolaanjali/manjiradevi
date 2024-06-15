@@ -3,7 +3,7 @@ import "./school3.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bba() {
+function Mcom() {
   return (
     <div className="School1-page">
       <div className="head">
@@ -54,7 +54,7 @@ function Bba() {
             <div className="col-md-6"><br></br>
             <p>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
             <h3>Duration</h3>
-            <p><h6>3 yrs. (6 Semesters)</h6></p><br></br>
+            <p><h6>2 yrs. (4 Semesters)</h6></p><br></br>
             <h3>Eligibility Criteria(Qualifying Exam)</h3>
             <p><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
             <i className="fas fa-arrow-circle-right"></i>Minimum Marks Requirement: A minimum aggregate score, typically around 50% to 60% in the qualifying examination, though this can vary depending on the institution.</p>
@@ -74,4 +74,4 @@ function Bba() {
   );
 }
 
-export default Bba;
+export default Mcom;

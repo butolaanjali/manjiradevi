@@ -43,6 +43,11 @@ import Diploma from './Component/Agriculture/Diploma';
 import MscAgr from './Component/Agriculture/MscAgr';
 import MscHor from './Component/Agriculture/MscHor';
 import School4 from './Component/Agriculture/School4';
+import Bba from './Component/Commerce/Bba';
+import Bcom from './Component/Commerce/Bcom';
+import Mba from './Component/Commerce/Mba';
+import Mcom from './Component/Commerce/Mcom';
+import Phd from './Component/Commerce/Phd';
 
 function App() {
   return (
@@ -90,6 +95,12 @@ function App() {
           <Route path='mscagr' element={<MscAgr/>}/>
           <Route path='mschor' element={<MscHor/>}/>
           <Route path='school4' element={<School4/>}/>
+          <Route path='school3' element={<School3/>}/>
+          <Route path='bba' element={<Bba/>}/>
+          <Route path='bcom' element={<Bcom/>}/>
+          <Route path='mba' element={<Mba/>}/>
+          <Route path='mcom' element={<Mcom/>}/>
+          <Route path='phd' element={<Phd/>}/>
 </Routes>
       
         <Footer/>
