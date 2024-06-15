@@ -1,29 +1,50 @@
-.bnysimage {
-    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/bnys.jpg");
+.baartsimage {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts1.jpg");
     background-size: cover;
     height: 550px;
     width: 100%;
     background-repeat: no-repeat;
   }
-  .bnyssmt {
+  .maartsimage {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts2.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .phdartsimage {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts3.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .bedartsimage {
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts5.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .artssmt {
    
     font-weight: bold;
     padding-top: 11%; 
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
   }
-  .bnys-h1{
+  .arts-h1{
     font-family: serif;
   }
-  .bnys-p{
+  .arts-p{
     text-align: justify;
     font-family:serif;
     font-size: 18px;
   }
-  .bnys-span{
+  .arts-span{
     color: #FD5F00;
   }
-  .bnys1image {
+  .arts1image {
     width: 100%;
     height: auto;
     border-radius: 20px;

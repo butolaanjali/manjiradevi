@@ -21,7 +21,7 @@ import Mechanic from './Component/Engineer/Mechanic';
 import Cse from './Component/Engineer/Cse';
 import School2 from './Component/Science/School2';
 import Nursing from './Component/Nursing/Nursing';
-
+import Nursingschool from './Component/Nursing/Nursingschool';
 import  Ai from './Component/Science/Ai';
 import Bca from './Component/Science/Bca';
 import Bsc from './Component/Science/Bsc';
@@ -48,6 +48,22 @@ import Phdyogic from './Component/Yogicscience/Phdyogic';
 import Pgdyogic from './Component/Yogicscience/Pgdyogic';
 import BaArts from './Component/ArtsHumanity/BaArts';
 import Msccp from './Component/Nursing/Msccp';
+import Yogicschool from './Component/Yogicscience/Yogicschool';
+import Artsschool from './Component/ArtsHumanity/Artsschool';
+import Maarts from './Component/ArtsHumanity/Maarts';
+import Phdarts from './Component/ArtsHumanity/Phdarts';
+import Bedarts from './Component/ArtsHumanity/Bedarts';
+import Legalschool from './Component/LegalStudies/Legalschool';
+import Ballb from './Component/LegalStudies/Ballb';
+import Llb from './Component/LegalStudies/Llb';
+import Hotelschool from './Component/HotelMangement/Hotelschool';
+import Diplomahm from './Component/HotelMangement/Diplomahm';
+import Bbatourism from './Component/HotelMangement/Bbatourism';
+import Bachelorhm from './Component/HotelMangement/Bachelorhm';
+
+
+
+
 
 
 
@@ -99,6 +115,20 @@ function App() {
           <Route path="phdyogic" element={<Phdyogic/>}/>
           <Route path="pgdyogic" element={<Pgdyogic/>}/>
           <Route path="baarts" element={<BaArts/>}/>
+          <Route path="nursingschool" element={<Nursingschool/>}/>
+          <Route path="yogicschool" element={<Yogicschool/>}/>
+          <Route path="artsschool" element={<Artsschool/>}/>
+          <Route path="maarts" element={<Maarts/>}/>
+          <Route path="phdarts" element={<Phdarts/>}/>
+          <Route path="bedarts" element={<Bedarts/>}/>
+          <Route path="legalschool" element={<Legalschool/>}/>
+          <Route path="balegal" element={<Ballb/>}/>
+          <Route path="llblegal" element={<Llb/>}/>
+          <Route path="hotelschool" element={<Hotelschool/>}/>
+          <Route path="hmdiploma" element={<Diplomahm/>}/>
+          <Route path="bbatourism" element={<Bbatourism/>}/>
+          <Route path="bachelorhm" element={<Bachelorhm/>}/>
+          
           
         
 </Routes>

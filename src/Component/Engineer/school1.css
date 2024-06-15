@@ -92,3 +92,17 @@
   height: 430px; /* Adjust as needed */
   object-fit: cover; /* Ensures the image covers the entire carousel container */
 }
+.khusbhucard-heading{
+  font-family: serif;
+  text-align: justify;
+  font-weight: bold;
+}
+.khusbhucard-paiding{
+  font-family: serif;
+  text-align: justify;
+  font-size: 17px;
+  
+}
+.khusbhucard-btn{
+  color: #FD5F00;
+}

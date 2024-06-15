@@ -1,3 +1,16 @@
+.artsimage1 {
+  background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts.jpg");
+  background-size: cover;
+  height: 530px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.artsimage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
 .baartsbg2{
     background-color: rgba(192, 178, 178, 0.2);
 

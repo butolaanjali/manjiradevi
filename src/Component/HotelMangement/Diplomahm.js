@@ -1,16 +1,17 @@
 import React from 'react';
 
-import './Pgdyogic.css';
+import './Hotel.css';
 
 import Library from '../Library/Library';
-import Yogiccourses from './Yogiccourses';
-const Pgdyogic = () => {
+import Hotelcourses from './Hotelcourses';
+
+const Diplomahm = () => {
   return <div>
-     <div class="container-fluid pgdyogic-image  ">
+     <div class="container-fluid diplomahm-image  ">
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 pgdyogic-smt mt-5" data-aos="fade-down" >PGD in Yogic Science & Naturopathy</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >Diploma In Hotel Management</h2></center>
    
   </div>
       </div>
@@ -20,13 +21,15 @@ const Pgdyogic = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 pgdyogic-h1'><span className='pgdyogic-span'>Best PGD in Yogic Science & Naturopathy</span> College in Uttarkashi</h2>
-    <p className='mt-3 pgdyogic-p'>
-    Smt. Manjira Devi University offers a Postgraduate Diploma (PGD) in Yogic Science and Naturopathy, a 1-year program designed to provide specialized knowledge in yoga and natural health practices. The curriculum includes training in yoga asanas, pranayama, meditation, naturopathic treatments, diet and nutrition, and holistic health principles. This program is ideal for those seeking to enhance their skills in wellness and health management. Graduates can work as yoga instructors, naturopathy practitioners, wellness coaches, and holistic health consultants. Admission requires a bachelor's degree in any field. For more information, visit the university's official website or contact the admissions office.
-</p>
- </div>
- <div class="col-md-6 ">
-    <img src="yogic.jpeg" alt="" className="pgdyogicimage" />
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best Diploma in H.M </span> College in Uttarkashi</h2>
+    <p className='mt-3 arts-p'>
+    The Diploma in Hotel Management at SMT Manjira Devi University offers a robust program designed to provide students with foundational knowledge and practical skills in the hospitality industry. Our curriculum includes courses in front office operations, housekeeping management, food and beverage service, and hospitality marketing. Students gain hands-on experience through internships and real-world projects, ensuring they are industry-ready upon graduation. The program is taught by experienced faculty with deep industry insights and connections. State-of-the-art training facilities and industry partnerships enhance the learning experience. Emphasizing customer service excellence, operational efficiency, and cultural awareness, the diploma prepares students for diverse career opportunities. Join us to embark on a rewarding journey in hotel management.
+    </p>
+
+    </div>
+ 
+    <div class="col-md-6 ">
+    <img src="hm4.jpg" alt="" className="arts1image" />
         
       </div>
 
@@ -63,10 +66,10 @@ Note: In case any student has studied Physics instead of Science then also eligi
         </div>
 
 </div>
-<Yogiccourses/>
+<Hotelcourses/>
 <Library/>
 </div>
 
 }
 
-export default Pgdyogic;
+export default Diplomahm;

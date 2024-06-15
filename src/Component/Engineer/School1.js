@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./school1.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
@@ -29,7 +29,7 @@ function School1() {
           <div className="col-md-0"></div>
           <div
             className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem" }}
+            style={{ fontSize: "1.2rem",fontFamily:"serif",textAlign:"justify" }}
           >
             The School of Engineering is known for its ability to enhance creative
             skills through excellent teaching and hands-on training. We intend to
@@ -57,8 +57,8 @@ function School1() {
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">Diploma in CE</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading" >Diploma in CE</h4>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
@@ -69,8 +69,8 @@ function School1() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">Diploma in ME</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">Diploma in ME</h5>
+              <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
@@ -81,8 +81,8 @@ function School1() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title" >Diploma in CSE</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading" >Diploma in CSE</h5>
+              <p className="card-text khusbhucard-paiding">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
