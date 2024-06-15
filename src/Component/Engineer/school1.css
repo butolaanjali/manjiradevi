@@ -23,12 +23,12 @@
   justify-content: left;
   align-items: end;
   color: rgb(250, 244, 244);
-  z-index: 1; /* Ensure this is lower than the navbar */
+  z-index: 1; 
 }
 
 .navbar {
   position: relative;
-  z-index: 2; /* Ensure the navbar is above the layer */
+  z-index: 2; 
 }
 /* card */
 .card1 {
@@ -91,18 +91,4 @@
 .carousel-image {
   height: 430px; /* Adjust as needed */
   object-fit: cover; /* Ensures the image covers the entire carousel container */
-}
-.khusbhucard-heading{
-  font-family: serif;
-  text-align: justify;
-  font-weight: bold;
-}
-.khusbhucard-paiding{
-  font-family: serif;
-  text-align: justify;
-  font-size: 17px;
-  
-}
-.khusbhucard-btn{
-  color: #FD5F00;
 }
