@@ -43,7 +43,7 @@ function School2() {
         </div>
         <div className="row mt-5">
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title">B.Sc</h5>
               <p className="card-text">
                 Learn the fundamentals of Civil Engineering and develop skills in
@@ -55,7 +55,7 @@ function School2() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title">BCA</h5>
               <p className="card-text">
                 Explore the world of Mechanical Engineering and develop skills in
@@ -67,7 +67,7 @@ function School2() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title" >Diploma in AI and Machine Learning</h5>
               <p className="card-text">
                 Dive into the world of Computer Science and Engineering and
@@ -82,7 +82,7 @@ function School2() {
         </div>
         <div className="row mt-5">
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title">M.Sc</h5>
               <p className="card-text">
                 Learn the fundamentals of Civil Engineering and develop skills in
@@ -94,7 +94,7 @@ function School2() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title">MCA</h5>
               <p className="card-text">
                 Explore the world of Mechanical Engineering and develop skills in
@@ -106,7 +106,7 @@ function School2() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title" >Data Science And Cloud Technology</h5>
               <p className="card-text">
                 Dive into the world of Computer Science and Engineering and
@@ -122,7 +122,7 @@ function School2() {
         <div className="row mt-5">
           <div className="col-md-2"></div>
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title">Cyber Security </h5>
               <p className="card-text">
                 Learn the fundamentals of Civil Engineering and develop skills in
@@ -134,7 +134,7 @@ function School2() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
+            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
               <h5 className="card-title">Forensic Science</h5>
               <p className="card-text">
                 Explore the world of Mechanical Engineering and develop skills in
