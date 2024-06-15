@@ -21,8 +21,6 @@ import Mechanic from './Component/Engineer/Mechanic';
 import Cse from './Component/Engineer/Cse';
 import School2 from './Component/Science/School2';
 import Nursing from './Component/Nursing/Nursing';
-
-import  Ai from './Component/Science/Ai';
 import Bca from './Component/Science/Bca';
 import Bsc from './Component/Science/Bsc';
 import Cyber from './Component/Science/Cyber';
@@ -30,10 +28,7 @@ import Data from './Component/Science/Data';
 import Foresic from './Component/Science/Foresic';
 import Mca from './Component/Science/Mca';
 import Msc from './Component/Science/Msc';
-
-
-
-
+import School3 from './Component/Commerce/School3';
 import Gnm from './Component/Nursing/Gnm';
 import Pharma from './Component/Nursing/Pharma';
 import Bpharma from './Component/Nursing/Bpharma';
@@ -42,14 +37,17 @@ import Bpt from './Component/Nursing/Bpt';
 import Mph from './Component/Nursing/Mph';
 import Bnys from './Component/Yogicscience/Bnys';
 import Bscyogic from './Component/Yogicscience/Bscyogic';
-import Mscyogic from './Component/Yogicscience/Mscyogic';
-import Mayogic from './Component/Yogicscience/Mayogic';
-import Phdyogic from './Component/Yogicscience/Phdyogic';
-import Pgdyogic from './Component/Yogicscience/Pgdyogic';
-import BaArts from './Component/ArtsHumanity/BaArts';
-import Msccp from './Component/Nursing/Msccp';
-
-
+import Ai from './Component/Science/Ai';
+import BscAgr from './Component/Agriculture/BscAgr';
+import Diploma from './Component/Agriculture/Diploma';
+import MscAgr from './Component/Agriculture/MscAgr';
+import MscHor from './Component/Agriculture/MscHor';
+import School4 from './Component/Agriculture/School4';
+import Bba from './Component/Commerce/Bba';
+import Bcom from './Component/Commerce/Bcom';
+import Mba from './Component/Commerce/Mba';
+import Mcom from './Component/Commerce/Mcom';
+import Phd from './Component/Commerce/Phd';
 
 function App() {
   return (
@@ -74,18 +72,16 @@ function App() {
           <Route path ="cse" element={<Cse/>}/>
           <Route path ="school2" element={<School2/>}/>
           <Route path="nursing" element={<Nursing/>}/>
-
-          <Route path='ai' element={<Ai/>}/>
           <Route path="bca" element={<Bca/>}/>
           <Route path="bsc" element={<Bsc/>}/>
+          <Route path='ai' element={<Ai/>}/>
           <Route path="cyber" element={<Cyber/>}/>
           <Route path="data" element={<Data/>}/>
           <Route path="foresic" element={<Foresic/>}/>
           <Route path="mca" element={<Mca/>}/>
           <Route path="msc" element={<Msc/>}/>
-         
-
-          <Route path="msccp" element={<Msccp/>}/>
+          <Route path='school3' element={<School3/>}/>
+          <Route path="msc" element={<Msc/>}/>
           <Route path="gnm" element={<Gnm/>}/>
           <Route path="dpharma" element={<Pharma/>}/>
           <Route path="bpharma" element={<Bpharma/>}/>
@@ -94,13 +90,17 @@ function App() {
           <Route path="mph" element={<Mph/>}/>
           <Route path="bnys" element={<Bnys/>}/>
           <Route path="bscyogic" element={<Bscyogic/>}/>
-          <Route path="mscyogic" element={<Mscyogic/>}/>
-          <Route path="mayogic" element={<Mayogic/>}/>
-          <Route path="phdyogic" element={<Phdyogic/>}/>
-          <Route path="pgdyogic" element={<Pgdyogic/>}/>
-          <Route path="baarts" element={<BaArts/>}/>
-          
-        
+          <Route path='bscagr' element ={<BscAgr/>}/>
+          <Route path='diploma' element={<Diploma/>}/>
+          <Route path='mscagr' element={<MscAgr/>}/>
+          <Route path='mschor' element={<MscHor/>}/>
+          <Route path='school4' element={<School4/>}/>
+          <Route path='school3' element={<School3/>}/>
+          <Route path='bba' element={<Bba/>}/>
+          <Route path='bcom' element={<Bcom/>}/>
+          <Route path='mba' element={<Mba/>}/>
+          <Route path='mcom' element={<Mcom/>}/>
+          <Route path='phd' element={<Phd/>}/>
 </Routes>
       
         <Footer/>

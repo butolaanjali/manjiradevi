@@ -1,20 +1,20 @@
 import React from "react";
-import "./school1.css";
+import "./school3.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Mechanic() {
+function Mcom() {
   return (
     <div className="School1-page">
       <div className="head">
         <div className="layer">
           <h1>
-            <span className="text" style={{ fontSize: "2.2rem" }}>
-             <b/> Diploma In Mechanical Engineering
+            <span className="text" style={{ fontSize: "2.3rem" }}>
+            Master of Commerce (M.Com.)
             </span>
           </h1>
         </div>
-        <img src="/mechanic.jpg" alt="School Background" />
+        <img src="/science6.jpeg" alt="School Background" />
       </div>
       <div className="container mt-3">
         <div
@@ -31,17 +31,12 @@ function Mechanic() {
             className="col-md-6 text-column"
             style={{ fontSize: "1.2rem" }}
           >
-            Collaboration with AutoDesk for “Center of Excellence” in the field of design engineering is a remarkable step towards creating a regular awareness amongst students for competing themselves with the budding engineers all over the world. Meticulous mentorship program helps the students in every sphere of learning and research.
-
-To provide state-of-the-art infrastructure to students in order to impart quality education in Mechanical Engineering.
-To develop the students for facing intellectual and ethical career challenges after graduation.
-To motivate staff and students for creative thinking, thereby enriching the teaching learning experience and developing the research activity.
-We strive for preparing Mechanical Engineering professionals having sound technical knowledge with innovative approach, who are proficient to pursue diverse and flourishing careers in present society.
-          </div>
-          <div className="col-md-4 image-column">
+           Master of Commerce (MCom) is a postgraduate degree, which deals with commerce, accounting, management, and economics. The two-year degree course opens career opportunities in the corporate and finance sectors. It offers specialization in accounting, taxation, finance, and human resource management. This is a four-semester choice based credit system course and has approval from UGC. After completing a two-year course, students get an academic degree from the respective university which is designated as a Master of Commerce.<br></br>
+           Master of Commerce (M.Com) course is considered as an entry point for professions like chartered accountancy, company secretary, cost and work accountancy, and insurance and banking services. One can also pursue higher studies and become the lecturer and assistant professor at universities. In this article, we will discuss M Com full form, M Com general subjects, eligibility, admission, career opportunities.</div>
+         &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
-              style={{ height: "85%" }}
-              src="/vision.png"
+              style={{ height: "65%" }}
+              src="/science7.jpeg"
               alt="School Vision"
             />
           </div>
@@ -59,13 +54,10 @@ We strive for preparing Mechanical Engineering professionals having sound techni
             <div className="col-md-6"><br></br>
             <p>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
             <h3>Duration</h3>
-            <p><h6>3 yrs. (6 Semesters)</h6></p><br></br>
+            <p><h6>2 yrs. (4 Semesters)</h6></p><br></br>
             <h3>Eligibility Criteria(Qualifying Exam)</h3>
-            <p>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
-
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
-
-Note: In case any student has studied Physics instead of Science then also eligible </p>
+            <p><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
+            <i className="fas fa-arrow-circle-right"></i>Minimum Marks Requirement: A minimum aggregate score, typically around 50% to 60% in the qualifying examination, though this can vary depending on the institution.</p>
         </div>
         <div className="col-md-4 image-column"><br/>
             <img
@@ -76,9 +68,10 @@ Note: In case any student has studied Physics instead of Science then also eligi
           </div>
         </div>
       </div>
+      
       <Library/>
     </div>
   );
 }
 
-export default Mechanic;
+export default Mcom;
