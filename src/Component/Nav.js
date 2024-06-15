@@ -5,15 +5,13 @@ import "./Nav.css";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
   };
 
-  const toggleDropdown = (dropdown) => {
+  const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
-    setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
   };
 
   const closeDropdown = () => {
@@ -21,28 +19,28 @@ function Nav() {
   };
 
   return (
-    <div>
+    <div >
       <div className="container">
-        <div className="row mb-0">
-          <div className="col-md-5 mt-0">
+        <div className="row  mb-0" >
+          <div className="col-md-5 mt-0 ">
             <img src="manjira.png" height="70px" width="100px" alt="Manjira Logo" />
           </div>
           <div className="col-md-3 mt-2">
-            <h5 className="a1"><i className="bi bi-envelope me-3 a"></i>Email</h5>
-            <p className="a11">smtmanjiradeviuniversity2024@gmail.com</p>
+            <h5 className=" a1 "><i class="bi bi-envelope me-3 a"></i>Email</h5>
+            <p className="a11 ">smtmanjiradeviuniversity2024@gmail.com</p>
           </div>
-          <div className="col-md-2 mt-2">
-            <h5 className="a1"><i className="bi bi-telephone-fill a me-3"></i>Call</h5>
+          <div className="col-md-2 mt-2 ">
+            <h5 className=" a1"><i className="bi bi-telephone-fill a me-3"></i>Call</h5>
             <p className="a11">Call us:+917017388084</p>
           </div>
-          <div className="col-md-2 mt-3 mb-1">
-            <Link to="/contact" className="btn ms-auto me-auto a2" data-aos="fade-up">Contact Us</Link>
+          <div className="col-md-2 mt-3 mb-1 ">
+            <Link to="/contact" className="btn  ms-auto me-auto a2" data-aos="fade-up">Contact Us</Link>
           </div>
         </div>
       </div>
 
       <nav className="navbar navbar-expand-lg navbar-dark mt-0 p-2">
-        <div className="container-fluid">
+        <div className="container-fluid" >
           <button
             className="navbar-toggler"
             type="button"
@@ -61,23 +59,19 @@ function Nav() {
                 <Link className="nav-link active ms-4" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item dropdown">
-                <Link
-                  className="nav-link text-white ms-4 dropdown-toggle-no-arrow"
-                  id="navbarDropdownAbout"
+                <Link 
+                  className="nav-link text-white ms-4 dropdown-toggle-no-arrow"  
+                  id="navbarDropdown" 
                   role="button"
-                  onClick={() => toggleDropdown('about')}
-                  aria-expanded={activeDropdown === 'about'}
+                  aria-expanded="false"
                 >
                   About Us
                 </Link>
-                {activeDropdown === 'about' && (
-                  <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdownAbout" style={{columns:'1'}}>
-                    <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
-                    <li><Link className="dropdown-item" to="/vision">Our Vision and Mission</Link></li>
-                  </ul>
-                )}
+                <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdown">
+                  <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
+                  <li><Link className="dropdown-item" to="/vision">Our Vision and Mission</Link></li>
+                </ul>
               </li>
-
               <li className="nav-item dropdown" onMouseEnter={toggleDropdown} onMouseLeave={closeDropdown}>
   <Link 
     className="nav-link text-white ms-4 dropdown-toggle-no-arrow"  
@@ -124,43 +118,43 @@ function Nav() {
           <li><Link className="dropdown-item" to="/compEng">M.Sc in Horticulture</Link></li>
         </ul>
         <br></br><br></br>
-        <li><Link className="dropdown-item" to="/school5"><i className="fas fa-arrow-circle-right"></i> School of Arts and Humanity</Link></li>
+        <li><Link className="dropdown-item" to="/artsschool"><i className="fas fa-arrow-circle-right"></i> School of Arts and Humanity</Link></li>
         <ul style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">B.A</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">B.Ed</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">M.A</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Ph.D</Link></li>
+          <li><Link className="dropdown-item" to="/baarts">B.A</Link></li>
+          <li><Link className="dropdown-item" to="/bedarts">B.Ed</Link></li>
+          <li><Link className="dropdown-item" to="/maarts">M.A</Link></li>
+          <li><Link className="dropdown-item" to="/phdarts">Ph.D</Link></li>
         </ul>
-        <li><Link className="dropdown-item" to="/school6"><i className="fas fa-arrow-circle-right"></i> School of Yogic Science and Naturopathy</Link></li>
+        <li><Link className="dropdown-item" to="/yogicschool"><i className="fas fa-arrow-circle-right"></i> School of Yogic Science and Naturopathy</Link></li>
         <ul style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">BNYS</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">B.Sc</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">M.A</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">M.Sc</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Ph.D</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">PGD-Yoga</Link></li>
+          <li><Link className="dropdown-item" to="/bnys">BNYS</Link></li>
+          <li><Link className="dropdown-item" to="/bscyogic">B.Sc</Link></li>
+          <li><Link className="dropdown-item" to="/mayogic">M.A</Link></li>
+          <li><Link className="dropdown-item" to="/mscyogic">M.Sc</Link></li>
+          <li><Link className="dropdown-item" to="/phdyogic">Ph.D</Link></li>
+          <li><Link className="dropdown-item" to="/pgdyogic">PGD-Yoga</Link></li>
         </ul>
-        <li><Link className="dropdown-item" to="/school7"><i className="fas fa-arrow-circle-right"></i> School of Nursing and Paramedical Science</Link></li>
+        <li><Link className="dropdown-item" to="/nursingschool"><i className="fas fa-arrow-circle-right"></i> School of Nursing and Paramedical Science</Link></li>
         <ul style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">B.Pharma</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">B.Sc Nursing</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">M.Sc in Clinical Psychology</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">BPT</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">GNM</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">ANM</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">MPH</Link></li>
-          <li><Link className="dropdown-item" to="/">D.Pharma</Link></li>
+          <li><Link className="dropdown-item" to="/bpharma">B.Pharma</Link></li>
+          <li><Link className="dropdown-item" to="/nursing">B.Sc Nursing</Link></li>
+          <li><Link className="dropdown-item" to="/msccp">M.Sc in Clinical Psychology</Link></li>
+          <li><Link className="dropdown-item" to="/bpt">BPT</Link></li>
+          <li><Link className="dropdown-item" to="/gnm">GNM</Link></li>
+          <li><Link className="dropdown-item" to="/anm">ANM</Link></li>
+          <li><Link className="dropdown-item" to="/mph">MPH</Link></li>
+          <li><Link className="dropdown-item" to="/dpharma">D.Pharma</Link></li>
         </ul>
-        <li><Link className="dropdown-item" to="/school8"><i className="fas fa-arrow-circle-right"></i> School of Legal Studies</Link></li>
+        <li><Link className="dropdown-item" to="/legalschool"><i className="fas fa-arrow-circle-right"></i> School of Legal Studies</Link></li>
         <ul style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">BALLB</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">LLB</Link></li>
+          <li><Link className="dropdown-item" to="/balegal">BALLB</Link></li>
+          <li><Link className="dropdown-item" to="/llblegal">LLB</Link></li>
         </ul>
-        <li><Link className="dropdown-item" to="/school9"><i className="fas fa-arrow-circle-right"></i> School of Hotel Management & Tourism</Link></li>
+        <li><Link className="dropdown-item" to="/hotelschool"><i className="fas fa-arrow-circle-right"></i> School of Hotel Management & Tourism</Link></li>
         <ul style={{columns:'2'}}>
-          <li><Link className="dropdown-item" to="/compEng">BHM</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">BBA in Tourism</Link></li>
-          <li><Link className="dropdown-item" to="/compEng">Diploma in HM</Link></li>
+          <li><Link className="dropdown-item" to="/bachelorhm">BHM</Link></li>
+          <li><Link className="dropdown-item" to="/bbatourism">BBA in Tourism</Link></li>
+          <li><Link className="dropdown-item" to="/hmdiploma">Diploma in HM</Link></li>
         </ul>
       </ul>
     </div>

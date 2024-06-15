@@ -80,7 +80,7 @@ function App() {
           <Route path="mca" element={<Mca/>}/>
           <Route path="msc" element={<Msc/>}/>
           <Route path='school3' element={<School3/>}/>
-          <Route path="msc" element={<Msc/>}/>
+          <Route path="msccp" element={<Msccp/>}/>
           <Route path="gnm" element={<Gnm/>}/>
           <Route path="dpharma" element={<Pharma/>}/>
           <Route path="bpharma" element={<Bpharma/>}/>
