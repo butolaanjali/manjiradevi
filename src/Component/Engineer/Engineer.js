@@ -6,16 +6,17 @@ import Library from "../Library/Library";
 function Engineer() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-              Diploma In Civil Engineering
-            </span>
-          </h1>
-        </div>
-        <img src="/civil.jpeg" alt="School Background" />
+      <div class="container-fluid civil-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma In Civil Engineering</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -29,7 +30,7 @@ function Engineer() {
           <div className="col-md-0"></div>
           <div
             className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem" }}
+            style={{ fontSize: "1.2rem",textAlign:"justify",fontFamily:"serif" }}
           >
             Diploma in Civil engineering is one of the oldest engineering streams in India. It impacts almost every phase of modern human life. This course aims to produce highly qualified and efficient civil engineers by building a solid foundation in basic knowledge and troubleshooting skills.
 
@@ -48,7 +49,7 @@ The highly qualified faculties provide in-depth theoretical knowledge and render
         </div>
         <br></br><br></br>
         
-                <h1>Programme Details</h1>
+        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
             <div className="row" style={{
             border: "2px",
             borderRadius: "20px",
@@ -56,11 +57,11 @@ The highly qualified faculties provide in-depth theoretical knowledge and render
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3>Duration</h3>
-            <p><h6>3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3>Eligibility Criteria(Qualifying Exam)</h3>
-            <p>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <h3 className="library-heading">Duration</h3>
+            <p><h6 className="nursing-p">3 yrs. (6 Semesters)</h6></p><br></br>
+            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
+            <p className="nursing-p">Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
 
 For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
 

@@ -45,6 +45,31 @@ import Phdyogic from './Component/Yogicscience/Phdyogic';
 import Pgdyogic from './Component/Yogicscience/Pgdyogic';
 import BaArts from './Component/ArtsHumanity/BaArts';
 import Msccp from './Component/Nursing/Msccp';
+import Bba from './Component/Commerce/Bba';
+import Bcom from './Component/Commerce/Bcom';
+import Mba from './Component/Commerce/Mba';
+import Mcom from './Component/Commerce/Mcom';
+import Phd from './Component/Commerce/Phd';
+import School4 from './Component/Agriculture/School4';
+import Diploma from './Component/Agriculture/Diploma';
+import BscAgr from './Component/Agriculture/BscAgr';
+import MscAgr from './Component/Agriculture/MscAgr';
+import MscHor from './Component/Agriculture/MscHor';
+import Artsschool from './Component/ArtsHumanity/Artsschool';
+import Maarts from './Component/ArtsHumanity/Maarts';
+import Phdarts from './Component/ArtsHumanity/Phdarts';
+import Bedarts from './Component/ArtsHumanity/Bedarts';
+import Yogicschool from './Component/Yogicscience/Yogicschool';
+import Nursingschool from './Component/Nursing/Nursingschool';
+import Legalschool from './Component/LegalStudies/Legalschool';
+import Ballb from './Component/LegalStudies/Ballb';
+import Llb from './Component/LegalStudies/Llb';
+import Hotelschool from './Component/HotelMangement/Hotelschool';
+import Diplomahm from './Component/HotelMangement/Diplomahm';
+import  Bachelorhm from './Component/HotelMangement/Bachelorhm';
+import Bbatourism from './Component/HotelMangement/Bbatourism';
+
+
 
 
 
@@ -94,8 +119,43 @@ function App() {
           <Route path="phdyogic" element={<Phdyogic/>}/>
           <Route path="pgdyogic" element={<Pgdyogic/>}/>
           <Route path="baarts" element={<BaArts/>}/>
-          
-        
+          <Route path='bba' element={<Bba/>}/>
+          <Route path='bcom' element={<Bcom/>}/>
+          <Route path='mba' element={<Mba/>}/>
+          <Route path='mcom' element={<Mcom/>}/>
+          <Route path='phd' element={<Phd/>}/>
+          <Route path='school4' element={<School4/>}/>
+          <Route path='diploma' element={<Diploma/>}/>
+          <Route path='bscagr' element={<BscAgr/>}/>
+          <Route path='mscagr' element={<MscAgr/>}/>
+          <Route path='mschor' element={<MscHor/>}/>
+          <Route path='artsschool' element={<Artsschool/>}/>
+          <Route path='maarts' element={<Maarts/>}/>
+          <Route path='phdarts' element={<Phdarts/>}/>
+          <Route path='bedarts' element={<Bedarts/>}/>
+          <Route path='yogicschool' element={<Yogicschool/>}/>
+          <Route path='yogicbnys' element={<Bnys/>}/>
+          <Route path='yogicbsc' element={<Bscyogic/>}/>
+          <Route path='yogicma' element={<Mayogic/>}/>
+          <Route path='yogicmsc' element={<Mscyogic/>}/>
+          <Route path='yogicphd' element={<Phdyogic/>}/>
+          <Route path='yogicpgd' element={<Pgdyogic/>}/>
+          <Route path='nursingschool' element={<Nursingschool/>}/>
+          <Route path='nursingbsc' element={<Nursing/>}/>
+          <Route path='nursingbpt' element={<Bpt/>}/>
+          <Route path='nursinggnm' element={<Gnm/>}/>
+          <Route path='nursinganm' element={<Anm/>}/>
+          <Route path='nursingmsc' element={<Msccp/>}/>
+          <Route path='nursingbpharma' element={<Bpharma/>}/>
+          <Route path='nursingdpharma' element={<Pharma/>}/>
+          <Route path='nursingmph' element={<Mph/>}/>
+          <Route path='schoollegal' element={<Legalschool/>}/>
+          <Route path='legalllb' element={<Llb/>}/>
+          <Route path='legalballb' element={<Ballb/>}/>
+          <Route path='hotelschool' element={<Hotelschool/>}/>
+          <Route path='hotelbba' element={<Bbatourism/>}/>
+          <Route path='hoteldiploma' element={<Diplomahm/>}/>
+          <Route path='hotelbhm' element={<Bachelorhm/>}/>
 </Routes>
       
         <Footer/>

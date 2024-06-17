@@ -2,20 +2,21 @@ import React from "react";
 import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
-
+import { Link } from "react-router-dom";
 function School4() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-              School Of Agriculture
-            </span>
-          </h1>
-        </div>
-        <img src="/commerce.jpeg" alt="School Background" className="img-fluid" />
+        <div class="container-fluid agriculture-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > School Of Agriculture</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -27,7 +28,7 @@ function School4() {
         >
           <br></br>
           <div className="col-md-0"></div>
-          <div className="col-md-6 text-column" style={{ fontSize: "1.2rem" }}>
+          <div className="col-md-6 text-column p-3" style={{ fontSize: "18px",fontFamily:"serif",textAlign:"justify" }}>
           The School of Agriculture is dedicated to imparting the best quality of learning atmosphere, which makes it a key aspect of Manjira DEvi Uttarakhand University. is the top Agriculture University for modern agro-professional and advanced agricultural education, along with undergraduate and postgraduate degree programmes running under the school that emphasize the development of technical and professional skills, experiential learning for entrepreneurship and job opportunities, innovative research and extension, and many that integrate student progress in smart agriculture. SOA offers top-notch facilities and encourages students to meet a variety of local, regional, national, and international criteria.
           </div>
           <div className="col-md-4 image-column">
@@ -38,54 +39,50 @@ function School4() {
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">B.Sc in Agriculture</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">B.Sc in Agriculture</h5>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/BscAgr" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/BscAgr" className="btn btn-primary">Know more</Link>
+            
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">Diploma in Agriculture</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">Diploma in Agriculture</h5>
+              <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/Diploma" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/Diploma" className="btn btn-primary">Know more</Link>
+             
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">M.Sc in Agriculture</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">M.Sc in Agriculture</h5>
+              <p className="card-text khusbhucard-paiding">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
               </p>
-              <a href="/MscAgr" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/MscAgr" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
         </div>
         <div className="row mt-5">
           <div className="col-md-4"></div>
           <div className="col-md-4">
-            <div className="card" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">M.Sc in Horticulture</h5>
-              <p className="card-text">
+            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
+              <h5 className="card-title khusbhucard-heading">M.Sc in Horticulture</h5>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/MscHor" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/MscHor" className="btn btn-primary">Know more</Link>
+             
             </div>
           </div>
 

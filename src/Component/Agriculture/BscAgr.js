@@ -6,16 +6,17 @@ import Library from "../Library/Library";
 function BscAgr() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-            B.Sc. in Agriculture
-            </span>
-          </h1> l
-        </div>
-        <img src="/agr4.jpeg" alt="School Background" />
+        <div class="container-fluid bscagriculture-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >   B.Sc. in Agriculture</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -28,8 +29,8 @@ function BscAgr() {
           <br></br>
           <div className="col-md-0"></div>
           <div
-            className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem" }}
+            className="col-md-6 text-column p-3"
+            style={{ fontSize: "18px",textAlign:"justify",fontFamily:"serif"  }}
           >
           B Sc. Agriculture deals with rendering the knowledge about various aspects of agriculture and its related specializations. B.Sc Agriculture. from DBUU, covers an in-depth study of the subjects such as Agronomy, Plant Pathology, Entomology, Soil Science, Food Technology, Agricultural Economics, Genetics, Plant Breeding, Horticulture, Food Microbiology, Animal Husbandry, Basic Sciences, Humanities, and Agricultural Engineering.
 
@@ -45,19 +46,19 @@ School of Agriculture, at DBUU follows modern teaching pedagogy, which deals wit
         </div>
         <br></br><br></br>
         
-                <h1>Programme Details</h1>
-            <div className="row" style={{
+        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
+            <div className="row p-3" style={{
             border: "2px",
             borderRadius: "20px",
             boxShadow: "10px 10px 20px rgb(240, 117, 3)",
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3>Duration</h3>
-            <p><h6>3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3>Eligibility Criteria(Qualifying Exam)</h3>
-            <p><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
+            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <h3 className="library-heading">Duration</h3>
+            <p className="nursing-p">3 yrs. (6 Semesters)</p><br></br>
+            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
+            <p className="nursing-p"><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
             <i className="fas fa-arrow-circle-right"></i>Minimum Marks Requirement: A minimum aggregate score, typically around 50% to 60% in the qualifying examination, though this can vary depending on the institution.</p>
         </div>
         <div className="col-md-4 image-column"><br/>

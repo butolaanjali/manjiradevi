@@ -1,20 +1,21 @@
 import React from "react";
 import "./school2.css";
 import Library from "../Library/Library";
-
+import { Link } from "react-router-dom";
 function School2() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-              School Of Science and Technology
-            </span>
-          </h1>
-        </div>
-        <img src="/school.jpeg" alt="School Background" />
+         <div class="container-fluid science-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >School Of Science and Technology</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -27,8 +28,8 @@ function School2() {
           <br></br>
           <div className="col-md-0"></div>
           <div
-            className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem" }}
+            className="col-md-6 text-column p-3"
+            style={{ fontSize: "1.2rem",fontFamily:"serif",textAlign:"justify" }}
           >
             The School of Science and Technology is a dynamic academic division dedicated to fostering innovation and excellence in scientific and technological education. This department offers a wide range of programs in fields such as biology, chemistry, physics, computer science, engineering, and environmental science. With a commitment to cutting-edge research and hands-on learning, the school provides students with access to state-of-the-art laboratories, advanced technology, and collaborative projects. Faculty members are distinguished experts in their respective fields, contributing to both academic and industry advancements. Through interdisciplinary curricula and a focus on problem-solving skills, the School of Science and Technology prepares graduates to meet the challenges of the rapidly evolving scientific landscape and to become leaders in their chosen careers. The department also emphasizes community engagement and global perspectives, ensuring that students are well-equipped to contribute to society in meaningful ways.
           </div>
@@ -44,78 +45,72 @@ function School2() {
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">B.Sc</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading">B.Sc</h4>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/bsc" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/bsc" className="btn btn-primary">Know more</Link>
+             
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">BCA</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading">BCA</h4>
+              <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/bca" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/bca" className="btn btn-primary">Know more</Link>
+             
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title" >Diploma in AI and Machine Learning</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading" >Diploma in AI and Machine Learning</h4>
+              <p className="card-text khusbhucard-paiding">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
               </p>
-              <a href="/ai" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/ai" className="btn btn-primary">Know more</Link>
+             
             </div>
           </div>
         </div>
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">M.Sc</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading">M.Sc</h4>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/msc" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/msc" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">MCA</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading">MCA</h4>
+              <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/mca" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/mca" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title" >Data Science And Cloud Technology</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading" >Data Science And Cloud Technology</h4>
+              <p className="card-text khusbhucard-paiding">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
               </p>
-              <a href="/data" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/data" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
         </div>
@@ -123,26 +118,24 @@ function School2() {
           <div className="col-md-2"></div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">Cyber Security </h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading">Cyber Security </h4>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/cyber" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/cyber" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h5 className="card-title">Forensic Science</h5>
-              <p className="card-text">
+              <h4 className="card-title khusbhucard-heading">Forensic Science</h4>
+              <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/foresic" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/foresic" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
         </div>

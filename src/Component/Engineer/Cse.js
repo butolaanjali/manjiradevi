@@ -5,16 +5,17 @@ import Library from "../Library/Library";
 function Mechanic() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-              Diploma In CSE
-            </span>
-          </h1>
-        </div>
-        <img src="/cse.jpg" alt="School Background" />
+       <div class="container-fluid diplomacse-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma In CSE</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -27,8 +28,8 @@ function Mechanic() {
           <br></br>
           <div className="col-md-0"></div>
           <div
-            className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem" }}
+            className="col-md-6 text-column p-3"
+            style={{ fontSize: "18px",textAlign:"justify",fontFamily:"serif" }}
           >
             Diploma in Computer Science Engineering is a program designed for students who plan to seek employment in a professional career requiring a comprehensive qualification in Computer Science and for those planning to continue studying Computer Science at the undergraduate level. This program will help students’ inbuilt basic knowledge of Database Systems, Software Engineering, Computer Networking, and Operating Systems for Software Applications designing and developing a Program, Algorithms, and Projects using open source tools and efficient data structure.
 
@@ -46,8 +47,7 @@ Upon completion of this diploma program, students can pursue various career path
           <div className="col-md-1"></div>
         </div>
         <br></br><br></br>
-        
-                <h1>Programme Details</h1>
+        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
             <div className="row" style={{
             border: "2px",
             borderRadius: "20px",
@@ -55,11 +55,11 @@ Upon completion of this diploma program, students can pursue various career path
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3>Duration</h3>
-            <p><h6>3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3>Eligibility Criteria(Qualifying Exam)</h3>
-            <p>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <h3 className="library-heading">Duration</h3>
+            <p><h6 className="nursing-p">3 yrs. (6 Semesters)</h6></p><br></br>
+            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
+            <p className="nursing-p">Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
 
 For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
 

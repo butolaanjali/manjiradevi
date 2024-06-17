@@ -1,3 +1,46 @@
+.engineering-image{
+  
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/school.jpeg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+  
+}
+.diplomacse-image{
+  background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/cse.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.civil-image{
+  background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/civil.jpeg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.mechanical-image{
+  background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/mechanic.jpg");
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.khusbhucard-heading{
+  font-family: serif;
+  font-weight: bold;
+}
+.khusbhucard-paiding{
+  font-family: serif;
+  text-align: justify;
+  font-size: 17px;
+}
 .school1-page {
   font-family: Arial, sans-serif;
   display: flex;

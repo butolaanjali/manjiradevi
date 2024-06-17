@@ -2,20 +2,21 @@ import React from "react";
 import "./school3.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
-
+import { Link } from "react-router-dom";
 function School3() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem" }}>
-              School Of Commerce and Management
-            </span>
-          </h1>
-        </div>
-        <img src="/commerce.jpeg" alt="School Background" className="img-fluid" />
+       <div class="container-fluid commerce-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > School Of Commerce and Management</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -27,7 +28,7 @@ function School3() {
         >
           <br></br>
           <div className="col-md-0"></div>
-          <div className="col-md-6 text-column" style={{ fontSize: "1.2rem" }}>
+          <div className="col-md-6 text-column p-3" style={{ fontSize: "18px",fontFamily:"serif",textAlign:"justify" }}>
             The School of Commerce and Management is a premier center for education in business, finance, and management. It aims to equip students with the skills, knowledge, and professional acumen necessary to excel in the dynamic world of commerce and business. The department offers a range of undergraduate and postgraduate programs designed to develop proficient professionals who can contribute to various sectors, including corporate, public, and entrepreneurial domains.<br></br>
             The Department of Commerce and Management is committed to providing high-quality education and fostering a learning environment that prepares students for successful careers in business and management. With a focus on academic excellence, practical experience, and holistic development, the department aims to produce competent and responsible professionals who can contribute effectively to the global economy.
           </div>
@@ -39,54 +40,59 @@ function School3() {
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">B.Com</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">B.Com</h5>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/bcom" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/bcom" className="btn btn-primary">Know more</Link>
+             
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">BBA</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">BBA</h5>
+              <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
               </p>
-              <a href="/bba" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/bba" className="btn btn-primary">Know more</Link>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">M.Com</h5>
-              <p className="card-text">
+              <h5 className="card-title khusbhucard-heading">M.Com</h5>
+              <p className="card-text khusbhucard-paiding">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
                 systems.
               </p>
-              <a href="/mcom" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/mcom" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-4"></div>
-          <div className="col-md-4">
-            <div className="card" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title">P.hd</h5>
-              <p className="card-text">
+        <div className="col-md-4">
+            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
+              <h5 className="card-title khusbhucard-heading">MBA</h5>
+              <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
-              <a href="/phd" className="btn btn-primary">
-                Know More
-              </a>
+              <Link  to="/mba" className="btn btn-primary">Know more</Link>
+              
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
+              <h5 className="card-title khusbhucard-heading">P.hd</h5>
+              <p className="card-text khusbhucard-paiding">
+                Learn the fundamentals of Civil Engineering and develop skills in
+                designing, building, and maintaining infrastructure.
+              </p>
+              <Link  to="/phd" className="btn btn-primary">Know more</Link>
+              
             </div>
           </div>
         </div>

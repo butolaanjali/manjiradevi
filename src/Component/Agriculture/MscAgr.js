@@ -6,16 +6,17 @@ import Library from "../Library/Library";
 function Bcom() {
   return (
     <div className="School1-page">
-      <div className="head">
-        <div className="layer">
-          <h1>
-            <span className="text" style={{ fontSize: "2.3rem",color:'black' }}>
-            M.Sc. Agriculture 
-            </span>
-          </h1> l
-        </div>
-        <img src="/agr2.jpeg" alt="School Background" />
+        <div class="container-fluid mscagriculture-image  ">
+ <div class="container">
+    <div class="row">
+       <div class="col-sm-12 mt-4 ">
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > M.Sc. Agriculture</h2></center>
+   
+  </div>
       </div>
+    </div>
+</div>
+     
       <div className="container mt-3">
         <div
           className="row"
@@ -28,8 +29,8 @@ function Bcom() {
           <br></br>
           <div className="col-md-0"></div>
           <div
-            className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem" }}
+            className="col-md-6 text-column p-3"
+            style={{ fontSize: "18px",textAlign:"justify",fontFamily:"serif" }}
           >
            M.Sc. Agriculture  is a postgraduate programme devised to equip a footing and scientific knowledge of crop production via adequate field management. It incorporates an in-depth understanding of crop physiology, organic farming, weed science, water & nutrient management, and other related disciplines. Agronomy, or scientific agriculture, applies several soil and plant sciences to soil management and crop production. Modern concepts in drought physiology, herbicides, crop production, and crop production, physiological aspects of crop yield, principles of physiology of crop plants, advanced irrigation agronomy, crop nutrition, advanced crop ecology, applied conservation agronomy, arid zone agronomy, agricultural research organizations, cropping and farming systems, and agro-meteorology are some of the subjects covered in this degree, Students who complete the P.G. degree in M.Sc. Agronomy will have several options in various areas.
 
@@ -45,19 +46,19 @@ Our School of Agriculture offers a master's degree in agriculture that aims to p
         </div>
         <br></br><br></br>
         
-                <h1>Programme Details</h1>
-            <div className="row" style={{
+        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
+            <div className="row p-3" style={{
             border: "2px",
             borderRadius: "20px",
             boxShadow: "10px 10px 20px rgb(240, 117, 3)",
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3>Duration</h3>
-            <p><h6>3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3>Eligibility Criteria(Qualifying Exam)</h3>
-            <p><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
+            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <h3 className="library-heading">Duration</h3>
+            <p className="nursing-p">3 yrs. (6 Semesters)</p><br></br>
+            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
+            <p className="nursing-p"><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
             <i className="fas fa-arrow-circle-right"></i>Minimum Marks Requirement: A minimum aggregate score, typically around 50% to 60% in the qualifying examination, though this can vary depending on the institution.</p>
         </div>
         <div className="col-md-4 image-column"><br/>

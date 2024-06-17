@@ -7,6 +7,7 @@ import Program from '../Component/Program/Program';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Nav.css";
+
 import Layout from "./Layout/Layout";
 import StudentSpeak from "./Testimonial/StudentSpeak";
 import StudentLife from "./Studentlife/Studentlife";
@@ -37,8 +38,8 @@ function Home() {
       </div>
     </div>
 </div>
-<div class="container-fluid">
-  <div class="row">
+<div class="container-fluid g-0">
+  <div class="row g-0">
     <div class="col-md-3 bg1 p-5">
       <h2 class="text-center"><i class="bi bi-people-fill"></i></h2>
       <h4 class="text-center">Certified Teachers</h4>
