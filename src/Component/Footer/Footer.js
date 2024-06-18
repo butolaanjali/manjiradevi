@@ -15,11 +15,10 @@ const Footer = () => {
                     <p>Dehradun, Uttarakhand, INDIA</p>
                     <br/>
                     <p>Admissions & Outreach:</p>
-                    <p>7017388084</p>
-                    <p>9897883455</p>
+                    <p>+917017388084</p>
                     <br/>
                     <p>Email:</p>
-                    <p>info@manjiradevi.com</p>
+                    <p>smtmanjiradeviuniversity2024@gmail.com</p>
                     <br/>
                     <div className="social-media-icons">
                         <a href="#"><i className="fab fa-facebook-f"></i></a>

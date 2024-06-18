@@ -69,6 +69,7 @@ import Diplomahm from './Component/HotelMangement/Diplomahm';
 import  Bachelorhm from './Component/HotelMangement/Bachelorhm';
 import Bbatourism from './Component/HotelMangement/Bbatourism';
 import Phdnotification from './Component/Notification/Phdnotification';
+import Counter from './Component/Counter';
 
 
 
@@ -163,6 +164,7 @@ function App() {
       
         <Footer/>
       </Router>
+      <Counter/>
     </div>
   );
 }

@@ -106,17 +106,16 @@ function Home() {
             </div>
           </div>
           <div className="col-md-6 mt-2 ">
-            <h1><span className="bg3 ">Academics</span> Notifications</h1>
-            <div className="row   ">
-              <div className="col-md-5   ">
-              <div className="card bf p-2 ">
-              <center><h5 className="bf1 g-0 p-1">18-06-2024</h5></center>
-           
-            <center><p className=" bf3 ">Application Form Ph.D Entrance Exam <span className="new p-1">new</span></p></center>
-      <center>  <Link to="/phdpdf" className="btn bf4" data-aos="fade-up">
-            Open PDF
-          </Link></center>
-    </div>
+          <h1><span className="bg3">Academics</span> Notifications</h1>
+            <div className="row">
+              <div className="col-md-5">
+                <div className="card bf p-2">
+                  <center><h5 className="bf1 g-0 p-1">18-06-2024</h5></center>
+                  <center><p className="bf3">Application Form Ph.D Entrance Exam <span className="new p-1">new</span></p></center>
+                  <center>
+                    <Link to="/phdpdf" className="btn bf4" data-aos="fade-up">Open PDF</Link>
+                  </center>
+                </div>
               </div>
               <div className="col-md-6   ">
               <div className="card bf mt-2 ">
