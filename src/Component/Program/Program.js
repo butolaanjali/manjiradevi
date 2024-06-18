@@ -1,8 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './program.css';
 import { Link } from 'react-router-dom';
 
 function Program() {
+  const [selectedProgram, setSelectedProgram] = useState('UNDERGRADUATE');
+
+  const handleProgramClick = (program) => {
+    setSelectedProgram(program);
+  };
+
+  const programs = {
+    UNDERGRADUATE: [
+      { school: 'School of Science And Technology', courses: ['B.Sc', 'BCA'] },
+      { school: 'School Of Commerce And Management Studies', courses: ['B.Com', 'BBA'] },
+      { school: 'School of Agriculture', courses: ['B.Sc (Agriculture)'] },
+      { school: 'School of Arts and Humanity', courses: ['BA (Hindi/Sanskrit/English/Sociology/Education/Master of Social Work)', 'BA (Economics/History/ Political Science/Library Science)'] },
+      { school: 'School of Yogic Science and Naturopathy', courses: ['BNYS', 'BSC'] },
+      { school: 'School of Nursing, Paramedical and Allied Science', courses: ['B.Pharma', 'B.Sc Nursing', 'BPT'] },
+      { school: 'School of Legal Studies', courses: ['BALLB', 'LLB'] },
+      { school: 'School of Hotel Management & Tourism', courses: ['Bachelor of Hotel Management', 'BBA - Tourism'] },
+    ],
+    POSTGRADUATE: [
+      { school: 'School of Science And Technology', courses: ['M.Sc', 'MCA' ] },
+      { school: 'School Of Commerce And Management Studies', courses: ['M.Com', 'MBA', 'Ph.D'] },
+      { school: 'School of Agriculture', courses: ['M.Sc (Agriculture/Horticulture)'] },
+      { school: 'School of Arts and Humanity', courses: ['MA'] },
+      { school: 'School of Yogic Science and Naturopathy', courses: ['M.A', 'Ph.D.', 'M.Sc'] },
+      { school: 'School of Nursing, Paramedical and Allied Science', courses: ['MPH', 'M.Sc.(Clinical Psychology)'] },
+    ],
+    DIPLOMA: [
+      { school: 'School of Engineering', courses: ['Diploma in CE', 'Diploma in ME', 'Diploma in CSE'] },
+      { school: 'School of Science And Technology', courses: ['Diploma in AI and Machine Learning', 'Data Science & Cloud Technology', 'Cyber Security','Forensic Science'] },
+      { school: 'School of Agriculture', courses: ['Diploma in Agriculture'] },
+      { school: 'School of Yogic Science and Naturopathy', courses: [ 'PGD-Yoga'] },
+      { school: 'School of Nursing, Paramedical and Allied Science', courses: ['ANM', 'GNM', 'D.Pharma'] },
+      { school: 'School of Hotel Management & Tourism', courses: ['Diploma - Hotel Management'] },
+    ],
+    DOCTORATE: [
+      { school: 'School Of Commerce And Management Studies', courses: ['Ph.D'] },
+      { school: 'School of Arts and Humanity', courses: ['Ph.D.'] },
+      { school: 'School of Yogic Science and Naturopathy', courses: ['Ph.D.'] },
+    ],
+  };
+
   return (
     <div className="container-fluid bd mb-4">
       <div className="dbuu-container">
@@ -12,85 +52,23 @@ function Program() {
         <div className="dbuu-programmes">
           <div className="programme-types">
             <ul>
-              <Link to='/program' className='a1'><li className='bd2 text-white text-center'>UNDERGRADUATE</li></Link>
-              <Link to='/program' className='a1'><li>POSTGRADUATE</li></Link>
-              <Link to='/program' className='a1'><li>DIPLOMA</li></Link>
-              <Link to='/program' className='a1'><li>DOCTORATE</li></Link>
+              <li className={`bd2 text-white text-center ${selectedProgram === 'UNDERGRADUATE' ? 'active' : ''}`} onClick={() => handleProgramClick('UNDERGRADUATE')}>UNDERGRADUATE</li>
+              <li className={`${selectedProgram === 'POSTGRADUATE' ? 'active' : ''}`} onClick={() => handleProgramClick('POSTGRADUATE')}>POSTGRADUATE</li>
+              <li className={`${selectedProgram === 'DIPLOMA' ? 'active' : ''}`} onClick={() => handleProgramClick('DIPLOMA')}>DIPLOMA</li>
+              <li className={`${selectedProgram === 'DOCTORATE' ? 'active' : ''}`} onClick={() => handleProgramClick('DOCTORATE')}>DOCTORATE</li>
             </ul>
           </div>
           <div className="programme-sections">
-            <div className="programme-section">
-              <h3>School of Engineering</h3>
-              <ul>
-                <li>Diploma in CE</li>
-                <li>Diploma in ME</li>
-                <li>Diploma in CSE</li>
-              </ul>
-              <h3>School of Science And Technology</h3>
-              <ul>
-                <li>B.Sc</li>
-                <li>BCA</li>
-                <li>M.Sc</li>
-                <li>MCA</li>
-                <li>Diploma in AI and Machine Learning</li>
-                <li>Data Science & Cloud Technology</li>
-                <li>Cyber Security</li>
-                <li>Forensic Science</li>
-              </ul>
-              <h3>School Of Commerce And Management Studies</h3>
-              <ul>
-                <li>B.Com</li>
-                <li>BBA</li>
-                <li>M.Com</li>
-                <li>MBA</li>
-                <li>Ph.D</li>
-              </ul>
-              <h3>School of Agriculture</h3>
-              <ul>
-                <li>B.Sc (Agriculture)</li>
-                <li>Diploma in Agriculture</li>
-                <li>M.Sc (Agriculture/Horticulture)</li>
-              </ul>
-              <h3>School of Arts and Humanity</h3>
-              <ul>
-                <li>BA (Hindi/Sanskrit/English/Sociology/Education/Master of Social Work)</li>
-                <li>BA (Economics/History/ Political Science/Library Science)</li>
-                <li>B.Ed</li>
-                <li>Ph.D.</li>
-                <li>MA</li>
-              </ul>
-              <h3>School of Yogic Science and Naturopathy</h3>
-              <ul>
-                <li>BNYS</li>
-                <li>BSC</li>
-                <li>M.A</li>
-                <li>Ph.D.</li>
-                <li>M.Sc</li>
-                <li>PGD-Yoga</li>
-              </ul>
-              <h3>School of Nursing, Paramedical and Allied Science</h3>
-              <ul>
-                <li>B.Pharma</li>
-                <li>B.Sc Nursing</li>
-                <li>BPT</li>
-                <li>ANM</li>
-                <li>GNM</li>
-                <li>D.Pharma</li>
-                <li>MPH</li>
-                <li>M.Sc.(Clinical Psychology)</li>
-              </ul>
-              <h3>School of Legal Studies</h3>
-              <ul>
-                <li>BALLB</li>
-                <li>LLB</li>
-              </ul>
-              <h3>School of Hotel Management & Tourism</h3>
-              <ul>
-                <li>Diploma - Hotel Management</li>
-                <li>Bachelor of Hotel Management</li>
-                <li>BBA - Tourism</li>
-              </ul>
-            </div>
+            {programs[selectedProgram].map((section, index) => (
+              <div key={index} className="programme-section">
+                <h3>{section.school}</h3>
+                <ul>
+                  {section.courses.map((course, i) => (
+                    <li key={i}>{course}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>
