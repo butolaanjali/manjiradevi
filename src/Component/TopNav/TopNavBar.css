@@ -1,0 +1,50 @@
+.topbar {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .containerfluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .phdnotice {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 200px; /* Adjust this value to move it towards the center */
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .topnav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 290px; 
+  }
+  
+  .topnav li {
+    margin-left: 15px;
+  }
+  
+  .topnav li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .topnav li a:hover {
+    text-decoration: underline;
+  }
+  
+  .topnav li a i {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  
+  .socialmedia a {
+    margin-left: 10px;
+  }
+  

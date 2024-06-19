@@ -108,20 +108,26 @@ function Home() {
           <div className="col-md-6 mt-2 ">
           <h1><span className="bg3">Academics</span> Notifications</h1>
             <div className="row">
-              <div className="col-md-5">
-                <div className="card bf p-2">
-                  <center><h5 className="bf1 g-0 p-1">18-06-2024</h5></center>
-                  <center><p className="bf3">Application Form Ph.D Entrance Exam <span className="new p-1">new</span></p></center>
-                  <center>
-                    <Link to="/phdpdf" className="btn bf4" data-aos="fade-up">Open PDF</Link>
-                  </center>
-                </div>
-              </div>
-              <div className="col-md-6   ">
-              <div className="card bf mt-2 ">
+             
+              <div className="col-md-4   ">
+              <div className="card bf mt-2 p-3 ">
             <center><h5 className="bf1 g-0 p-1">18-06-2024</h5></center>
-            <center><p className="mt-3 bf3 ">Ph.D Programme Addmissions open-June 2024</p></center>
-      <center> <Link  to="/program"class="btn  bf4  " data-aos="fade-up">Read more</Link></center>
+            <center><p className="mt-3 bf3 ">Details Notifications  Ph.D Entrance Examination session 2024-25 <span className="new p-1">New</span></p></center>
+      <center> <Link  to="/phdpdf"class="btn  bf4  " data-aos="fade-up">Open Pdf</Link></center>
+    </div>
+              </div>
+              <div className="col-md-4   ">
+              <div className="card bf mt-2 p-3 ">
+            <center><h5 className="bf1 g-0 p-1">18-06-2024</h5></center>
+            <center><p className="mt-3 bf3 ">Details Notifications  B.Ed Entrance Examination session 2024-25 <span className="new p-1">New</span></p></center>
+      <center> <Link  to="/bedpdf"class="btn  bf4  " data-aos="fade-up">Open Pdf</Link></center>
+    </div>
+              </div>
+              <div className="col-md-4   ">
+              <div className="card bf mt-2 p-3 ">
+            <center><h5 className="bf1 g-0 p-1">18-06-2024</h5></center>
+            <center><p className="mt-3 bf3 ">Application Form Ph.D & B.Ed Entrance Examination session 2024-25 <span className="new p-1">New</span></p></center>
+      <center> <Link  to="/entrancepdf"class="btn  bf4  " data-aos="fade-up">Open Pdf</Link></center>
     </div>
               </div>
               

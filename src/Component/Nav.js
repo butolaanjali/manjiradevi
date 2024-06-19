@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import TopNavBar from "./TopNav/TopNavbar";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ function Nav() {
 
   return (
     <div>
+      <TopNavBar/>
       <div className="container">
         <div className="row mb-0">
           <div className="col-md-5 mt-0">

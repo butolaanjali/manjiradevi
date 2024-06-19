@@ -1,5 +1,5 @@
 import React from 'react';
-import './Phdnotification.css'; // Ensure this file has valid CSS styles
+import './Phdnotification.css'; 
 
 const Phdnotification = () => {
   const pdfUrl = process.env.PUBLIC_URL + '/phd.pdf';
