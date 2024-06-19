@@ -70,6 +70,8 @@ import Diplomahm from './Component/HotelMangement/Diplomahm';
 import  Bachelorhm from './Component/HotelMangement/Bachelorhm';
 import Bbatourism from './Component/HotelMangement/Bbatourism';
 import Phdnotification from './Component/Notification/Phdnotification';
+import Bednotification from './Component/Notification/Bednotification';
+import Entrance from './Component/Notification/Entrance';
 
 
 
@@ -159,12 +161,14 @@ function App() {
           <Route path='hotelbba' element={<Bbatourism/>}/>
           <Route path='hoteldiploma' element={<Diplomahm/>}/>
           <Route path='hotelbhm' element={<Bachelorhm/>}/>
-         
+          <Route path='phdpdf' element={<Phdnotification/>}/>
+          <Route path='bedpdf' element={<Bednotification/>}/>
+          <Route path='entrancepdf' element={<Entrance/>}/>
 </Routes>
       
         <Footer/>
       </Router>
-      <Counter/>
+     
     </div>
   );
 }
