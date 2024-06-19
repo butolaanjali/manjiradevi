@@ -84,7 +84,7 @@ const OurSchool = () => {
     },
     {
       title: 'School of Nursing, Paramedical & Allied Science',
-      image: 'nursing.jpeg',
+      image: 'llb.jpeg',
       link: '#',
     },
     {

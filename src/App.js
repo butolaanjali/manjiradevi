@@ -72,6 +72,7 @@ import Bbatourism from './Component/HotelMangement/Bbatourism';
 import Phdnotification from './Component/Notification/Phdnotification';
 import Bednotification from './Component/Notification/Bednotification';
 import Entrance from './Component/Notification/Entrance';
+import Accreditations from './Component/Accreditations/Accreditations';
 
 
 
@@ -164,6 +165,7 @@ function App() {
           <Route path='phdpdf' element={<Phdnotification/>}/>
           <Route path='bedpdf' element={<Bednotification/>}/>
           <Route path='entrancepdf' element={<Entrance/>}/>
+          <Route path='accer' element={<Accreditations/>}/>
 </Routes>
       
         <Footer/>

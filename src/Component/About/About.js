@@ -78,7 +78,7 @@ const About = () => {
                     to their roles, ensuring that every student receives individual attention
                     and support. At Smt. Manjira Devi University, we strive to cultivate an
                     enriching educational experience that empowers students to achieve
-                    <center>academic excellence and professional success.</center>
+                 academic excellence and professional success.
                 </p>
 
                 <Link to="/about" class="btn bgd" data-aos="fade-up">Know more</Link>
