@@ -5,13 +5,17 @@ import './TopNavBar.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Custom NextArrow and PrevArrow components
 const NextArrow = (props) => {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{display:'none' }}
+      style={{
+        ...style,
+        display: 'block',
+        background: 'transparent',
+        marginTop: '8px'
+      }}
       onClick={onClick}
     />
   );
@@ -22,14 +26,18 @@ const PrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ display:'none' }}
+      style={{
+        ...style,
+        display: 'block',
+        background: 'transparent',
+        marginTop: '8px'
+      }}
       onClick={onClick}
     />
   );
 };
 
 const TopNavBar = () => {
-  // Settings for the main slider
   const mainSliderSettings = {
     dots: false,
     infinite: true,
@@ -45,15 +53,14 @@ const TopNavBar = () => {
   return (
     <div className="topbar">
       <div className="containerfluid">
-        <div className="phdnotice">
-          {/* Main Slider */}
-          <Slider {...mainSliderSettings} style={{width:"300px"}} >
-            <div>PhD Admission Open June 2024</div>
-            <div>Click here for fee Payment</div>
-            <div>Call at: +917017388084</div>
+        <div className="phdnotice mr-5">
+          <Slider {...mainSliderSettings}>
+            <div className='tt'>PhD Admission Open June 2024</div>
+            <div className='tt'>Click here for fee Payment</div>
+            <div className='tt'>Call at: +917017388084</div>
           </Slider>
         </div>
-        <ul className="topnav">
+        <ul className="topnav   ">
           <li><Link to="/iqac">IQAC</Link></li>
           <li><Link to="/events">EVENTS</Link></li>
           <li><Link to="/login">LOGIN</Link></li>
@@ -77,5 +84,3 @@ const TopNavBar = () => {
 };
 
 export default TopNavBar;
-
-      

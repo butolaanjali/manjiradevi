@@ -42,19 +42,19 @@ const StudentSpeak = () => {
     {
       name: 'Nitesh Kumar',
       batch: 'MBA | Batch 2021-2023',
-      quote: 'I am honoured to be a Dev Bhoomi Uttarakhand University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
+      quote: 'I am honoured to be a Smt. Manjira Devi University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
       image: 'student1.jpeg',
     },
     {
       name: 'Nitesh Kumar',
       batch: 'MBA | Batch 2021-2023',
-      quote: 'I am honoured to be a Dev Bhoomi Uttarakhand University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
+      quote: 'I am honoured to be a Smt. Manjira Devi University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
       image: 'student1.jpeg',
     },
     {
       name: 'Nitesh Kumar',
       batch: 'MBA | Batch 2021-2023',
-      quote: 'I am honoured to be a Dev Bhoomi Uttarakhand University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
+      quote: 'I am honoured to be a Smt. Manjira Devi University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
       image: 'student1.jpeg',
     },
   ];

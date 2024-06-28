@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import "./Nav.css";
 import TopNavBar from "./TopNav/TopNavbar";
 
+
+import Notnav from "./NotNav/Notnav";
 function Nav() {
+  const [showPopup, setShowPopup] = useState(false);
+
+    const togglePopup = () => {
+        setShowPopup(!showPopup);
+    };
+
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
@@ -18,24 +26,7 @@ function Nav() {
   return (
     <div>
       <TopNavBar/>
-      <div className="container">
-        <div className="row mb-0">
-          <div className="col-md-5 mt-0">
-            <img src="manjira.png" height="70px" width="100px" alt="Manjira Logo" />
-          </div>
-          <div className="col-md-3 mt-2">
-            <h5 className="a1"><i className="bi bi-envelope me-3 a"></i>Email</h5>
-            <p className="a11">smtmanjiradeviuniversity2024@gmail.com</p>
-          </div>
-          <div className="col-md-2 mt-2">
-            <h5 className="a1"><i className="bi bi-telephone-fill a me-3"></i>Call</h5>
-            <p className="a11">Call us:+917017388084</p>
-          </div>
-          <div className="col-md-2 mt-3 mb-1">
-            <Link to="/contact" className="btn ms-auto me-auto a2" data-aos="fade-up">Contact Us</Link>
-          </div>
-        </div>
-      </div>
+      <Notnav/>
 
       <nav className="navbar navbar-expand-lg navbar-dark mt-0 p-2">
         <div className="container-fluid">
