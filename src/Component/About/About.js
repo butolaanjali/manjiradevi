@@ -20,14 +20,22 @@ const About = () => {
       <div className="container-fluid mt-5 aboutbg2">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 p-5 ">
-              <h1 className="mb-2 mt-2 about-h1"><span className="about-span">Smt. Manjira</span> Devi University</h1>
+            <div className="col-md-6 p-4 ">
+              <h1 className="mb-2 mt-2 about-h1"><span className="about-span">About </span>Us</h1>
               <p className="mt-3 about-p">
-                Smt. Manjira Devi University is a hub of academic excellence and innovation. Known for its dedicated faculty and diverse programs, the university fosters a nurturing environment for students. Cutting-edge research facilities and a vibrant campus life enrich the educational experience. The university emphasizes holistic development, offering numerous extracurricular activities. With a strong focus on community engagement, it prepares students to be socially responsible leaders. Smt. Manjira Devi University is a beacon of knowledge, shaping the future of education. Its picturesque campus provides an inspiring backdrop for learning and personal growth. The alumni network is robust, helping students build valuable connections in various industries. Regular workshops, seminars, and conferences keep the academic community engaged with the latest developments. The university's commitment to sustainability is reflected in its green initiatives and eco-friendly practices. Smt. Manjira Devi University stands as a testament to the power of education in transforming lives.
+              Smt. Manjira Devi University, Uttarkashi is established as a Private University of Uttarakhand vide Sate Government Notification No 114/XXXVI(3)/2024/13(1)/2024 dated 16th March, 2024.
+              </p>
+              <p className='mt-2 about-p'>
+              The Smt. Manjira Devi Shikshan Avam Prashikshan Sanstan in this remote hilly region have established a new university in Hitanu Dhanari village, a small but historic town on the banks of Bhagirathi river in Uttarkashi, Uttarakhand with the objective of providing quality technical, scientific and vocational education with skills to make the area socio-economically prosperous and to prevent migration of youth. It was an expression of the desire to empower the future generation so that they can overcome their economic and social backwardness, geographical and environmental barriers, re-establish the cultural identity of the local natural and human resources for development.
+
+              </p>
+              <p className='mt-2 about-p'>
+              Smt. Manjeera Devi University, located in the serene Himalayan region of Uttarakshi, Uttarakhand, emerged from over two decades of experience as a group of institutions. Founded on principles of academic excellence, cultural preservation, and environmental stewardship, the university stands as a beacon of holistic education and community empowerment.
+
               </p>
             </div>
 
-            <div className="col-md-6 mm">
+            <div className="col-md-6 p-5">
               <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -36,13 +44,13 @@ const About = () => {
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="img1.jpeg" className="d-block w-100" alt="..." />
+                    <img src="img1.jpeg" className="d-block w-100 about-crousel " alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="img2.jpg" className="d-block w-100" alt="..." />
+                    <img src="img2.jpg" className="d-block w-100 about-crousel" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="img3.jpeg" className="d-block w-100" alt="..." />
+                    <img src="img3.jpeg" className="d-block w-100 about-crousel" alt="..." />
                   </div>
                 </div>
               </div>
@@ -50,7 +58,25 @@ const About = () => {
           </div>
         </div>
       </div>
+<div className='container-fluid mt-5'>
+<div className='container'>
+<div className='row'>
+<h2 className=' about-history'>History <span className='about-span'>and Context:</span></h2>
+<p className='history1 mt-3'>
+Uttarkashi is a town located in<span className='history-span'> Uttarkashi district in Uttarakhand, India.</span> Uttarkashi town is headquarters of the district. Uttarkashi is also known as Somya Kashi. Uttarkashi is a Hindu religious place for spiritual and adventurous tourism. Uttarkashi town is also called as Shivnagri. The town has number of temples and ashrams. Uttarkashi is known for its religious people, weather, education. Uttarkashi is situated on the banks of river Bhagirathi at an altitude of 1158 m above sea level. Uttarkashi is generally known as a holy town close to Rishikesh. 
 
+</p>
+<p className='history1 mt-2'>
+Its holds deep cultural roots and spiritual significance in the Indian Himalayas. The region is renowned for its natural beauty, ancient temples, and as a gateway to numerous pilgrimage sites and trekking destinations. The university's establishment builds upon this rich legacy,<span className='history-span'> integrating local traditions with modern educational practices</span> to foster a unique learning environment.
+
+</p>
+<p className='history1 mt-2'>
+In summary,<span className='history-span'> Smt. Manjeera Devi University</span> exemplifies a blend of tradition and modernity, dedicated to shaping future leaders who are grounded in local ethos yet globally competent, while championing sustainable development in the Himalayan region
+
+</p>
+</div>
+</div>
+</div>
       <div className="container-fluid mt-5 about mb-5">
         <div className="row p-5">
           <div className="col-md-2"></div>
@@ -59,7 +85,7 @@ const About = () => {
               <h1 className="bga">Manjira Devi University</h1>
               <h1 className="bgb">The Best University in Uttarkashi, Uttarakhand</h1>
               <p className="bghu">
-                Welcome to Smt. Manjira Devi University. Our university is housed in a magnificent, expansive building that offers a refreshing environment, naturally inspiring students to excel. We are dedicated to providing the highest quality education, facilitated by our experienced and highly educated faculty members. We proudly offer a full-time, two-year Bachelor of Education program, approved by the National Council for Teacher Education (NCTE) in Jaipur and affiliated with H.N.B. Garhwal University in Sri Nagar, Uttarakhand. Our faculty members are not only well-qualified but also deeply committed to their roles, ensuring that every student receives individual attention and support. At Smt. Manjira Devi University, we strive to cultivate an enriching educational experience that empowers students to achieve academic excellence and professional success. We believe in fostering a holistic development environment where students can explore and grow. Join us to embark on a journey of knowledge, growth, and success.
+              The Smt. Manjira Devi Shikshan Avam Prashikshan Sanstan in this remote hilly region have established a new university in Hitanu Dhanari village, a small but historic town on the banks of Bhagirathi river in Uttarkashi, Uttarakhand with the objective of providing quality technical, scientific and vocational education with skills to make the area socio-economically prosperous and to prevent migration of youth. It was an expression of the desire to empower the future generation so that they can overcome their economic and social backwardness, geographical and environmental barriers, re-establish the cultural identity of the local natural and human resources for development.
               </p>
 
               <Link to="/about" className="btn bgd" data-aos="fade-up">Know more</Link>

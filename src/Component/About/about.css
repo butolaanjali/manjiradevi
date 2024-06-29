@@ -5,6 +5,11 @@
     width: 100%;
     background-repeat: no-repeat;
 }
+.about-history{
+    font-weight: bold;
+        font-family: serif;
+    font-size: 35px;
+}
 .aboutsmt {
     font-weight: bold;
     padding-top: 11%;
@@ -16,13 +21,27 @@
 }
 .about-h1 {
     font-family: serif;
+    font-weight: bold;
+}
+.history1{
+    font-size: 19px;
+    font-family: serif;
+    text-align: justify;
+}
+.history-span{
+    font-weight: bold;
 }
 .about-p {
     text-align: justify;
-    font-family: sans-serif;
+    font-family: serif;
+    font-size: 17px;
 }
 .about-span {
     color: #FD5F00;
+}
+.about-crousel{
+    width: auto;
+    height:500px;
 }
 .bghu {
     font-family: sans-serif;

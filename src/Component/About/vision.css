@@ -73,6 +73,18 @@
   box-shadow: 0 0 10px rgba(99, 80, 80, 0.925);
   background-color: #fff;
   border-radius: 8px;
+  text-align: justify;
+}
+.mission1{
+  font-size: 18px;
+  font-family: serif;
+  text-align: justify;
+}
+.mission2{
+  font-size: 30px;
+  font-family: serif;
+  text-align: justify;
+  font-weight: bold;
 }
 
 .vision h2, .mission h2 {
