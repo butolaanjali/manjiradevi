@@ -18,9 +18,27 @@
 .baartsbg2 {
   background-color: rgba(192, 178, 178, 0.2);
 }
+.whycolor{
+  background-color: #F6F7F9;
+}
 
 .baarts-span {
   color: #FD5F00;
+}
+.promise-help{
+  background-color: white;
+  box-shadow: 4px 4px 8px ;
+}
+.promise-bg2{
+  color:#0D1128;
+  font-family: serif;
+  font-size: 41px;
+  font-weight: bold;
+}
+.promise-bg3{
+  font-family: serif;
+  font-size: 19px;
+  text-align: justify;
 }
 
 .baarts-heading {
@@ -72,11 +90,11 @@
   }
 
   .nursingh {
-    font-size: 1.5rem;
+    font-size: 35px;
   }
 
   .nursing-p {
-    font-size: 1rem;
+    font-size: 15px;
   }
 
   .carousel-image {
@@ -121,11 +139,11 @@
   }
 
   .nursingh {
-    font-size: 1rem;
+    font-size: 30px;
   }
 
   .nursing-p {
-    font-size: 0.75rem;
+    font-size: 18px;
   }
 
   .carousel-image {

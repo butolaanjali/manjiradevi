@@ -23,11 +23,11 @@ const Artsschool = () => {
         <div className="container p-5">
           <div className="row">
             <div className="col-md-6">
-              <h2 className="mb-2 mt-2 nursingh">
-                <span className="nursing-span">Best Arts and Humanity </span> Science College in Uttarkashi
+              <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">About </span>Us
               </h2>
-              <p className="mt-3 nursing-p">
-                Smt. Manjira Devi University in Uttarkashi excels in the field of Arts and Humanities, offering a diverse range of programs that foster creativity, critical thinking, and cultural understanding. The university's curriculum is designed to explore various disciplines such as literature, history, philosophy, languages, and performing arts. Students benefit from a rich academic environment supported by experienced faculty who encourage intellectual growth and expression. Practical components such as workshops, seminars, and cultural events enhance learning and promote interdisciplinary perspectives. Smt. Manjira Devi University is committed to producing well-rounded graduates equipped with both academic knowledge and practical skills to contribute meaningfully to society and the arts.
+              <p className="mt-4 nursing-p">
+              The School of Arts and Humanities at Smt. Manjira Devi University, Uttarkashi is a vibrant academic community dedicated to the study and exploration of human culture, thought, and expression. Our programs are designed to foster critical thinking, creativity, and a deep understanding of the diverse aspects of human life, both past and present.
               </p>
             </div>
             <div className="col-md-6">
@@ -36,6 +36,49 @@ const Artsschool = () => {
           </div>
         </div>
       </div>
+      <div className='container-fluid mt-3 whycolor p-5'>
+<div className='container'>
+<div className='row'>
+<h2 className=' about-history'>Why  <span className='about-span'>Choose Us?</span></h2>
+<p className="mission1 mt-3">
+<span className="history-span">1.	Experienced Faculty:</span> Our faculty members are highly qualified, with extensive academic and professional experience.
+</p>
+<p className="mission1 mt-2 ">
+            <span className="history-span">2.	Comprehensive Curriculum:</span> We offer a wide range of programs and specializations to cater to diverse academic interests and career goals.
+</p>
+<p className="mission1 mt-2 ">
+           
+<span className="history-span">3.	Research Opportunities: </span>Students have access to cutting-edge research facilities and are encouraged to engage in innovative projects.
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">4.	Interdisciplinary Approach:</span> Our programs promote interdisciplinary study, allowing students to explore connections between different fields.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">5.	Cultural Engagement:</span> Regular events, workshops, and study abroad programs enhance cultural awareness and intellectual engagement.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">6.	Global Perspectives:</span> Our curriculum incorporates global perspectives, preparing students to thrive in an interconnected world.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">7.	Career Support:</span> We provide robust career services, including internships, job placements, and career counselling.
+</p>
+</div>
+<div className='row mt-3'>
+    <div className='col-md-12 p-5 promise-help'>
+      <h2 className='promise-bg2'>Dean's Message </h2>
+      <p className='mt-4 promise-bg3'>Welcome to the School of Arts and Humanities at Smt. Manjira Devi University. It is my great honor and privilege to serve as the Dean of this vibrant and dynamic academic community.<br/>
+In the School of Arts and Humanities, we explore the rich tapestry of human experience through a wide range of disciplines, including English, Hindi, Sanskrit, History, Political Science, Sociology, Education, Economics, and Library and Information Science.<br/> Our programs are designed to cultivate critical thinking, creative expression, and a deep understanding of cultural and historical contexts.
+
+</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
       <Artscourses />
       <div className="container mt-5">
         <div className="row">
