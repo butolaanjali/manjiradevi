@@ -22,7 +22,13 @@ const Certificateyoga = () => {
     <div className='col-md-6 '>
     <h2 className='mb-2 mt-2 bscyogic-h1'><span className='bscyogic-span'>Certificate in yoga  </span> College in Uttarkashi</h2>
     <p className='mt-3 bscyogic-p'>
-    Smt. Manjira Devi University offers a B.Sc. in Yogic Science and Naturopathy, combining traditional yoga practices with naturopathic treatments. This 3-year program includes training in yoga asanas, pranayama, meditation, diet, hydrotherapy, and herbal medicine, along with studies in anatomy, physiology, and preventive healthcare. Graduates can work as yoga instructors, naturopaths, wellness coaches, or health educators. Admission requires higher secondary education, preferably in science. The course emphasizes holistic health, preparing students for various wellness industry roles. For more information, visit the university's official website or contact the admissions office.
+    The Certificate in Yoga program at Smt. Manjira Devi University in Uttarkashi offers an introduction to the principles and practices of yoga. This program emphasizes physical, mental, and spiritual well-being through asanas, meditation, and breathing techniques. Students gain practical experience and theoretical knowledge under the guidance of experienced instructors. The program aims to promote holistic health and prepare students for careers in yoga instruction and wellness.
+
+
+
+
+
+
 </p>
  </div>
  <div class="col-md-6 ">

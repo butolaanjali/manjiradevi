@@ -27,7 +27,7 @@ const Mlibarts = () => {
                 <span className="arts-span">Best Master of Library and Information Science (M.Lib.)</span> College in Uttarkashi
               </h2>
               <p className="mt-3 arts-p">
-                At Smt. Manjira Devi University in Uttarkashi, BA in Arts and Humanities offers a comprehensive exploration of subjects like literature, history, philosophy, languages, and performing arts. This undergraduate program is designed to provide students with a well-rounded education in the liberal arts, emphasizing critical thinking, cultural appreciation, and communication skills. The curriculum integrates theoretical knowledge with practical applications through workshops, seminars, and cultural events. Faculty members are dedicated to fostering intellectual growth and preparing students for diverse career paths in education, journalism, public relations, and various creative and cultural industries.
+              The Master of Library and Information Science (M.Lib.) program at Smt. Manjira Devi University in Uttarkashi provides an in-depth study of literature, history, philosophy, languages, and performing arts. Emphasizing advanced critical thinking and research skills, the curriculum combines theoretical knowledge with practical experience through workshops, seminars, and cultural events. Expert faculty members guide students in achieving intellectual growth and prepare them for leadership roles in education, journalism, public relations, and various creative and cultural industries. This program aims to develop proficient professionals equipped with a comprehensive understanding of the liberal arts.
               </p>
             </div>
             <div className="col-md-6">

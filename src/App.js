@@ -23,6 +23,7 @@ import Cse from './Component/Engineer/Cse';
 import School2 from './Component/Science/School2';
 import Nursing from './Component/Nursing/Nursing';
 
+
 import  Ai from './Component/Science/Ai';
 import Bca from './Component/Science/Bca';
 import Bsc from './Component/Science/Bsc';
@@ -72,8 +73,15 @@ import Bbatourism from './Component/HotelMangement/Bbatourism';
 import Phdnotification from './Component/Notification/Phdnotification';
 import Bednotification from './Component/Notification/Bednotification';
 import Entrance from './Component/Notification/Entrance';
+import Electrical from './Component/Engineer/Electrical';
+import Computer from './Component/Engineer/Computer';
+import Blibarts from './Component/ArtsHumanity/Blibarts';
+import Mlibarts from './Component/ArtsHumanity/Mlibarts';
+import Certificateyoga from './Component/Yogicscience/Certificateyoga';
 
-
+import Msg from './Component/About/Msg';
+import Registarmsg from './Component/About/Registarmsg';
+import Visemsg from './Component/About/Visemsg';
 
 
 
@@ -164,6 +172,14 @@ function App() {
           <Route path='phdpdf' element={<Phdnotification/>}/>
           <Route path='bedpdf' element={<Bednotification/>}/>
           <Route path='entrancepdf' element={<Entrance/>}/>
+          <Route path='electrical' element={<Electrical/>}/>
+          <Route path='computer' element={<Computer/>}/>
+          <Route path='blibarts' element={<Blibarts/>}/>
+          <Route path='mlibarts' element={<Mlibarts/>}/>
+          <Route path='certificateyoga' element={<Certificateyoga/>}/>
+          <Route path='msg' element={<Msg/>}/>
+          <Route path='registarmsg' element={<Registarmsg/>}/>
+          <Route path='visemsg' element={<Visemsg/>}/>
 </Routes>
       
         <Footer/>

@@ -94,7 +94,7 @@ In summary,<span className='history-span'> Smt. Manjeera Devi University</span> 
           <div className="col-md-2"></div>
         </div>
       </div>
-
+     
       <Gallery />
       <Library />
     </div>

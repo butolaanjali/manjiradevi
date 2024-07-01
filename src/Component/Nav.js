@@ -83,16 +83,15 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/engineer">Diploma in CE</Link></li>
                           <li><Link className="dropdown-item" to="/mechanic">Diploma in ME</Link></li>
                           <li><Link className="dropdown-item" to="/cse">Diploma in CSE</Link></li>
+                          <li><Link className="dropdown-item" to="/electrical">Diploma in Electrical Engineering</Link></li>
+                          <li><Link className="dropdown-item" to="/computer">B.Tech CS & Engineering</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/school2"><i className="fas fa-arrow-circle-right"></i> School of Science And Technology</Link></li>
                         <ul className="nested-dropdown">
                           <li><Link className="dropdown-item" to="/bsc">B.Sc</Link></li>
                           <li><Link className="dropdown-item" to="/bca">BCA</Link></li>
-                          <li><Link className="dropdown-item" to="/ai">Diploma in AI And Machine Learning</Link></li>
-                          <li><Link className="dropdown-item" to="/data">Diploma in Data Science & Cloud Technology</Link></li>
-                          <li><Link className="dropdown-item" to="/cyber">Diploma in Cyber Security</Link></li>
-                          <li><Link className="dropdown-item" to="/foresic">Diploma in Forensic Science</Link></li>
-                          <li><Link className="dropdown-item" to="/msc">M.Sc</Link></li>
+                           <li><Link className="dropdown-item" to="/data">Diploma in Data Science & Cloud Technology</Link></li>
+                         <li><Link className="dropdown-item" to="/msc">M.Sc</Link></li>
                           <li><Link className="dropdown-item" to="/mca">MCA</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/school3"><i className="fas fa-arrow-circle-right"></i> School Of Commerce And Management Studies</Link></li>
@@ -116,6 +115,8 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/bedarts">B.Ed</Link></li>
                           <li><Link className="dropdown-item" to="/maarts">M.A</Link></li>
                           <li><Link className="dropdown-item" to="/phdarts">Ph.D</Link></li>
+                          <li><Link className="dropdown-item" to="/blibarts">B.Lib</Link></li>
+                          <li><Link className="dropdown-item" to="/mlibarts">M.Lib</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/yogicschool"><i className="fas fa-arrow-circle-right"></i> School of Yogic Science and Naturopathy</Link></li>
                         <ul className="nested-dropdown">
@@ -125,16 +126,17 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/yogicmsc">M.Sc</Link></li>
                           <li><Link className="dropdown-item" to="/yogicphd">Ph.D</Link></li>
                           <li><Link className="dropdown-item" to="/yogicpgd">PGD-Yoga</Link></li>
+                          <li><Link className="dropdown-item" to="/certificateyoga">Certificate in Yoga</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/nursingschool"><i className="fas fa-arrow-circle-right"></i> School of Nursing and Paramedical Science</Link></li>
                         <ul className="nested-dropdown">
                           <li><Link className="dropdown-item" to="/nursingbpharma">B.Pharma</Link></li>
                           <li><Link className="dropdown-item" to="/nursingbsc">B.Sc Nursing</Link></li>
-                          <li><Link className="dropdown-item" to="/nursingmsc">M.Sc in Clinical Psychology</Link></li>
+                          <li><Link className="dropdown-item" to="/nursingmsc">BMLT</Link></li>
                           <li><Link className="dropdown-item" to="/nursingbpt">BPT</Link></li>
                           <li><Link className="dropdown-item" to="/nursinggnm">GNM</Link></li>
                           <li><Link className="dropdown-item" to="/nursinganm">ANM</Link></li>
-                          <li><Link className="dropdown-item" to="/nursingmph">MPH</Link></li>
+                         
                           <li><Link className="dropdown-item" to="/nursingdpharma">D.Pharma</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/schoollegal"><i className="fas fa-arrow-circle-right"></i> School of Legal Studies</Link></li>

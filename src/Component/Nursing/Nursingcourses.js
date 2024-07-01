@@ -11,7 +11,7 @@ const Nursingcourses = () => {
 <div class="card cad-col">
 <img src="course1.jpg" class="card-img-top" alt="..." className='card-image1'/>
 <h4 class="card-title cardh  mt-3 mb-3 "  >Bachelor of Medical Laboratory Technology (BMLT)</h4>
-<Link  to="/msccp"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
+<Link  to="/nursingmsc"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
           <div className='col-md-3 hhover  mt-2 '>
