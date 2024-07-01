@@ -3,14 +3,14 @@ import "./school1.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Mechanic() {
+function Electrical() {
   return (
     <div className="School1-page">
        <div class="container-fluid mechanical-image  ">
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >Diploma - Mechanical Engineering</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >Diploma - Electrical Engineering</h2></center>
    
   </div>
       </div>
@@ -34,21 +34,20 @@ function Mechanic() {
           <div
             className="col-md-6 text-column"
             style={{ fontSize: "20px",textAlign:"justify",fontFamily:"serif" }}
-          >Covers basics of mechanical engineering, including thermodynamics, manufacturing processes, machine design, and maintenance.
+          >Provides understanding of electrical engineering principles, circuits, power systems, electronics, and instrumentation.
           <br></br>
           
                 <span className="nursing-span">Duration: </span>
                 <span> 3 Years (6 Semesters).</span><br/>
                 <span className="nursing-span">Eligibility: </span> The candidate must have passed 10th examination or equivalent with 40% marks or equivalent Grade Point Average (GPA) from a recognized board  
               <br/>
-                <span className="nursing-span">Duration & Eligibility (Lateral Entry): </span> 2 Years (4 Semesters). 10+2 or equivalent with PCM OR ITI Diploma (2 Years) with 40% marks or equivalent Grade Point Average (GPA) from a recognized board.
-              <br/>
+                <span className="nursing-span">Duration & Eligibility (Lateral Entry): </span>  2 Years (4 Semesters). 10+2 or equivalent with PCM OR ITI Diploma (2 Years) with 40% marks or equivalent Grade Point Average (GPA) from a recognized board.
               <span className="nursing-span">Career Opportunities: </span>
                 <span> <br/>
-                 <b>1.Mechanical engineering technician, </b> <br/>
-                 <b>2.Maintenance engineer</b><br/>
-                 <b>3.Production supervisor,  </b><br/>
-                 <b>4.Quality control inspector</b></span><br/><br/>
+                 <b>1.Electrical engineering technician,  </b> <br/>
+                 <b>2.Electrician,</b><br/>
+                 <b>3.Control systems technician,   </b><br/>
+                 <b>4.Power plant operator.</b></span><br/><br/>
               </div>
         &emsp;&emsp;  <div className="col-md-4 image-column">
             <img
@@ -66,4 +65,4 @@ function Mechanic() {
   );
 }
 
-export default Mechanic;
+export default Electrical;

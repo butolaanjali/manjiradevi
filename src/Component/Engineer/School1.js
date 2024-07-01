@@ -20,8 +20,8 @@ function School1() {
           </div>
         </div>
       </div>
-
-      <div className="container mt-3">
+      <div className="container-fluid mt-5">
+<div className="container p-2">
         <div
           className="row"
           style={{
@@ -30,23 +30,18 @@ function School1() {
             boxShadow: "10px 10px 20px rgb(240, 117, 3)",
           }}
         >
+          <br></br>
+          <div className="col-md-6"></div>
+          <h2 className="mb-2 mt-1 nursingh">
+                <span className="nursing-span">About </span>Us
+              </h2>
           <div className="col-md-6 text-column"
                style={{ fontSize: "1.2rem", fontFamily: "serif", textAlign: "justify" }}>
-            The School of Engineering is known for its ability to enhance creative
-            skills through excellent teaching and hands-on training. We intend to
-            meet the requirements of the students in almost all the engineering
-            disciplines of the university. The school aims to produce versatile
-            students, making them ready to be employed in both the private and
-            government sectors.The courses are designed to equip students with
-            lifelong learning skills, a focus on a wide range of contemporary
-            issues, and mandatory social and professional training. Engineering
-            is applied to many areas of work, so the coursework starts broad with
-            introductory and foundational courses, and concludes with topics like
-            management, computer systems, electrical engineering, and applied
-            mechanics. The school has well-equipped laboratories and innovative
-            pedagogy that focuses on creating links between theory and practical.
+            Welcome to the School of Engineering, where innovation meets excellence in education. Our institution is dedicated to shaping the engineers of tomorrow, equipping them with the skills, knowledge, and mindset needed to tackle global challenges and drive technological advancements.
+            At the School of Engineering, we offer a comprehensive range of undergraduate and postgraduate programs in various disciplines such as Mechanical Engineering, Electrical Engineering, Computer Science, Civil Engineering, and more. Each program is designed with a strong emphasis on hands-on learning, cutting-edge research, and practical application, ensuring that our graduates are well-prepared for successful careers in their respective fields.<br></br>
+            
           </div>
-          <div className="col-md-6 image-column">
+          &emsp;&emsp;&emsp;<div className="col-md-4 image-column">
             <img
               className="img-fluid"
               src="/vision.png"
@@ -54,10 +49,61 @@ function School1() {
             />
           </div>
         </div>
+        </div>
+        </div>
+        <div className='container-fluid mt-3 whycolor p-4'>
+<div className='container'>
+<div className='row'>
+<h2 className=' about-history'>Why  <span className='about-span'>Choose Us?</span></h2>
+<p className="mission1 mt-3">
+<span className="history-span">1.	Comprehensive Programs:</span> We offer a wide range of diploma, and undergraduate nd postgraduate programs in diverse engineering disciplines such as Mechanical Engineering, Electrical Engineering, Computer Science, Civil Engineering, and more. Our curriculum is designed to blend theoretical knowledge with practical experience, ensuring our graduates are well-prepared for the challenges of the industry.
+</p>
+<p className="mission1 mt-2 ">
+            <span className="history-span">2.Expert Faculty</span> Our faculty members are distinguished experts and researchers in their fields. They bring extensive industry experience and academic credentials to the classroom, providing students with top-notch education and mentorship.
+</p>
+<p className="mission1 mt-2 ">
+           
+<span className="history-span">3.	State-of-the-Art Facilities: </span>The School of Engineering boasts modern laboratories, workshops, and research centers equipped with the latest technology. These facilities provide students with hands-on learning opportunities and foster innovation and experimentation.
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">4.	Research Opportunities:</span> We encourage and support research initiatives across various engineering disciplines. Students have the opportunity to collaborate with faculty on cutting-edge research projects that contribute to advancements in their fields.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">5.Industry Connections:</span>We maintain strong partnerships with industry leaders and organizations. Through internships, industry projects, and guest lectures, students gain practical insights and networking opportunities that enhance their professional development.
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">6.Career Preparation:</span> Our programs are designed to equip students with not only technical skills but also soft skills such as communication, teamwork, and problem-solving. We offer career counseling, workshops, and placement assistance to help students launch successful careers in engineering.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">7.	Global Perspectives:</span> We embrace diversity and foster a global outlook among our students. Our programs include opportunities for international collaborations, study abroad programs, and exposure to global engineering practices.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">8.	Community and Engagement: </span>The School of Engineering is a vibrant community where students are encouraged to participate in extracurricular activities, student clubs, and events. We promote leadership development and personal growth alongside academic excellence.
+</p>
+
+</div>
+<div className='row mt-3'>
+    <div className='col-md-12 p-5 promise-help'>
+      <h2 className='promise-bg2'>Dean's Message </h2>
+      <p className='mt-4 promise-bg3'>Welcome to the School of Engineering, a vibrant community dedicated to excellence in education, innovation, and impactful engineering solutions.<br/>
+      As Dean, I am honored to lead a distinguished faculty committed to nurturing aspiring engineers like you. Our mission is clear: to provide a transformative educational experience that prepares you not only for the challenges of today but also for the opportunities of tomorrow.<br/> At the School of Engineering, you will find a dynamic environment where theoretical knowledge meets practical application. Our state-of-the-art laboratories, equipped with cutting-edge technology, provide the perfect platform for hands-on learning and experimentation. Whether you are exploring the intricacies of computer algorithms, designing sustainable structures, optimizing mechanical systems, or delving into the complexities of electrical circuits, our programs are designed to inspire creativity and innovation.
+</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+<div className='container-fluid mt-4 baartsbg2 p-4'>
+<div className="container mt-3">
+<h1 className=' baarts-heading mb-3'>Our <span className='baarts-span'>Courses</span> </h1>
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h4 className="card-title khusbhucard-heading">Diploma in CE</h4>
+              <h4 className="card-title khusbhucard-heading">Diploma - Civil Engineering</h4>
               <p className="card-text khusbhucard-paiding">
                 Learn the fundamentals of Civil Engineering and develop skills in
                 designing, building, and maintaining infrastructure.
@@ -67,7 +113,7 @@ function School1() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title khusbhucard-heading">Diploma in ME</h5>
+              <h5 className="card-title khusbhucard-heading">Diploma - Mechanical Engineering</h5>
               <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
@@ -77,7 +123,7 @@ function School1() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title khusbhucard-heading">Diploma in CSE</h5>
+              <h5 className="card-title khusbhucard-heading">Diploma - CS & Engineering</h5>
               <p className="card-text khusbhucard-paiding">
                 Dive into the world of Computer Science and Engineering and
                 develop skills in designing, developing, and maintaining software
@@ -86,8 +132,31 @@ function School1() {
               <Link to="/cse" className="btn btn-primary">Know more</Link>
             </div>
           </div>
+          <div className="col-md-4">
+            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
+              <h5 className="card-title khusbhucard-heading">Diploma - Electrical Engineering</h5>
+              <p className="card-text khusbhucard-paiding">
+                Dive into the world of Electrical Engineering and
+                develop skills in designing, developing, and maintaining
+                systems.
+              </p>
+              <Link to="/electrical" className="btn btn-primary">Know more</Link>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
+              <h5 className="card-title khusbhucard-heading">B.Tech CS & Engineering </h5>
+              <p className="card-text khusbhucard-paiding">
+                Dive into the world of CS & Engineering and
+                develop skills in designing, developing, and maintaining software
+                systems.
+              </p>
+              <Link to="/computer" className="btn btn-primary">Know more</Link>
+            </div>
+          </div>
         </div>
-      </div>
+        </div>
+        </div>
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">

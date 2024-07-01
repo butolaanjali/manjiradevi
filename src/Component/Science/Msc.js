@@ -10,7 +10,7 @@ function Msc() {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >  Master of Science (M.sc)</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >  Master of Science - PCM/PCB/ZBC/CS</h2></center>
    
   </div>
       </div>
@@ -28,12 +28,27 @@ function Msc() {
         >
           <br></br>
           <div className="col-md-0"></div>
+          <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">Course </span>Overview
+              </h2>
           <div
-            className="col-md-6 text-column p-3"
-            style={{ fontSize: "18px",textAlign:"justify",fontFamily:"serif"}}
-          >
-           The Department of Master of Science (MSc) is a prestigious academic division within the School of Science and Technology, dedicated to advanced scientific education and research. This department offers a range of MSc programs designed to provide in-depth knowledge and specialized skills in various scientific disciplines. The programs are tailored to equip students with the expertise needed to pursue professional careers or further academic research in their chosen fields.<br></br>
-           The Department of MSc is committed to fostering a stimulating academic environment that encourages innovation, critical thinking, and scientific excellence. It aims to produce graduates who are well-equipped to contribute to scientific advancements and address global challenges through research and professional practice. </div>
+            className="col-md-6 text-column"
+            style={{ fontSize: "20px",textAlign:"justify",fontFamily:"serif" }}
+          >Advanced study in Physics, Chemistry, Mathematics, Biology, or Computer Science, depending on the chosen specialization. Emphasizes research, advanced theoretical concepts, and practical applications.
+          <br></br>
+          
+                <span className="nursing-span">Duration: </span>
+                <span>2 Years (4 Semesters)</span><br/>
+                <span className="nursing-span">Eligibility: </span>  Bachelor’s degree in relevant discipline (e.g., B.Sc - PCM/PCB/ZBC/CS). 
+              <br/>
+              <span className="nursing-span">Career Opportunities:</span>Varied based on specialization:
+                <span> <br/>
+                 <b>1.PCM:</b> Research scientist, physicist, mathematician, data analyst, statistician.<br/>
+                 <b>2.PCB: </b>Biotechnologist, microbiologist, biochemist, medical researcher, pharmacologist.<br/>
+                 <b>3.ZBC: </b>Ecologist, wildlife biologist, botanist, environmental scientist, agricultural researcher.<br/>
+                 <b>4.CS: </b>Data scientist, software engineer, cyber security analyst, AI specialist, IT project manager.<br/>
+                 </span><br/><br/>
+              </div>
          &emsp;&emsp;&emsp; <div className="col-md-4 image-column"><br/>
             <img
               style={{ height: "65%" }}
@@ -45,29 +60,7 @@ function Msc() {
         </div>
         <br></br><br></br>
         
-        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
-            <div className="row p-3" style={{
-            border: "2px",
-            borderRadius: "20px",
-            boxShadow: "10px 10px 20px rgb(240, 117, 3)",
-          }}>
-            <div className="col-md-0"></div>
-            <div className="col-md-6"><br></br>
-            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3 className="library-heading">Duration</h3>
-            <p className="nursing-p">3 yrs. (6 Semesters)</p><br></br>
-            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
-            <p className="nursing-p"><i className="fas fa-arrow-circle-right"></i>Undergraduate Degree: A bachelor's degree in a relevant field of science or engineering from a recognized institution.<br></br><br></br>
-            <i className="fas fa-arrow-circle-right"></i>Minimum Marks: A minimum aggregate score, typically around 55% to 60%, depending on the institution. </p>
-        </div>
-        &emsp; &emsp; &emsp; &emsp; &emsp;<div className="col-md-4 image-column"><br/>
-            <img
-              style={{ height: "75%" }}
-              src="/science1.jpeg"
-              alt="School Vision"
-            />
-          </div>
-        </div>
+       
       </div>
       
       <Library/>

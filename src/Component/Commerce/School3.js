@@ -10,14 +10,14 @@ function School3() {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > School Of Commerce and Management</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >School of Commerce and Management Studies</h2></center>
    
   </div>
       </div>
     </div>
 </div>
-     
-      <div className="container mt-3">
+<div className="container-fluid mt-5">
+      <div className="container p-2">
         <div
           className="row"
           style={{
@@ -27,23 +27,72 @@ function School3() {
           }}
         >
           <br></br>
-          <div className="col-md-0"></div>
+          <div className="col-md-6"></div>
+          <h2 className="mb-2 mt-1 nursingh">
+                <span className="nursing-span">About </span>Us
+              </h2>
           <div className="col-md-6 text-column p-3" style={{ fontSize: "18px",fontFamily:"serif",textAlign:"justify" }}>
-            The School of Commerce and Management is a premier center for education in business, finance, and management. It aims to equip students with the skills, knowledge, and professional acumen necessary to excel in the dynamic world of commerce and business. The department offers a range of undergraduate and postgraduate programs designed to develop proficient professionals who can contribute to various sectors, including corporate, public, and entrepreneurial domains.<br></br>
-            The Department of Commerce and Management is committed to providing high-quality education and fostering a learning environment that prepares students for successful careers in business and management. With a focus on academic excellence, practical experience, and holistic development, the department aims to produce competent and responsible professionals who can contribute effectively to the global economy.
+          The School of Commerce and Management Studies at Smt. Manjira Devi University, Uttarkashi, is dedicated to providing top-tier education and fostering excellence in the fields of business, commerce, and management. Our school offers a wide array of programs designed to equip students with the knowledge, skills, and experiences needed to excel in the dynamic world of business. Our comprehensive curriculum, experienced faculty, and strong industry connections ensure that our graduates are well-prepared to meet the demands of the global marketplace.
           </div>
+          
           <div className="col-md-4 image-column">
             <img style={{ height: "85%" }} src="/comm1.jpeg" alt="commerce" className="img-fluid" />
           </div>
-          <div className="col-md-1"></div>
+          </div>
+          </div>
         </div>
+        <div className='container-fluid mt-3 whycolor p-4'>
+<div className='container'>
+<div className='row'>
+<h2 className=' about-history'>Why  <span className='about-span'>Choose Us?</span></h2>
+<p className="mission1 mt-3">
+<span className="history-span">1.	Experienced Faculty:</span> Our faculty members are highly qualified, with extensive academic and industry experience.
+</p>
+<p className="mission1 mt-2 ">
+            <span className="history-span">2.Comprehensive Curriculum: </span> We offer a wide range of programs and specializations to cater to diverse academic interests and career goals.
+</p>
+<p className="mission1 mt-2 ">
+           
+<span className="history-span">3.	Research Opportunities</span>Students have access to cutting-edge research facilities and are encouraged to engage in innovative projects.
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">4.Industry Connections:</span> Strong partnerships with industry leaders provide valuable networking opportunities and real-world experience
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">5.Career Preparation:</span> Our programs are designed to equip students with not only technical skills but also soft skills such as communication, teamwork, and problem-solving. We offer career counseling, workshops, and placement assistance to help students launch successful careers in engineering.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">6.	Global Perspectives:</span> Our curriculum incorporates global perspectives, preparing students to thrive in an interconnected world.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">7.	Career Support: </span>We provide robust career services, including internships, job placements, and career counselling.
+</p>
+
+</div>
+<div className='row mt-3'>
+    <div className='col-md-12 p-5 promise-help'>
+      <h2 className='promise-bg2'>Dean's Message </h2>
+      <p className='mt-4 promise-bg3'>As the Dean of this prestigious university, it is my honor to extend a warm welcome to all our students, faculty, staff, and partners. Our School stands at the forefront of business education, driven by a commitment to excellence, innovation, and the holistic development of our students.<br/>
+      In today’s dynamic and interconnected world, the role of commerce and management education has never been more critical. At Smt. Manjira Devi University, Uttarkashi,  we equip our students with the knowledge, skills, and ethical foundation necessary to navigate and lead in the global marketplace. Our rigorous academic programs, coupled with real-world experiences, prepare our graduates to become influential leaders and change makers in their respective fields.<br/>Our faculty comprises distinguished scholars and industry experts who are dedicated to fostering an environment of intellectual curiosity and practical insight. Their research and teaching not only contribute to the advancement of knowledge but also ensure that our curriculum remains relevant and forward-thinking.
+</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+<div className='container-fluid mt-4 baartsbg2 p-4'>
+<div className="container mt-3">
+<h1 className=' baarts-heading mb-3'>Our <span className='baarts-span'>Courses</span> </h1>
         <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
               <h5 className="card-title khusbhucard-heading">B.Com</h5>
               <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
-                designing, building, and maintaining infrastructure.
+                Learn the fundamentals of B.Com and develop skills in
+                Financial Accounting, Business Law, Economics, Taxation and etc .
               </p>
               <Link  to="/bcom" className="btn btn-primary">Know more</Link>
              
@@ -53,8 +102,8 @@ function School3() {
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
               <h5 className="card-title khusbhucard-heading">BBA</h5>
               <p className="card-text khusbhucard-paiding">
-                Explore the world of Mechanical Engineering and develop skills in
-                designing, manufacturing, and maintaining mechanical systems.
+                Explore the world of BBA and develop skills in
+                Management Principles, Business Economics, Organizational Behavior and etc.
               </p>
               <Link  to="/bba" className="btn btn-primary">Know more</Link>
             </div>
@@ -63,9 +112,8 @@ function School3() {
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
               <h5 className="card-title khusbhucard-heading">M.Com</h5>
               <p className="card-text khusbhucard-paiding">
-                Dive into the world of Computer Science and Engineering and
-                develop skills in designing, developing, and maintaining software
-                systems.
+                Dive into the world of M.Com and develop skills in
+                Financial Management, Corporate Governance, Research Methodology, Tax Planning and etc.
               </p>
               <Link  to="/mcom" className="btn btn-primary">Know more</Link>
               
@@ -77,8 +125,7 @@ function School3() {
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
               <h5 className="card-title khusbhucard-heading">MBA</h5>
               <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
-                designing, building, and maintaining infrastructure.
+                Learn the fundamentals of MBA and develop skills in Strategic Management, Business Analytics, Financial Accounting, Organizational Behavior, Operations Management
               </p>
               <Link  to="/mba" className="btn btn-primary">Know more</Link>
               
@@ -88,15 +135,15 @@ function School3() {
             <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
               <h5 className="card-title khusbhucard-heading">P.hd</h5>
               <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
-                designing, building, and maintaining infrastructure.
+                Learn the fundamentals of P.hd and develop skills in
+                Finance, Marketing, Human Resources, Organizational Behavior, Strategic Management, and etc.
               </p>
               <Link  to="/phd" className="btn btn-primary">Know more</Link>
               
             </div>
           </div>
         </div>
-      </div>
+        </div>
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">
@@ -138,6 +185,7 @@ function School3() {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <Library />
     </div>
