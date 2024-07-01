@@ -16,7 +16,8 @@ function School2() {
     </div>
 </div>
      
-      <div className="container mt-3">
+<div className="container-fluid mt-5">
+<div className="container p-5">
         <div
           className="row"
           style={{
@@ -26,12 +27,16 @@ function School2() {
           }}
         >
           <br></br>
-          <div className="col-md-0"></div>
+          <div className="col-md-6"></div>
+          <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">About </span>Us
+              </h2>
           <div
             className="col-md-6 text-column p-3"
             style={{ fontSize: "1.2rem",fontFamily:"serif",textAlign:"justify" }}
           >
-            The School of Science and Technology is a dynamic academic division dedicated to fostering innovation and excellence in scientific and technological education. This department offers a wide range of programs in fields such as biology, chemistry, physics, computer science, engineering, and environmental science. With a commitment to cutting-edge research and hands-on learning, the school provides students with access to state-of-the-art laboratories, advanced technology, and collaborative projects. Faculty members are distinguished experts in their respective fields, contributing to both academic and industry advancements. Through interdisciplinary curricula and a focus on problem-solving skills, the School of Science and Technology prepares graduates to meet the challenges of the rapidly evolving scientific landscape and to become leaders in their chosen careers. The department also emphasizes community engagement and global perspectives, ensuring that students are well-equipped to contribute to society in meaningful ways.
+            Welcome to the School of Science and Technology, where exploration, discovery, and innovation converge to shape the future of technology and scientific inquiry.
+            Our school is dedicated to fostering a dynamic learning environment that nurtures curiosity, critical thinking, and creativity. We offer a diverse array of programs designed to equip students with the knowledge, skills, and practical experience needed to excel in their chosen fields within science and technology.
           </div>
           <div className="col-md-4 image-column">
             <img
@@ -40,14 +45,64 @@ function School2() {
               alt="School Vision"
             />
           </div>
-          <div className="col-md-1"></div>
-        </div>
-        <div className="row mt-5">
+          </div>
+          </div>
+          </div>
+          <div className='container-fluid mt-3 whycolor p-5'>
+<div className='container'>
+<div className='row'>
+<h2 className=' about-history'>Why  <span className='about-span'>Choose Us?</span></h2>
+<p className="mission1 mt-3">
+<span className="history-span">1.	Comprehensive Programs:</span> We offer a wide range of programs including B.Sc in various streams (PCM/PCB/ZBC/CS), BCA, M.Sc in PCM/PCB/ZBC/CS, MCA, and specialized Diploma programs in Artificial Intelligence and Machine Learning, Data Science & Cloud Technology, Cyber Security, and Forensic Science. Our programs are carefully crafted to provide a robust blend of theoretical knowledge and practical skills necessary for today’s competitive job market.
+</p>
+<p className="mission1 mt-2 ">
+            <span className="history-span">2.Expert Faculty</span>Our faculty members are experienced professionals and scholars in their respective fields. They bring a wealth of knowledge and industry expertise to the classroom, ensuring that you receive a high-quality education that meets industry standards and prepares you for real-world challenges.
+</p>
+<p className="mission1 mt-2 ">
+           
+<span className="history-span">3.	State-of-the-Art Facilities: </span>The institution boasts state-of-the-art laboratories, research centers, and computing facilities. These facilities provide an immersive learning environment where you can conduct experiments, engage in hands-on projects, and explore innovative ideas under the guidance of expert faculty.
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">4.	Industry-Relevant Curriculum:</span> Our curriculum is designed in consultation with industry experts to ensure it remains current and relevant. We emphasize practical learning experiences, industry internships, and projects that allow you to apply classroom knowledge to real-world scenarios.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">5.Career Opportunities:</span> Graduates from our programs are highly sought after by employers in diverse sectors including technology firms, healthcare, research institutions, government agencies, and more. Our alumni have secured positions as software engineers, data scientists, cybersecurity analysts, researchers, and IT professionals globally.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">6.	Global Perspectives:</span> We promote a global outlook through international collaborations, exchange programs, and exposure to global trends in science and technology. This prepares you to thrive in a multicultural and interconnected world.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">7.	Supportive Learning Environment:</span>We prioritize your personal and academic growth. Our institution fosters a supportive learning environment where you can collaborate with peers, participate in extracurricular activities, and develop leadership and interpersonal skills that complement your academic achievements.
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">8.Career Guidance and Placement Support:</span>We provide comprehensive career guidance and placement support services to help you transition smoothly from academia to your desired career path. Our network of alumni and industry partnerships offers valuable networking opportunities and professional connections.
+</p>
+</div>
+<div className='row mt-3'>
+    <div className='col-md-12 p-5 promise-help'>
+      <h2 className='promise-bg2'>Dean's Message </h2>
+      <p className='mt-4 promise-bg3'>Welcome to Smt. Manjira Devi University, Uttarkashi, where innovation meets education in the dynamic fields of science, technology, and computer applications.<br/>
+      At Smt. Manjira Devi University, Uttarkashi , we are committed to fostering a learning environment that inspires curiosity, nurtures creativity, and promotes academic excellence. Our institution stands at the forefront of advancing knowledge and preparing the next generation of leaders who will drive innovation and solve complex challenges in our rapidly evolving world.<br/> As Dean, I am privileged to lead a distinguished faculty of dedicated educators and researchers who are experts in their fields. Our faculty members are not only committed to delivering high-quality education but also to mentoring and guiding students towards achieving their academic and professional goals.
+
+</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+<div className='container-fluid mt-5 baartsbg2 p-5'>
+<div className="container mt-5">
+<h1 className=' baarts-heading mb-3'>Our <span className='baarts-span'>Courses</span> </h1>
+          <div className="row mt-5">
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading">B.Sc</h4>
+              <h4 className="card-title khusbhucard-heading">Bachelor of Science in PCM/PCB/ZBC/CS</h4>
               <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
+                Learn the fundamentals of Science and develop skills in
                 designing, building, and maintaining infrastructure.
               </p>
               <Link  to="/bsc" className="btn btn-primary">Know more</Link>
@@ -56,10 +111,10 @@ function School2() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading">BCA</h4>
+              <h4 className="card-title khusbhucard-heading">Bachelor of Computer Applications (BCA)</h4>
               <p className="card-text khusbhucard-paiding">
-                Explore the world of Mechanical Engineering and develop skills in
-                designing, manufacturing, and maintaining mechanical systems.
+                Explore the world of Computer Application and develop skills in
+                designing, manufacturing, and maintaining computer applications.
               </p>
               <Link  to="/bca" className="btn btn-primary">Know more</Link>
              
@@ -67,24 +122,10 @@ function School2() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading" >Diploma in AI and Machine Learning</h4>
+              <h4 className="card-title khusbhucard-heading">Master of Science - PCM/PCB/ZBC/CS</h4>
               <p className="card-text khusbhucard-paiding">
-                Dive into the world of Computer Science and Engineering and
-                develop skills in designing, developing, and maintaining software
-                systems.
-              </p>
-              <Link  to="/ai" className="btn btn-primary">Know more</Link>
-             
-            </div>
-          </div>
-        </div>
-        <div className="row mt-5">
-          <div className="col-md-4">
-            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading">M.Sc</h4>
-              <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
-                designing, building, and maintaining infrastructure.
+                Learn the fundamentals of Science and develop skills in
+                designing, building, and maintaining Application.
               </p>
               <Link  to="/msc" className="btn btn-primary">Know more</Link>
               
@@ -92,7 +133,7 @@ function School2() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading">MCA</h4>
+              <h4 className="card-title khusbhucard-heading">Master of Computer Applications (MCA)</h4>
               <p className="card-text khusbhucard-paiding">
                 Explore the world of Mechanical Engineering and develop skills in
                 designing, manufacturing, and maintaining mechanical systems.
@@ -103,10 +144,10 @@ function School2() {
           </div>
           <div className="col-md-4">
             <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading" >Data Science And Cloud Technology</h4>
+              <h4 className="card-title khusbhucard-heading" >Diploma - AI and ML / Data Science & Cloud Technology / Cyber Security / Forensic Science</h4>
               <p className="card-text khusbhucard-paiding">
-                Dive into the world of Computer Science and Engineering and
-                develop skills in designing, developing, and maintaining software
+                Dive into the world of technologies and
+                develop skills in maintaining software and Mechanical
                 systems.
               </p>
               <Link  to="/data" className="btn btn-primary">Know more</Link>
@@ -114,32 +155,8 @@ function School2() {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
-          <div className="col-md-2"></div>
-          <div className="col-md-4">
-            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading">Cyber Security </h4>
-              <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
-                designing, building, and maintaining infrastructure.
-              </p>
-              <Link  to="/cyber" className="btn btn-primary">Know more</Link>
-              
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card1" style={{border:'2px', boxShadow:'0px 10px 10px rgb(00,0,0)'}}>
-              <h4 className="card-title khusbhucard-heading">Forensic Science</h4>
-              <p className="card-text khusbhucard-paiding">
-                Explore the world of Mechanical Engineering and develop skills in
-                designing, manufacturing, and maintaining mechanical systems.
-              </p>
-              <Link  to="/foresic" className="btn btn-primary">Know more</Link>
-              
-            </div>
-          </div>
-        </div>
-      </div>
+  </div>
+  </div>
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">
