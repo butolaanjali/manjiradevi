@@ -3,7 +3,7 @@ import './BaArts.css';
 import Library from '../Library/Library';
 import Artscourses from './Artscourses';
 
-const BaArts = () => {
+const Mlibarts = () => {
   return (
     <div>
       <div className="container-fluid baartsimage">
@@ -12,7 +12,7 @@ const BaArts = () => {
             <div className="col-sm-12 mt-4">
               <center>
                 <h2 className="text-white display-3 artssmt mt-5" >
-                Bachelor of Arts (B.A.)
+                Master of Library and Information Science (M.Lib.)
                 </h2>
               </center>
             </div>
@@ -24,7 +24,7 @@ const BaArts = () => {
           <div className="row">
             <div className="col-md-6">
               <h2 className="mb-2 mt-2 arts-h1">
-                <span className="arts-span">Best B.A in Arts and Humanity</span> College in Uttarkashi
+                <span className="arts-span">Best Master of Library and Information Science (M.Lib.)</span> College in Uttarkashi
               </h2>
               <p className="mt-3 arts-p">
                 At Smt. Manjira Devi University in Uttarkashi, BA in Arts and Humanities offers a comprehensive exploration of subjects like literature, history, philosophy, languages, and performing arts. This undergraduate program is designed to provide students with a well-rounded education in the liberal arts, emphasizing critical thinking, cultural appreciation, and communication skills. The curriculum integrates theoretical knowledge with practical applications through workshops, seminars, and cultural events. Faculty members are dedicated to fostering intellectual growth and preparing students for diverse career paths in education, journalism, public relations, and various creative and cultural industries.
@@ -42,23 +42,22 @@ const BaArts = () => {
           <div className="col-md-0"></div>
           <div className="col-md-6"><br />
             <p className="nursing-p">
-            A 3-year undergraduate program offering a broad education in subjects like English, History, and Political Science, with options for electives and skill enhancement courses. Career opportunities include civil services, journalism, teaching, and public administration.
+            A 1- year advanced program for M.Lib graduates, focusing on advanced library science, research, digital libraries, and information policy. Career paths include senior librarian, information analyst, library educator, and digital curator.
             </p>
             <h3 className="library-heading">Duration</h3>
-            <p><h6 className="nursing-p">3 yrs. (6 Semesters)</h6></p><br />
+            <p><h6 className="nursing-p">1 years (2 Semesters)</h6></p><br />
             <h3 className="library-heading">Eligibility Criteria (Qualifying Exam)</h3>
             
             <p className='nursing-p'>
-            <span className='history-span '>	•	</span>	Passed 10+2/Intermediate in any discipline</p> 
-            <p className='nursing-p'>
-            <span className='history-span '>	•	Subjects:	</span>	  English, Hindi, Sanskrit, History, Political Science, Sociology, Education, Economics.</p>
+            <span className='history-span '>• Educational Qualification: </span> 
+            Candidate applying for admission in this Program should have passed B.Lib./BLIS with 50% marks from a recognized University. 
+            </p>
             <h3 className='library-heading'>	Career Opportunities</h3>
 <p className='nursing-p'>
-•	Journalist<br/>
-•	Content Writer<br/>
-•	Civil Servant<br/>
-•	Social Worker<br/>
-•	Policy Analyst<br/>
+• Senior Librarian
+• Library Director
+• Information Systems Specialist
+• Knowledge Manager	
 
 
 </p>
@@ -75,4 +74,4 @@ const BaArts = () => {
   );
 }
 
-export default BaArts;
+export default Mlibarts;

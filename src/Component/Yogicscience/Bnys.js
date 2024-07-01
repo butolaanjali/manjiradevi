@@ -38,7 +38,7 @@ const Bnys = () => {
   </div>
 </div>
 <div className='container mt-5'>
-<h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
+<h1 className='library-heading'>	Course <span className='library-span'>Overview</span></h1>
             <div className="row" style={{
             border: "2px",
             borderRadius: "20px",
@@ -46,19 +46,33 @@ const Bnys = () => {
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p className='nursing-p'>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <p className='nursing-p'>
+             The BNYS program is a comprehensive undergraduate course that integrates the principles of naturopathy and yogic sciences. The curriculum is designed to provide students with an in-depth understanding of natural healing methods, yoga practices, and their applications in promoting holistic health and wellness. Students learn about anatomy, physiology, pathology, and various naturopathic treatments such as diet therapy, hydrotherapy, mud therapy, massage therapy, and fasting therapy, alongside advanced yoga practices.
+            </p>
             <h3 className='library-heading'>Duration</h3>
-            <p><h6 className='nursing-p'>4 yrs. (8 Semesters)</h6></p><br></br>
+            <p><h6 className='nursing-p'>5.5 years (4.5 years of academic study + 1-year internship)</h6></p><br></br>
             <h3 className='library-heading'>Eligibility Criteria (Qualifying Exam)</h3>
-            <p className='nursing-p'>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+            <p className='nursing-p'>
+            Completion of 10+2 or equivalent with Physics, Chemistry, and Biology from a recognized board. Minimum Aggregate Score Requirement: Gen-50 %  and OBC/SC/ST- 45 %
 
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
+           </p>
+           
+<h3 className='library-heading'>	Career Opportunities</h3>
+<p className='nursing-p'>
+•	Naturopathic Doctor<br/>
+•	Yoga Therapist <br/>
+• Wellness Consultant<br/>
+•	Health and Wellness Coach<br/>
+•	Yoga Instructor<br/>
+•	Naturopathy Practitioner<br/>
 
-Note: In case any student has studied Physics instead of Science then also eligible </p>
+
+
+</p>
         </div>
-        <div className="col-md-4 image-column"><br/>
+        <div className="col-md-4 image-column mt-5"><br/>
             <img
-              style={{ height: "75%" }}
+              style={{ height: "100%" }}
               src="/vision.png"
               alt="School Vision"
             />

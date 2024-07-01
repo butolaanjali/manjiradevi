@@ -9,7 +9,7 @@ const Legalschool = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >School Of Legal Studies</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 "  >School Of Legal Studies</h2></center>
    
   </div>
       </div>
@@ -19,11 +19,14 @@ const Legalschool = () => {
   <div className='container p-5 '>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 nursingh'><span className='nursing-span'>Best Legal Studies </span>  College in Uttarkashi</h2>
-    <p className='mt-3 nursing-p'>
-    The legal studies program at Smt. Manjira Devi University aims to provide a comprehensive understanding of law and its applications. The curriculum encompasses various branches of law, including constitutional, criminal, civil, and corporate law. Students are trained in legal research, critical analysis, and effective communication skills essential for the legal profession. The faculty comprises experienced legal practitioners and academicians who bring practical insights into the classroom. The university emphasizes moot court sessions, internships, and legal aid clinics to provide hands-on experience. Ethical practice and social responsibility are core values instilled throughout the program. Graduates are well-prepared for careers as lawyers, judges, legal advisors, and policymakers. The program also encourages engagement in contemporary legal issues and reforms, ensuring students are at the forefront of legal developments.
-    </p>
-
+    <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">About </span>Us
+              </h2>
+              <p className="mt-4 nursing-p">
+              Welcome to the School of Legal Studies, where the pursuit of justice, knowledge, and ethical practice converge to shape the future legal professionals of tomorrow.
+<br/>
+The School of Legal Studies at Smt. Manjira Devi University is dedicated to providing a comprehensive and rigorous education in law, preparing students for a wide range of legal careers and opportunities. Our programs are designed to instill a deep understanding of legal principles, critical thinking skills, and practical experience necessary to succeed in today's complex legal landscape.
+</p>
 
     </div>
  
@@ -35,6 +38,67 @@ const Legalschool = () => {
     </div>
 
   </div>
+</div>
+<div className='container-fluid mt-3 whycolor p-5'>
+<div className='container'>
+<div className='row'>
+<h2 className=' about-history'>Why  <span className='about-span'>Choose Us?</span></h2>
+<p className="mission1 mt-3">
+<span className="history-span">1. 	Comprehensive Legal Education: 	</span> 
+We offer a comprehensive curriculum that blends theoretical knowledge with practical skills. Our programs, including B.A. LL.B (Integrated) and LL.B, cover a wide range of legal subjects and provide hands-on experience through moot courts, internships, and legal clinics.
+</p>
+<p className="mission1 mt-2 ">
+            <span className="history-span">2.	Expert Faculty: </span>
+            Our faculty members are distinguished scholars, practitioners, and jurists with extensive experience in their respective fields. They are committed to imparting legal education of the highest standard and mentoring students to excel in their academic and professional endeavors.
+            </p>
+
+<p className="mission1 mt-2 ">
+           
+<span className="history-span">3.	State-of-the-Art Facilities:  </span>
+The School of Legal Studies is equipped with modern classrooms, libraries stocked with legal resources, and dedicated spaces for moot court exercises and legal research. Our facilities support a conducive learning environment that facilitates academic growth and practical training.
+</p>
+
+<p className='mission1 mt-2'>
+<span className="history-span">4.	Internship and Practical Training Opportunities: </span> 
+We prioritize practical learning through internships with law firms, judicial clerkships, and legal clinics where students gain real-world experience and apply legal theories to practical scenarios. These opportunities enhance students' professional skills and prepare them for successful legal careers.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">5.	Career Development Support: </span>
+We provide robust career development support through workshops, seminars, and placement assistance. Our alumni network and industry connections offer opportunities for networking and career advancement in various sectors of the legal profession.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">6.	Ethical and Professional Values: </span>
+We uphold the highest ethical standards and emphasize professionalism in legal practice. Our programs instill integrity, critical thinking, and ethical reasoning, preparing students to uphold justice and contribute positively to society.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">7.	Specialized Electives and Concentrations: </span>
+Students have the flexibility to specialize in areas of interest through elective courses and concentrations such as International Law, Human Rights Law, Business Law, and more. This customization allows students to tailor their education to align with their career aspirations.
+
+</p>
+<p className='mission1 mt-2'>
+<span className="history-span">8.	Community Engagement and Advocacy: </span>
+We encourage community engagement through pro bono legal services and advocacy initiatives. Students have opportunities to participate in legal aid clinics and contribute to social justice causes, making a meaningful impact in their communities.
+</p>
+</div>
+<div className='row mt-3'>
+    <div className='col-md-12 p-5 promise-help'>
+      <h2 className='promise-bg2'>Dean's Message </h2>
+      <p className='mt-4 promise-bg3'>
+      I am delighted to welcome you to the School of Legal Studies at Smt. Manjira Devi University, Uttarakashi. As the Dean, it is my privilege to lead a community dedicated to academic excellence, intellectual inquiry, and the pursuit of justice.
+      <br/>
+      Our school is committed to providing a rigorous legal education that prepares our students not only for successful careers but also for leadership roles in society. We emphasize critical thinking, ethical reasoning, and a deep understanding of the law in its various dimensions.
+      <br/>
+      At the School of Legal Studies, we foster a vibrant environment where scholarship and practice converge. Our faculty members are renowned scholars and practitioners who bring a wealth of expertise into the classroom. They are committed to mentoring and guiding students through their academic journey and beyond.
+      <br/>
+</p>
+
+    </div>
+
+  </div>
+</div>
 </div>
 <Legalcourses/>
 <div className="container mt-5">

@@ -38,7 +38,7 @@ const Pharma = () => {
   </div>
 </div>
 <div className='container mt-5'>
-<h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
+<h1 className='library-heading'>	Course <span className='library-span'>Overview</span></h1>
             <div className="row" style={{
             border: "2px",
             borderRadius: "20px",
@@ -46,15 +46,26 @@ const Pharma = () => {
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p className='nursing-p'>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <p className='nursing-p'>
+            A foundational course in pharmacy and pharmaceuticals, providing essential knowledge and skills for various roles in the pharmaceutical field.
+
+              </p>
             <h3 className='library-heading'>Duration</h3>
-            <p><h6 className='nursing-p'>2 yrs. (4 Semesters)</h6></p><br></br>
+            <p><h6 className='nursing-p'>2 years  4 Semesters</h6></p><br></br>
             <h3 className='library-heading'>Eligibility Criteria (Qualifying Exam)</h3>
-            <p className='nursing-p'>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+            <p className='nursing-p'>
+            10+2 OR equivalent with PCB/PCM & Student must have attained age of 17 Years on or before 31st December of the year of admission to the course. Minimum Aggregate Score Requirement: Gen/OBC/Minority-50 % and SC/ST- 45 %
 
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
+            </p>
+            <h3 className='library-heading'>	Career Opportunities</h3>
+<p className='nursing-p'>
+•	Pharmacist in retail or hospital pharmacies.<br/>
+•	Pharmaceutical sales and marketing.<br/>
+•	Assistant roles in pharmaceutical manufacturing.<br/>
 
-Note: In case any student has studied Physics instead of Science then also eligible </p>
+
+
+</p>
         </div>
         <div className="col-md-4 image-column"><br/>
             <img

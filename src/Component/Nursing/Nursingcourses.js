@@ -10,7 +10,7 @@ const Nursingcourses = () => {
 <div className='col-md-3 hhover mt-2 '>
 <div class="card cad-col">
 <img src="course1.jpg" class="card-img-top" alt="..." className='card-image1'/>
-<h4 class="card-title cardh  mt-3 mb-3 "  >M.sc(Clinical Psychology)</h4>
+<h4 class="card-title cardh  mt-3 mb-3 "  >Bachelor of Medical Laboratory Technology (BMLT)</h4>
 <Link  to="/msccp"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
 </div>
           </div>
@@ -38,13 +38,7 @@ const Nursingcourses = () => {
 
 </div>
 <div className='row mt-3'>
-<div className='col-md-3 hhover mt-2 '>
-<div class="card cad-col">
-<img src="course2.jpg" class="card-img-top" alt="..." className='card-image1'/>
-<h4 class="card-title cardh  mt-3 mb-3 "  > Master of Public Health(MPH)</h4>
-<Link  to="/mph"class="btn bt mb-4   " data-aos="fade-up">Read more</Link>
-</div>
-          </div>
+
           <div className='col-md-3 hhover  mt-2 '>
 <div class="card cad-col">
 <img src="course6.jpg" class="card-img-top" alt="..." className='card-image1'/>

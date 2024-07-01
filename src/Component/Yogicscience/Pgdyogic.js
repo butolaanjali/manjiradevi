@@ -10,7 +10,7 @@ const Pgdyogic = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 pgdyogic-smt mt-5" data-aos="fade-down" >PGD in Yogic Science & Naturopathy</h2></center>
+   <center> <h2 class="text-white  display-3 pgdyogic-smt mt-5" data-aos="fade-down" >Post Graduation Diploma in Yoga (PGD - Yoga)</h2></center>
    
   </div>
       </div>
@@ -20,7 +20,7 @@ const Pgdyogic = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 pgdyogic-h1'><span className='pgdyogic-span'>Best PGD in Yogic Science & Naturopathy</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 pgdyogic-h1'><span className='pgdyogic-span'>Best Post Graduation Diploma in Yoga (PGD - Yoga)  </span> College in Uttarkashi</h2>
     <p className='mt-3 pgdyogic-p'>
     Smt. Manjira Devi University offers a Postgraduate Diploma (PGD) in Yogic Science and Naturopathy, a 1-year program designed to provide specialized knowledge in yoga and natural health practices. The curriculum includes training in yoga asanas, pranayama, meditation, naturopathic treatments, diet and nutrition, and holistic health principles. This program is ideal for those seeking to enhance their skills in wellness and health management. Graduates can work as yoga instructors, naturopathy practitioners, wellness coaches, and holistic health consultants. Admission requires a bachelor's degree in any field. For more information, visit the university's official website or contact the admissions office.
 </p>
@@ -35,7 +35,7 @@ const Pgdyogic = () => {
   </div>
 </div>
 <div className='container mt-5'>
-<h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
+<h1 className='library-heading'>	Course <span className='library-span'>Overview</span></h1>
             <div className="row" style={{
             border: "2px",
             borderRadius: "20px",
@@ -43,15 +43,25 @@ const Pgdyogic = () => {
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p className='nursing-p'>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <p className='nursing-p'>
+            Diploma program designed for graduates seeking specialized knowledge in yoga, combining theoretical and practical aspects of yoga for health and wellness applications.
+
+              </p>
             <h3 className='library-heading'>Duration</h3>
-            <p><h6 className='nursing-p'>2 yrs. (4 Semesters)</h6></p><br></br>
+            <p><h6 className='nursing-p'>1 years (2 Semesters)</h6></p><br></br>
             <h3 className='library-heading'>Eligibility Criteria (Qualifying Exam)</h3>
-            <p className='nursing-p'>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+            <p className='nursing-p'>
+            <span className='history-span '>	•	Educational Qualification 	</span>
+            Bachelor’s degree in any discipline from a recognized university.
+               </p>
+               <h3 className='library-heading'>	Career Opportunities</h3>
+<p className='nursing-p'>
+•	Advanced Yoga Instructor<br/>
+•	Yoga Therapist<br/>
+•	Wellness Consultant<br/>
+•	Manager Yoga Studio<br/>
 
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
-
-Note: In case any student has studied Physics instead of Science then also eligible </p>
+</p>
         </div>
         <div className="col-md-4 image-column"><br/>
             <img

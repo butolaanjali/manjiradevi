@@ -38,7 +38,7 @@ const Bbatourism = () => {
   </div>
 </div>
 <div className='container mt-5'>
-<h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
+<h1 className='library-heading'>	Course <span className='library-span'>Overview</span></h1>
             <div className="row" style={{
             border: "2px",
             borderRadius: "20px",
@@ -46,19 +46,35 @@ const Bbatourism = () => {
           }}>
             <div className="col-md-0"></div>
             <div className="col-md-6"><br></br>
-            <p className='nursing-p'>Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
+            <p className='nursing-p'>
+            BBA Tourism is a specialized undergraduate program that focuses on the management and business aspects of the tourism industry. It equips students with knowledge and skills related to tourism operations, hospitality management, marketing, and strategic planning.
+
+              </p>
             <h3 className='library-heading'>Duration</h3>
-            <p><h6 className='nursing-p'>3 yrs. (6 Semesters)</h6></p><br></br>
+            <p><h6 className='nursing-p'>3 years (6 Semesters)</h6></p><br></br>
             <h3 className='library-heading'>Eligibility Criteria (Qualifying Exam)</h3>
-            <p className='nursing-p'>Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+            <p className='nursing-p'>
+            10+2 Examination passed in any stream. Minimum 50% marks (45% in case of SC/ST category).
+            </p>
+            <h3 className='library-heading'>	Career Opportunities</h3>
+<p className='nursing-p'>
+•	Tourism Manager<br/>
+•	Event Planner<br/>
+•	Travel Consultant<br/>
+•	Hotel Manager<br/>
+•	Resort Manager<br/>
+•	Destination Manager<br/>
+•	Tour Operations Executive<br/>
+•	Event Manager<br/>
+•	Cruise Manager<br/>
 
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
 
-Note: In case any student has studied Physics instead of Science then also eligible </p>
+</p>
+     
         </div>
-        <div className="col-md-4 image-column"><br/>
+        <div className="col-md-4 image-column mt-5"><br/>
             <img
-              style={{ height: "75%" }}
+              style={{ height: "100%" }}
               src="/vision.png"
               alt="School Vision"
             />
