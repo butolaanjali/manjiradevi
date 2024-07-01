@@ -3,14 +3,14 @@ import "./school4.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
 
-function Bcom() {
+function MscAgr() {
   return (
     <div className="School1-page">
         <div class="container-fluid mscagriculture-image  ">
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > M.Sc. Agriculture</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >Master of Science in Agriculture (M.Sc - Agronomy)</h2></center>
    
   </div>
       </div>
@@ -28,13 +28,28 @@ function Bcom() {
         >
           <br></br>
           <div className="col-md-0"></div>
+          <h2 className="mb-0 mt-2 nursingh">
+                <span className="nursing-span">Course </span>Overview
+              </h2>
           <div
             className="col-md-6 text-column p-3"
             style={{ fontSize: "18px",textAlign:"justify",fontFamily:"serif" }}
-          >
-           M.Sc. Agriculture  is a postgraduate programme devised to equip a footing and scientific knowledge of crop production via adequate field management. It incorporates an in-depth understanding of crop physiology, organic farming, weed science, water & nutrient management, and other related disciplines. Agronomy, or scientific agriculture, applies several soil and plant sciences to soil management and crop production. Modern concepts in drought physiology, herbicides, crop production, and crop production, physiological aspects of crop yield, principles of physiology of crop plants, advanced irrigation agronomy, crop nutrition, advanced crop ecology, applied conservation agronomy, arid zone agronomy, agricultural research organizations, cropping and farming systems, and agro-meteorology are some of the subjects covered in this degree, Students who complete the P.G. degree in M.Sc. Agronomy will have several options in various areas.
-
-Our School of Agriculture offers a master's degree in agriculture that aims to provide instruction to qualified applicants on enhancing agricultural output and, as a result, food security and help society streamline more effective food production processes. By integrating research with in-depth training in Climatology, Genetics, Biochemistry, Physiology, and Plant Breeding, students are trained to apply such information to real-world settings where scientific concepts around agronomy are implemented.</div>
+          >Specializes in areas such as Agronomy, Horticulture, Soil Science, Plant Pathology, Agricultural Economics, and Agricultural Extension. Emphasizes advanced research, technology application in agriculture, and sustainable practices.<br/>
+           <span className="nursing-span">Duration: </span>
+           <span> 2 Years (4 Semesters).</span><br/>
+           <span className="nursing-span">Eligibility: </span> B.Sc. (Ag) | B.Sc. (Ag) Hons. from Recognized University. Minimum Aggregate Score Requirement: Gen/OBC/Minority-55 % and SC/ST- 50 %<br/>
+                <span> 
+                <span className="nursing-span">Career Opportunities: </span>
+                <span> <br/>
+                 <b>1.Agricultural Scientist,  </b> <br/>
+                 <b>2.Researcher, </b><br/>
+                 <b>3.Agricultural Consultant,</b><br/>
+                 <b>4.Government Agricultural Officer,</b><br/>
+                 <b>5.Seed Technologist, </b><br/>
+                 <b>6.Farm Supervisor.</b></span><br/><br/>
+            </span><br/>
+          </div>
+          
          &emsp;&emsp; <div className="col-md-4 image-column"><br/><br/><br/>
             <img
               style={{ height: "65%" }}
@@ -45,30 +60,6 @@ Our School of Agriculture offers a master's degree in agriculture that aims to p
           <div className="col-md-1"></div>
         </div>
         <br></br><br></br>
-        
-        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
-            <div className="row p-3" style={{
-            border: "2px",
-            borderRadius: "20px",
-            boxShadow: "10px 10px 20px rgb(240, 117, 3)",
-          }}>
-            <div className="col-md-0"></div>
-            <div className="col-md-6"><br></br>
-            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3 className="library-heading">Duration</h3>
-            <p className="nursing-p">3 yrs. (6 Semesters)</p><br></br>
-            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
-            <p className="nursing-p"><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board.<br></br>
-            <i className="fas fa-arrow-circle-right"></i>Minimum Marks Requirement: A minimum aggregate score, typically around 50% to 60% in the qualifying examination, though this can vary depending on the institution.</p>
-        </div>
-        <div className="col-md-4 image-column"><br/>
-            <img
-              style={{ height: "75%" }}
-              src="/vision.png"
-              alt="School Vision"
-            />
-          </div>
-        </div>
       </div>
       
       <Library/>
@@ -76,4 +67,4 @@ Our School of Agriculture offers a master's degree in agriculture that aims to p
   );
 }
 
-export default Bcom;
+export default MscAgr;

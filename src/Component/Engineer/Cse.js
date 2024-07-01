@@ -2,14 +2,14 @@ import React from "react";
 import "./school1.css";
 import Library from "../Library/Library";
 
-function Mechanic() {
+function Cse() {
   return (
     <div className="School1-page">
        <div class="container-fluid diplomacse-image  ">
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma In CSE</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma - Computer Science & Engineering</h2></center>
    
   </div>
       </div>
@@ -25,19 +25,31 @@ function Mechanic() {
             boxShadow: "10px 10px 20px rgb(240, 117, 3)",
           }}
         >
-          <br></br>
+         <br></br>
           <div className="col-md-0"></div>
+          <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">Course </span>Overview
+              </h2>
           <div
-            className="col-md-6 text-column p-3"
-            style={{ fontSize: "18px",textAlign:"justify",fontFamily:"serif" }}
-          >
-            Diploma in Computer Science Engineering is a program designed for students who plan to seek employment in a professional career requiring a comprehensive qualification in Computer Science and for those planning to continue studying Computer Science at the undergraduate level. This program will help students’ inbuilt basic knowledge of Database Systems, Software Engineering, Computer Networking, and Operating Systems for Software Applications designing and developing a Program, Algorithms, and Projects using open source tools and efficient data structure.
-
-<b>Manjira Devi</b> offers, the diploma in CSE program that designed to provide an excellent background to the students. The program is student-centric and works towards making them learn and practice key Computer Science concepts. This eventually helps them build their versions of popular Web Applications, widely used Programming Language, and Computer Science basics.
-
-Upon completion of this diploma program, students can pursue various career paths in the rapidly evolving field of IT, They may work as computer programmers, software developers, system analysts, web developers. Additionally, the diploma serves as a stepping stone for further academic pursuits in computer science and engineering, such as pursuing a bachelor’s degree or higher education.
-          </div>
-          <div className="col-md-4 image-column"><br></br>
+            className="col-md-6 text-column"
+            style={{ fontSize: "20px",textAlign:"justify",fontFamily:"serif" }}
+          >Provides foundational knowledge in computer science and engineering principles, including programming, data structures, algorithms, and computer networks.
+          <br></br>
+          
+                <span className="nursing-span">Duration: </span>
+                <span>3 Years (6 Semesters)</span><br/>
+                <span className="nursing-span">Eligibility: </span>The candidate must have passed 10th examination or equivalent with 40% marks or equivalent Grade Point Average (GPA) from a recognized board 
+              <br/>
+                <span className="nursing-span">Duration & Eligibility (Lateral Entry): </span> 2 Years (4 Semesters). 10+2 or equivalent with PCM OR ITI Diploma (2 Years) with 40% marks or equivalent Grade Point Average (GPA) from a recognized board.
+              <br/>
+              <span className="nursing-span">Career Opportunities: </span>
+                <span><br/>
+                 <b>1.Computer technician,</b> <br/>
+                 <b>2.Technical support specialist, </b><br/>
+                 <b>3.Junior software developer,</b><br/>
+                 <b>4.System administrator</b></span><br/><br/>
+              </div>
+         &emsp;&emsp;&emsp;&emsp; <div className="col-md-4 image-column"><br></br>
             <img
               style={{ height: "75%" }}
               src="/vision.png"
@@ -47,36 +59,10 @@ Upon completion of this diploma program, students can pursue various career path
           <div className="col-md-1"></div>
         </div>
         <br></br><br></br>
-        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
-            <div className="row" style={{
-            border: "2px",
-            borderRadius: "20px",
-            boxShadow: "10px 10px 20px rgb(240, 117, 3)",
-          }}>
-            <div className="col-md-0"></div>
-            <div className="col-md-6"><br></br>
-            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3 className="library-heading">Duration</h3>
-            <p><h6 className="nursing-p">3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
-            <p className="nursing-p">Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
-
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
-
-Note: In case any student has studied Physics instead of Science then also eligible </p>
-        </div>
-        <div className="col-md-4 image-column"><br/>
-            <img
-              style={{ height: "75%" }}
-              src="/vision.png"
-              alt="School Vision"
-            />
-          </div>
-        </div>
       </div>
       <Library/>
     </div>
   );
 }
 
-export default Mechanic;
+export default Cse;

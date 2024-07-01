@@ -10,7 +10,7 @@ function Bsc() {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Bachelor of Science</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Bachelor of Science in PCM/PCB/ZBC/CS</h2></center>
    
   </div>
       </div>
@@ -28,12 +28,28 @@ function Bsc() {
         >
           <br></br>
           <div className="col-md-0"></div>
+          <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">Course </span>Overview
+              </h2>
           <div
             className="col-md-6 text-column"
             style={{ fontSize: "20px",textAlign:"justify",fontFamily:"serif" }}
-          >The Department of Bachelor of Science (BSc) is a vital part of the School of Science and Technology, offering a broad range of undergraduate programs aimed at providing a solid foundation in various scientific disciplines. This department is dedicated to delivering high-quality education in fields such as biology, chemistry, physics, mathematics, computer science, and environmental science. The BSc programs are designed to equip students with theoretical knowledge, practical skills, and analytical abilities essential for scientific exploration and innovation.<br></br>
-          Graduates of the BSc programs are well-prepared for a variety of career paths, including scientific research, healthcare, education, environmental management, and technology development. They are also well-equipped to pursue advanced studies in their chosen fields, contributing to scientific advancements and addressing global challenges. The Department of BSc is committed to cultivating the next generation of scientists and innovators, driving progress in both academic and professional arenas.</div>
-          &emsp;&emsp;<div className="col-md-4 image-column"><br/><br/><br/>
+          >Provides foundational knowledge in Physics, Chemistry, Mathematics/Biology/Computer Science based on the chosen stream. Includes theoretical study and practical laboratory work.
+          <br></br>
+          
+                <span className="nursing-span">Duration: </span>
+                <span>3 Years (6 Semesters)</span><br/>
+                <span className="nursing-span">Eligibility: </span>Overview
+              Completion of higher secondary education (10+2) with Physics, Chemistry, Mathematics (PCM), Physics, Chemistry, Biology (PCB), Zoology, Botany, Chemistry (ZBC), or Computer Science (CS) as relevant to the chosen stream. 
+              <br/>
+              <span className="nursing-span">Career Opportunities: </span>
+                <span>Depends on the specific stream chosen: <br/>
+                 <b>1.PCM:</b> Careers in engineering, technology, research, analytics, data science, finance, etc.<br/>
+                 <b>2.PCB:</b> Opportunities in medical sciences, healthcare, biotechnology, pharmaceuticals, research, etc.<br/>
+                 <b>3.ZBC:</b> Careers in zoology, botany, environmental sciences, wildlife biology, forestry, etc.<br/>
+                 <b>4.CS:</b> Paths in software development, information technology, cybersecurity, data analytics, artificial intelligence, etc.</span><br/>
+              </div>
+          &emsp;&emsp;<div className="col-md-4 image-column"><br/><br/>
             <img
               style={{ height: "50%" }}
               src="/bsc.jpg"
@@ -42,33 +58,7 @@ function Bsc() {
           </div>
           <div className="col-md-1"></div>
         </div>
-        <br></br><br></br>
-        
-        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
-            <div className="row p-3" style={{
-            border: "2px",
-            borderRadius: "20px",
-            boxShadow: "10px 10px 20px rgb(240, 117, 3)",
-          }}>
-            <div className="col-md-0"></div>
-            <div className="col-md-6"><br></br>
-            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3 className="library-heading">Duration</h3>
-            <p className="nursing-p"><h6>3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
-            <p className="nursing-p"><i className="fas fa-arrow-circle-right"></i>Completion of Secondary Education: Candidates must have completed their higher secondary education (10+2) or equivalent from a recognized board or institution.<br></br>
-            <i className="fas fa-arrow-circle-right"></i>Minimum Marks Requirement: Generally, a minimum aggregate score of 50% to 60% in the qualifying examination is required, though this can vary depending on the institution and the specific BSc program.
-</p>
-        </div>
-        &emsp;&emsp;<div className="col-md-4 image-column"><br/>
-            <img
-              style={{ height: "75%" }}
-              src="/science13.jpeg"
-              alt="School Vision"
-            />
-          </div>
-        </div>
-      </div>
+       </div>
       
       <Library/>
     </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./school1.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Library from "../Library/Library";
@@ -10,7 +10,7 @@ function Engineer() {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma In Civil Engineering</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma - Civil Engineering</h2></center>
    
   </div>
       </div>
@@ -26,57 +26,40 @@ function Engineer() {
             boxShadow: "10px 10px 20px rgb(240, 117, 3)",
           }}
         >
-          <br></br>
+         <br></br>
           <div className="col-md-0"></div>
+          <h2 className="mb-2 mt-4 nursingh">
+                <span className="nursing-span">Course </span>Overview
+              </h2>
           <div
             className="col-md-6 text-column"
-            style={{ fontSize: "1.2rem",textAlign:"justify",fontFamily:"serif" }}
-          >
-            Diploma in Civil engineering is one of the oldest engineering streams in India. It impacts almost every phase of modern human life. This course aims to produce highly qualified and efficient civil engineers by building a solid foundation in basic knowledge and troubleshooting skills.
-
-While there is no lack of theoretically determined practitioners in Civil Engineering, there is a heavy requirement for highly skilled and practically oriented Engineers, Technologists, and Technicians. Therefore, here at Dev Bhoomi Institute of Polytechnic, students along with being exposed to various subjects of Civil Engineering such as Planning, Drafting (both manual and computer-aided), Surveying, Estimation & Costing, Construction Technology, Quality Control, Material Testing, Construction Management, Basics of Highway, Railway, Bridge, and Airport, etc. are also given practical knowledge in this field.
-
-The highly qualified faculties provide in-depth theoretical knowledge and render thorough guidance through the lab sessions. The practical sessions impart all the required skills to the students and equip them to progress from the basics to more distinguished order skills like Planning, Creating, and Managing small and significant structures. The students also develop the ability to assess designs & plans project infrastructure. Acquainted with software like AUTOCAD & STAAD, they are also competent in effectively evaluating and managing risks, resources, and time.
-          </div>
-          <div className="col-md-4 image-column"><br/><br/><br/>
+            style={{ fontSize: "20px",textAlign:"justify",fontFamily:"serif" }}
+          >Focuses on fundamentals of civil engineering, including construction materials, surveying, structural analysis, and project management.
+          <br></br>
+          
+                <span className="nursing-span">Duration: </span>
+                <span>3 Years (6 Semesters)</span><br/>
+                <span className="nursing-span">Eligibility: </span>The candidate must have passed 10th examination or equivalent with 40% marks or equivalent Grade Point Average (GPA) from a recognized board 
+              <br/>
+                <span className="nursing-span">Duration & Eligibility (Lateral Entry): </span> 2 Years (4 Semesters). 10+2 or equivalent with PCM OR ITI Diploma (2 Years) with 40% marks or equivalent Grade Point Average (GPA) from a recognized board.
+              <br/>
+              <span className="nursing-span">Career Opportunities: </span>
+                <span>Depends on the specific stream chosen: <br/>
+                 <b>1.Civil engineering technician,</b> <br/>
+                 <b>2.Site supervisor,</b><br/>
+                 <b>3.Construction project coordinator, </b><br/>
+                 <b>4.CAD technician.</b></span><br/><br/>
+              </div>
+         &emsp;&emsp;&emsp;&emsp; <div className="col-md-4 image-column"><br/>
             <img
               style={{ height: "65%" }}
-              src="/vision.png"
+              src="/science6.jpeg"
               alt="School Vision"
             />
           </div>
           <div className="col-md-1"></div>
         </div>
-        <br></br><br></br>
-        
-        <h1 className='library-heading'>Programme<span className='library-span'> Details</span></h1>
-            <div className="row" style={{
-            border: "2px",
-            borderRadius: "20px",
-            boxShadow: "10px 10px 20px rgb(240, 117, 3)",
-          }}>
-            <div className="col-md-0"></div>
-            <div className="col-md-6"><br></br>
-            <p className="nursing-p">Designed as a skill enable program, the students actually learn by doing and progress from basics to higher order skills like planning, designing and maintaining small and large structures. Diploma graduates can start entrepreneurial ventures or can pursue higher studies.</p>
-            <h3 className="library-heading">Duration</h3>
-            <p><h6 className="nursing-p">3 yrs. (6 Semesters)</h6></p><br></br>
-            <h3 className="library-heading">Eligibility Criteria(Qualifying Exam)</h3>
-            <p className="nursing-p">Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
-
-For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium or an equivalent subject.
-
-Note: In case any student has studied Physics instead of Science then also eligible </p>
-        </div>
-        <div className="col-md-4 image-column"><br/>
-            <img
-              style={{ height: "75%" }}
-              src="/vision.png"
-              alt="School Vision"
-            />
-          </div>
-        </div>
       </div>
-      
       <Library/>
     </div>
   );
