@@ -2,15 +2,14 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 import TopNavBar from "./TopNav/TopNavbar";
-
-
 import Notnav from "./NotNav/Notnav";
+
 function Nav() {
   const [showPopup, setShowPopup] = useState(false);
 
-    const togglePopup = () => {
-        setShowPopup(!showPopup);
-    };
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  };
 
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -27,7 +26,6 @@ function Nav() {
     <div>
       <TopNavBar/>
       <Notnav/>
-
       <nav className="navbar navbar-expand-lg navbar-dark mt-0 p-2">
         <div className="container-fluid">
           <button
@@ -58,9 +56,9 @@ function Nav() {
                   About Us
                 </Link>
                 {activeDropdown === 'about' && (
-                  <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdownAbout">
-                    <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
+                  <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdownAbout" style={{columns:'1'}}>
                     <li><Link className="dropdown-item" to="/vision">Our Vision and Mission</Link></li>
+                    <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
                   </ul>
                 )}
               </li>
@@ -108,7 +106,7 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/bscagr">B.Sc in agriculture</Link></li>
                           <li><Link className="dropdown-item" to="/mscagr">M.Sc in Agriculture</Link></li>
                           <li><Link className="dropdown-item" to="/mschor">M.Sc in Horticulture</Link></li>
-                        </ul>
+                        </ul><br/><br/>
                         <li><Link className="dropdown-item" to="/artsschool"><i className="fas fa-arrow-circle-right"></i> School of Arts and Humanity</Link></li>
                         <ul className="nested-dropdown">
                           <li><Link className="dropdown-item" to="/baarts">B.A</Link></li>
@@ -136,7 +134,6 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/nursingbpt">BPT</Link></li>
                           <li><Link className="dropdown-item" to="/nursinggnm">GNM</Link></li>
                           <li><Link className="dropdown-item" to="/nursinganm">ANM</Link></li>
-                         
                           <li><Link className="dropdown-item" to="/nursingdpharma">D.Pharma</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/schoollegal"><i className="fas fa-arrow-circle-right"></i> School of Legal Studies</Link></li>
