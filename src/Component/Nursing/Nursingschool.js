@@ -30,7 +30,7 @@ const Nursingschool = () => {
     </div>
  
     <div class="col-md-6 ">
-    <img src="nursing2.jpg" alt="" className="nursingimage" />
+    <img src="medicalimage6.jpg" alt="" className="nursingimage" />
         
       </div>
 

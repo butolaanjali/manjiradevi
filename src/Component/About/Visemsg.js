@@ -7,11 +7,11 @@ import Library from '../Library/Library';
 const Visemsg = () => {
   return (
     <div>
-      <div className="container-fluid aboutimage">
+      <div className="container-fluid msgimage">
         <div className="container">
           <div className="row">
             <div className="col-12 mt-4">
-              <center><h2 className="text-white display-3 aboutsmt" >Vice Chancellor's Message</h2></center>
+              <center><h2 className="text-white display-3 msgsmt" >Vice Chancellor's Message</h2></center>
             </div>
           </div>
         </div>
@@ -35,37 +35,31 @@ Our university holds a profound responsibility to our local community and the br
 
 </p>
 <p className='history1 mt-2'>
-Our university's location in the heart of the Himalayas offers an unparalleled setting for learning and personal growth. The breathtaking landscapes and tranquil environment provide an inspiring backdrop for our students, faculty, and staff. Here, you will find a harmonious blend of tradition and modernity, where ancient wisdom meets contemporary knowledge.
+At Smt. Manjeera Devi University, we offer a diverse array of programs designed to provide excellence in education across various disciplines. From Science and Technology to Commerce and Management, from Yoga to Environmental Studies, and from Legal Studies to Naturopathy and Health Sciences, our curriculum is crafted to equip our students with not only theoretical knowledge but also practical skills that are relevant to the evolving global landscape.
 
 </p>
 <p className='history1 mt-2'>
-We are committed to nurturing a community of learners who are equipped to address the challenges and opportunities of the 21st century. Our comprehensive range of programs spans various disciplines, each designed to foster critical thinking, creativity, and ethical leadership. Our curriculum is informed by the latest research and industry trends, ensuring that our graduates are well-prepared to excel in their chosen fields.
+Our commitment to promoting education in the Himalayan region extends beyond academic excellence. We emphasize holistic development, nurturing well-rounded individuals who are not only proficient in their fields but also ethical, compassionate, and socially responsible. Our faculty, known for their expertise and dedication, are committed to fostering a learning environment that encourages critical thinking, innovation, and a deep appreciation for our natural environment.
 
 </p>
 <p className='history1 mt-2'>
-Our dedicated faculty members are not only experts in their disciplines but also passionate educators and mentors. They bring a wealth of knowledge, experience, and a commitment to student success. Through their guidance, our students engage in rigorous academic pursuits and innovative research projects that address both local and global challenges.
+As we look forward to the future, we remain steadfast in our mission to advance knowledge, promote sustainable practices, and contribute positively to our community and society at large. Through research, community engagement, and partnerships with local stakeholders, we aim to address the unique challenges and opportunities presented by our Himalayan context.
 
 </p>
 <p className='history1 mt-2'>
-At Smt. Manjeera Devi University, we place a strong emphasis on sustainability and environmental stewardship. Given our location in the Himalayas, we are acutely aware of the importance of preserving our natural resources and promoting sustainable development. Our academic programs, research initiatives, and community outreach activities are all geared towards fostering a deeper understanding of environmental issues and sustainable practices.
+I extend my heartfelt gratitude to our faculty, staff, students, alumni, and supporters who have contributed to our journey thus far. Your dedication and enthusiasm are the driving forces behind our success and accomplishments.
 
 </p>
 <p className='history1 mt-2'>
-We also pride ourselves on our inclusive and diverse community. Our students come from various cultural and geographical backgrounds, creating a rich tapestry of perspectives that enrich our academic environment. This diversity is a source of strength and innovation, promoting a culture of mutual respect and collaboration.
+Together, let us continue to uphold the values of integrity, inclusivity, and excellence that define Smt. Manjeera Devi University. As we embark on this journey together, I am confident that we will inspire positive change and make a lasting impact in our region and beyond.
 
 </p>
 <p className='history1 mt-2'>
-Our university is deeply committed to community engagement and social responsibility. We encourage our students to participate in community service and outreach programs that make a positive impact on the local community and beyond. These initiatives help develop a sense of social responsibility and a commitment to contributing to the greater good.
+
+Thank you for choosing Smt. Manjeera Devi University as your academic home. Here's to a future filled with learning, discovery, and achievement.
 
 </p>
-<p className='history1 mt-2'>
-As we continue to grow and evolve, we remain dedicated to our mission of providing a transformative educational experience. We strive to enhance our programs, expand our research capabilities, and strengthen our partnerships with industry and other educational institutions.
 
-</p>
-<p className='history1 mt-2'>
-Thank you for being a part of Smt. Manjeera Devi University. Together, let us embark on a journey of academic excellence, innovation, and meaningful contributions to society.
-
-</p>
 <p className='history1 mt-2'> 
 Warm regards
 </p>

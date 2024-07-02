@@ -69,8 +69,8 @@ const Pharma = () => {
         </div>
         <div className="col-md-4 image-column"><br/>
             <img
-              style={{ height: "75%" }}
-              src="/vision.png"
+               style={{ height: "auto",width:"auto" }}
+              src="/medicalimage2.jpg"
               alt="School Vision"
             />
           </div>

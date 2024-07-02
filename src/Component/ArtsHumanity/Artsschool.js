@@ -31,7 +31,7 @@ const Artsschool = () => {
               </p>
             </div>
             <div className="col-md-6">
-              <img src="arts6.jpg" alt="" className="artsimage" />
+              <img src="ourschool3.png" alt="" className="artsimage" />
             </div>
           </div>
         </div>

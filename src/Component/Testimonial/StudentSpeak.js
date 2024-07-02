@@ -41,21 +41,21 @@ const StudentSpeak = () => {
   const students = [
     {
       name: 'Nitesh Kumar',
-      batch: 'MBA | Batch 2021-2023',
-      quote: 'I am honoured to be a Smt. Manjira Devi University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
-      image: 'student1.jpeg',
+      batch: 'Civil | Batch 2021-2023',
+      quote: 'I am honoured to be a Smt. Manjira Devi University Diploma in civil student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
+      image: 'review1.jpg',
     },
     {
-      name: 'Nitesh Kumar',
-      batch: 'MBA | Batch 2021-2023',
-      quote: 'I am honoured to be a Smt. Manjira Devi University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
-      image: 'student1.jpeg',
+      name: 'Amrita Rawat',
+      batch: 'BPT | Batch 2020-2023',
+      quote: 'I am honoured to be a Smt. Manjira Devi University Bpt student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
+      image: 'review2.jpg',
     },
     {
-      name: 'Nitesh Kumar',
-      batch: 'MBA | Batch 2021-2023',
-      quote: 'I am honoured to be a Smt. Manjira Devi University MBA student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
-      image: 'student1.jpeg',
+      name: 'Aryan Negi',
+      batch: 'H.M | Batch 2020-2023',
+      quote: 'I am honoured to be a Smt. Manjira Devi University H.M student and even more honoured to have been hired by Adon Publicity. My excellent business and management background from the university has enabled me to do well throughout my internship at Adon Publicity. The education is both demanding and gratifying, and the teachers are competent and devoted to their students\' success. I\'ve had the chance to work on actual business initiatives, hone my leadership and teamwork abilities, and get practical experience in my area of expertise.',
+      image: 'review3.jpg',
     },
   ];
 

@@ -3,6 +3,8 @@
   color: #FD5F00;
 }
 
+
+
 .bg1 {
   background-color: #FD5F00;
   color: white;
@@ -73,6 +75,27 @@
   font-weight: bold;
   font-size: 50px;
 }
+.hrnav{
+ 
+  
+    height: 1px; /* Adjust the thickness of the line */
+    
+    border: none; /* Remove default border */
+    margin: 5px 0; /* Adjust top and bottom margins */
+  
+
+}
+.hr1nav{
+ 
+  
+  height: 1px; /* Adjust the thickness of the line */
+  
+  border: none; /* Remove default border */
+  margin: 3px 0; /* Adjust top and bottom margins */
+
+
+}
+
 .bg6 {
   background-image: linear-gradient(to left, rgba(253, 95, 0, 0.4), rgba(83, 82, 80, 0.4)), url("/public/navimage.jpg");
   background-size: cover;
@@ -209,6 +232,7 @@
     font-size:11px;
     font-family: sans-serif;
   }
+
 }
 @media only screen and (min-width: 1025px) {
   /* styles for desktops */

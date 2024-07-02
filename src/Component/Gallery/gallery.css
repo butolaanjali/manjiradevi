@@ -6,7 +6,11 @@
 	text-align: center;
 	position: relative;
   }
-  
+  .medical-text{
+	font-family: serif;
+	text-align: justify;
+	font-size: 21px;
+  }
   .slider-title {
 	font-size: 30px;
 	margin-bottom: 10px;

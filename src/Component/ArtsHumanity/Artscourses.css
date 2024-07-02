@@ -2,7 +2,7 @@
 
 /* Base styles */
 .artsimage1 {
-  background-image: linear-gradient(to left, rgba(60, 57, 55, 0.4), rgba(82, 79, 75, 0.4)), url("/public/arts.jpg");
+  background-image: linear-gradient(to left, rgba(60, 57, 55, 0.4), rgba(82, 79, 75, 0.4)), url("/public/manjiraimage1.jpg");
   background-size: cover;
   height: 530px;
   width: 100%;
@@ -27,7 +27,7 @@
 }
 .promise-help{
   background-color: white;
-  box-shadow: 4px 4px 8px ;
+  box-shadow: 0px 0px 1px ;
 }
 .promise-bg2{
   color:#0D1128;

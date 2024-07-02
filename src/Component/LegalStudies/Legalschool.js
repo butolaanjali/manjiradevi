@@ -31,7 +31,7 @@ The School of Legal Studies at Smt. Manjira Devi University is dedicated to prov
     </div>
  
     <div class="col-md-6 ">
-    <img src="arts6.jpg" alt="" className="artsimage" />
+    <img src="ourschool5.png" alt="" className="artsimage" />
         
       </div>
 

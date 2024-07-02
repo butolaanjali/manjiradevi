@@ -30,7 +30,7 @@ const Anm = () => {
     </div>
  
     <div class="col-md-6 ">
-    <img src="gnm2.jpg" alt="" className="psychologyimage" />
+    <img src="review2.jpg" alt="" className="psychologyimage" />
         
       </div>
 
@@ -70,8 +70,8 @@ const Anm = () => {
         </div>
         <div className="col-md-4 image-column mt-5"><br/>
             <img
-              style={{ height: "100%" }}
-              src="/vision.png"
+              style={{ height: "auto",width:"auto" }}
+              src="/medicalimage2.jpg"
               alt="School Vision"
             />
           </div>

@@ -30,41 +30,38 @@ const CustomNextArrow = (props) => {
 const Gallery = () => {
   const slides = [
     {
-      image: 'img1.jpeg',
+      image: 'medicalimage1.jpg',
       link: '#',
     },
     {
-      image: 'img2.jpg',
+      image: 'medicalimage2.jpg',
       link: '#',
     },
     {
-      image: 'image1.jpeg',
+      image: 'medicalimage3.jpg',
       link: '#',
     },
     {
-      image: 'student1.jpeg',
+      image: 'medicalimage4.jpg',
       link: '#',
     },
     {
-      image: 'img5.jpg',
+      image: 'medicalimage5.jpg',
       link: '#',
     },
     {
-      image: 'image1.jpeg',
+      image: 'medicalimage6.jpg',
       link: '#',
     },
     {
-      image: 'student1.jpeg',
+      image: 'medicalimage7.jpg',
       link: '#',
     },
     {
-      image: 'student2.jpeg',
+      image: 'medicalimage8.jpg',
       link: '#',
     },
-    {
-      image: 'student3.jpeg',
-      link: '#',
-    },
+   
   ];
 
   const settings = {
@@ -91,8 +88,9 @@ const Gallery = () => {
 
   return (
     <div>
-      <div className="our-schools-slider mb-4 ">
-        <h2 class="text-center text-bold">OUR <span className='ga'> GALLERY</span></h2>
+      <div className="our-schools-slider  ">
+        <h2 class="medical-text ms-5 mb-4">The School of Medicine at Smt. Manjira Devi University is dedicated to preparing students for the demands of the healthcare industry through meticulously crafted programs devised in collaboration with esteemed medical professionals.
+</h2>
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="slide">

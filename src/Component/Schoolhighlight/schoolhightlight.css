@@ -1,0 +1,98 @@
+.hightlight-school {
+  color: #FD5F00;
+}
+
+.hightlight-school1 {
+  font-size: 35px;
+  color: #0D1128;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.hightlight-school2 {
+  font-size: 26px;
+  color: #0D1128;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.high1 {
+  background-color: white;
+  box-shadow: 0 0px 1px;
+  border-radius: 10px;
+  border: none;
+  width: 390px;
+}
+
+.high3 {
+  background-color: #FD5F00;
+  gap: 0;
+  margin-left: -12px;
+  margin-right: -12px;
+  text-align: center;
+  font-family: serif;
+  font-size: 22px;
+  border-radius: 2px 2px 15px 15px;
+}
+
+.high4 {
+  padding: 33px;
+}
+
+.high2 {
+  background-color: #0D1128;
+  border-radius: 15px;
+  border: none;
+  width:185px;
+}
+
+.high-p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: serif;
+}
+
+.high-text {
+  font-family: serif;
+  color: #0D1128;
+  font-size: 24px;
+}
+
+.promise-h1 {
+  width: 60px; 
+  height: 60px;
+  background-color: #0D1128;
+  border-radius: 5px;
+}
+
+.promise-bg {
+  color: white;
+  font-size: 35px;
+}
+@media only screen and (max-width: 768px) {
+  /* styles for mobile devices */
+  .high3 {
+    background-color: #FD5F00;
+    gap: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+    font-family: serif;
+    font-size: 22px;
+    border-radius: 2px 2px 15px 15px;
+  }
+  
+  .high4 {
+    padding: 33px;
+  }
+  
+  .high2 {
+    background-color: #0D1128;
+    border-radius: 15px;
+    border: none;
+    width:130px;
+  }
+  
+  
+  
+}

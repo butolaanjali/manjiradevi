@@ -12,6 +12,7 @@ import StudentSpeak from "./Testimonial/StudentSpeak";
 import StudentLife from "./Studentlife/Studentlife";
 import Gallery from "./Gallery/Gallery";
 import Accreditations from "./Accreditations/Accreditations";
+import Schoolhighlight from "./Schoolhighlight/Schoolhighlight";
 
 
 function Home() {
@@ -47,13 +48,13 @@ function Home() {
             <h1><span className="bg3">19+ Years</span> Of Excellence</h1>
             <div className="row mt-3 ">
               <div className="col-md-5 me-0 bg7 p-2">
-                <h1 className="bg5">40 LPA</h1>
-                <p className="bg8">Highest Offered CTC</p>
+                <h1 className="bg5">250+</h1>
+                <p className="bg8">Placed in Govt. Sector</p>
               </div>
               <div className="col-md-1"></div>
               <div className="col-md-5 bg7 ms-0 p-2">
-                <h1 className="bg5">850+</h1>
-                <p className="bg8">Recruiters Across Industries</p>
+                <h1 className="bg5">100+</h1>
+                <p className="bg8">Medical Camps</p>
               </div>
             </div>
             <div className="row mt-3 ">
@@ -63,8 +64,8 @@ function Home() {
               </div>
               <div className="col-md-1"></div>
               <div className="col-md-5 bg7 ms-0 p-2">
-                <h1 className="bg5">17500+</h1>
-                <p className="bg8">Glorious Alumni</p>
+                <h1 className="bg5">4000+</h1>
+                <p className="bg8">Pass Out Students</p>
               </div>
             </div>
           </div>
@@ -129,6 +130,7 @@ function Home() {
       <StudentSpeak/>
       <StudentLife/>
       <Gallery/>
+     <Schoolhighlight/>
       
       
      

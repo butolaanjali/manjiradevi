@@ -58,9 +58,13 @@ function Nav() {
                   About Us
                 </Link>
                 {activeDropdown === 'about' && (
-                  <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdownAbout">
-                    <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
-                    <li><Link className="dropdown-item" to="/vision">Our Vision and Mission</Link></li>
+                  <ul className="dropdown-menu no-arrow mt-2" aria-labelledby="navbarDropdownAbout" style={{columns:'1'}}>
+                    
+                    <li><Link className="dropdown-item mt-2   " to="/about">About Manjira Devi</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2 " to="/vision">Our Vision and Mission</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2" to="/msg">Chancellor's Message</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2 " to="/registarmsg">Registrar's Message</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2" to="/visemsg"> Vice Chancellor's Message</Link></li>
                   </ul>
                 )}
               </li>
@@ -77,7 +81,7 @@ function Nav() {
                 {activeDropdown === 'school' && (
                   <div className="dropdown-fullpage">
                     <div className="dropdown-menu-columns">
-                      <ul className="dropdown-menu" style={{ fontSize: '13px', lineHeight: '1.1' }}>
+                      <ul className="dropdown-menu mt-2" style={{ fontSize: '13px', lineHeight: '1.1' }}>
                         <li><Link className="dropdown-item" to="/school1"><i className="fas fa-arrow-circle-right"></i> School of Engineering</Link></li>
                         <ul className="nested-dropdown">
                           <li><Link className="dropdown-item" to="/engineer">Diploma in CE</Link></li>
@@ -108,7 +112,7 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/bscagr">B.Sc in agriculture</Link></li>
                           <li><Link className="dropdown-item" to="/mscagr">M.Sc in Agriculture</Link></li>
                           <li><Link className="dropdown-item" to="/mschor">M.Sc in Horticulture</Link></li>
-                        </ul>
+                        </ul><br/><br/>
                         <li><Link className="dropdown-item" to="/artsschool"><i className="fas fa-arrow-circle-right"></i> School of Arts and Humanity</Link></li>
                         <ul className="nested-dropdown">
                           <li><Link className="dropdown-item" to="/baarts">B.A</Link></li>
@@ -136,7 +140,6 @@ function Nav() {
                           <li><Link className="dropdown-item" to="/nursingbpt">BPT</Link></li>
                           <li><Link className="dropdown-item" to="/nursinggnm">GNM</Link></li>
                           <li><Link className="dropdown-item" to="/nursinganm">ANM</Link></li>
-                         
                           <li><Link className="dropdown-item" to="/nursingdpharma">D.Pharma</Link></li>
                         </ul>
                         <li><Link className="dropdown-item" to="/schoollegal"><i className="fas fa-arrow-circle-right"></i> School of Legal Studies</Link></li>
