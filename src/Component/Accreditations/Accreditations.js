@@ -4,7 +4,7 @@ const Accreditations = () => {
   return <div>
    <div className='container-fluid mt-5 mb-5'>
     <div className='container'>
-    <center><h1><span className="bg3">Accreditations </span>& Recognitions</h1></center>
+    <center><h1>Accreditations & <span className="bg3">Recognitions</span></h1></center>
         <div className='row mt-3'>
            
             <div className='col-md-2 mt-2 '>

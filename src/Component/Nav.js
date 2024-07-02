@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 import TopNavBar from "./TopNav/TopNavbar";
-import Notnav from "./NotNav/Notnav";
 
+
+import Notnav from "./NotNav/Notnav";
 function Nav() {
   const [showPopup, setShowPopup] = useState(false);
 
-  const togglePopup = () => {
-    setShowPopup(!showPopup);
-  };
+    const togglePopup = () => {
+        setShowPopup(!showPopup);
+    };
 
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -26,6 +27,7 @@ function Nav() {
     <div>
       <TopNavBar/>
       <Notnav/>
+
       <nav className="navbar navbar-expand-lg navbar-dark mt-0 p-2">
         <div className="container-fluid">
           <button
@@ -56,9 +58,13 @@ function Nav() {
                   About Us
                 </Link>
                 {activeDropdown === 'about' && (
-                  <ul className="dropdown-menu no-arrow" aria-labelledby="navbarDropdownAbout" style={{columns:'1'}}>
-                    <li><Link className="dropdown-item" to="/vision">Our Vision and Mission</Link></li>
-                    <li><Link className="dropdown-item" to="/about">About Manjira Devi</Link></li>
+                  <ul className="dropdown-menu no-arrow mt-2" aria-labelledby="navbarDropdownAbout" style={{columns:'1'}}>
+                    
+                    <li><Link className="dropdown-item mt-2   " to="/about">About Manjira Devi</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2 " to="/vision">Our Vision and Mission</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2" to="/msg">Chancellor's Message</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2 " to="/registarmsg">Registrar's Message</Link></li><hr className="hr1nav"/>
+                    <li><Link className="dropdown-item mt-2" to="/visemsg"> Vice Chancellor's Message</Link></li>
                   </ul>
                 )}
               </li>
@@ -75,7 +81,7 @@ function Nav() {
                 {activeDropdown === 'school' && (
                   <div className="dropdown-fullpage">
                     <div className="dropdown-menu-columns">
-                      <ul className="dropdown-menu" style={{ fontSize: '13px', lineHeight: '1.1' }}>
+                      <ul className="dropdown-menu mt-2" style={{ fontSize: '13px', lineHeight: '1.1' }}>
                         <li><Link className="dropdown-item" to="/school1"><i className="fas fa-arrow-circle-right"></i> School of Engineering</Link></li>
                         <ul className="nested-dropdown">
                           <li><Link className="dropdown-item" to="/engineer">Diploma in CE</Link></li>

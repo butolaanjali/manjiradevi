@@ -2,7 +2,7 @@
   text-align: center;
   padding: 20px;
   font-size: 17px;
-  background-color: lightgray;
+  background-color: #F6F7F9;
   font-family: serif;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .student-card {
-  width: 300px;
+  width: 400px;
   padding: 25px;
   text-align: center;
 }
@@ -24,7 +24,7 @@
   width: 100%;
   height: 240px;
   margin-bottom: 15px;
-  border-radius: 40px;
+  border-radius:10px;
 }
 
 .student {
@@ -35,7 +35,7 @@
   width: 100%;
   height: 480px;
   margin-bottom: 10px;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .stud {
@@ -150,7 +150,7 @@
 @media (max-width: 480px) {
   .student-card img, .student img {
     height: auto;
-    max-height: 200px;
+    max-height: 500px;
   }
 
   .stud1 {

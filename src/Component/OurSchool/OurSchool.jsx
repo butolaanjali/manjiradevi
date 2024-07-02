@@ -54,17 +54,17 @@ const OurSchool = () => {
   const slides = [
     {
       title: 'School of Engineering ',
-      image: 'mechanical.jpeg',
+      image: 'ourschool4.png',
       link: '#',
     },
     {
       title: 'School of Science And Technology',
-      image: 'bcom.jpeg',
+      image: 'ourschool2.png',
       link: '#',
     },
     {
       title: 'School of Commerce And Management Studies',
-      image: 'bcom.jpeg',
+      image: 'ourschool5.png',
       link: '#',
     },
     {
@@ -74,7 +74,7 @@ const OurSchool = () => {
     },
     {
       title: 'School of Arts And Humanities',
-      image: 'tour.jpeg',
+      image: 'ourschool3.png',
       link: '#',
     },
     {
@@ -84,12 +84,12 @@ const OurSchool = () => {
     },
     {
       title: 'School of Nursing, Paramedical & Allied Science',
-      image: 'llb.jpeg',
+      image: 'ouschoolimage1.png',
       link: '#',
     },
     {
       title: 'School of Legal',
-      image: 'llb.jpeg',
+      image: 'ourschool3.png',
       link: '#',
     },
     {

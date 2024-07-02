@@ -93,8 +93,7 @@ const Vision = () => {
           <div className="image-container">
             <img src="/vision.png" alt="Journey" className="journey-image" />
             <div className="overlay1">
-              <h2 style={{ fontFamily: 'Arial, sans-serif' }}>It's All About the 
-                <br/>Journey</h2><br/>
+              
             </div>
           </div>
           <div className="journey-text ">
