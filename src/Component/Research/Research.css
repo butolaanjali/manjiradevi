@@ -1,0 +1,17 @@
+.aboutimage {
+    background-image: linear-gradient(to left, rgba(24, 23, 23, 0.4), rgba(11, 11, 11, 0.4)), url("/public/galleryimage.jpg");
+    background-size: cover;
+    height:450px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.aboutsmt {
+    font-weight: bold;
+    padding-top: 12%;
+    font-size: 45px;
+    font-family: serif;
+}
+.img-fluid{
+    width:400px;
+    border-radius: 5px;
+}
