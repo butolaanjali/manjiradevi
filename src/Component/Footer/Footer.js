@@ -49,7 +49,6 @@ const Footer = () => {
                     <a href="#">Student Code of Conduct</a>
                     <a href="#">Code of Conduct for Teachers</a>
                     <a href="#">Shodhganga</a>
-                    <a href="#">Shodhgangotri</a>
                     <a href="#">e-Samdhaan</a>
                 </div>
 
@@ -59,13 +58,9 @@ const Footer = () => {
                     <a href="/vision">Vision & Mission</a>
                     <a href="#">Download Brochure</a>
                     <a href="#">Annual Report</a>
-                    <a href="#">Internship Registration</a>
-                    <a href="#">Alumni Registration</a>
-                    <a href="#">About Dehradun</a>
+                    <a href="#">About Uttarkashi</a>
                     <a href="#">News & Events</a>
-                    <a href="#">NDLI CLUB</a>
                     <a href="#">Career</a>
-                    <a href="#">NIRF</a>
                     <a href="#">Transport</a>
                     <a href="#">Call For Paper</a>
                     <a href="#">UGC Mandatory Disclosure</a>
