@@ -3,8 +3,6 @@
   color: #FD5F00;
 }
 
-
-
 .bg1 {
   background-color: #FD5F00;
   color: white;
@@ -312,14 +310,12 @@
   max-width: 100%; /* Adjusted to allow full width */
   overflow-x: hidden;
 }
-/* Add your existing styles above */
-/* Styles for dropdown menu */
 .dropdown-menu-columns {
   display: flex;
   flex-direction: column;
 }
 .dropdown-menu {
-  columns: 2;
+  columns: 1;
 }
 .dropdown-fullpage {
   position: absolute;
@@ -703,5 +699,68 @@
 
   .bf3 {
     font-size: 9px;
+  }
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.dropdown-menu .dropdown-submenu.show .dropdown-menu {
+  display: block;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav .dropdown-menu .dropdown-submenu .dropdown-item i {
+  font-size: 12px;
+}
+/* Custom CSS for mobile view  of school*/
+@media (max-width: 768px) {
+  .dropdown-menu {
+    position: static !important; 
+    float: none; 
+    width: auto; 
+    margin-top: 0 !important; 
+    box-shadow: none; 
+    visibility: visible; 
+    display: none; 
+    opacity: 1; 
+    transition: none; 
+  }
+
+  .dropdown-menu.show {
+    display: block; 
+  }
+
+  .dropdown-submenu {
+    position: static !important; 
+  }
+
+  .dropdown-menu > li > a {
+    padding: 10px 20px; 
+  }
+
+  .dropdown-menu > li > .dropdown-menu {
+    top: 0 !important; 
+    left: 100%; 
   }
 }
