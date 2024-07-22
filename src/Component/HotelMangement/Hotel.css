@@ -1,7 +1,7 @@
 .hmimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/hm.jpg");
     background-size: cover;
-    height: 530px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -13,21 +13,21 @@
   .diplomahm-image {
     background-image:linear-gradient(to left,rgba(3, 3, 3, 0.4),rgba(82, 79, 75, 0.4)), url("/public/hm2.jpg");
     background-size: cover;
-    height: 550px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .bbatourism-image {
     background-image:linear-gradient(to left,rgba(6, 6, 6, 0.4),rgba(82, 79, 75, 0.4)), url("/public/hm1.jpg");
     background-size: cover;
-    height: 550px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .bachelorhm-image {
     background-image:linear-gradient(to left,rgba(6, 6, 6, 0.4),rgba(82, 79, 75, 0.4)), url("/public/hm2.jpg");
     background-size: cover;
-    height: 550px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }

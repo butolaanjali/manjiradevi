@@ -23,13 +23,8 @@ const Msg = () => {
       <div className='container-fluid mt-5 whycolor p-5'>
 <div className='container'>
 <div className='row'>
-  <div className='col-md-6'>
   
-    <img src="msgimage1.jpg" alt="" className="msgimage" />
-        
-     
-  </div>
-  <div className='col-md-6'>
+  
   <h2 className=' about-history'>Chancellor's <span className='about-span'> Message</span></h2>
 <p className='history1 mt-3'>
 It is with immense pride and joy that I extend my warmest greetings to each of you as we embark on a momentous chapter in the history of our institution. From our humble beginnings as a group of institutions, we have now reached a significant milestone—the establishment of Smt. Manjeera Devi University, nestled in the picturesque Himalayan region of Uttarakshi, Uttarakhand.
@@ -39,7 +34,7 @@ It is with immense pride and joy that I extend my warmest greetings to each of y
 For over 20 years, our journey has been guided by a steadfast commitment to excellence in education, innovation, and community service. Today, as we transition to university status, we celebrate not only our growth but also the enduring values that have shaped us into the institution we are today.
 </p>
 
-  </div>
+  
   <div className='row mt-3'>
   <p className='history1 mt-2'>
 Our university stands as a testament to the transformative power of education in the heart of the Himalayas. The majestic surroundings of Uttarakhand provide a unique backdrop for learning, research, and personal growth. As we embrace our new status, we reaffirm our dedication to providing a holistic educational experience that prepares our students to navigate the complexities of the modern world while honoring the rich cultural heritage and ecological significance of our region.

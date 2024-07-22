@@ -1,14 +1,14 @@
 .pgdyogic-image {
-    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/pgdyogic.jpg");
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/phdyogic.jpg");
     background-size: cover;
-    height: 580px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .pgdyogic-smt {
    
     font-weight: bold;
-    padding-top: 15%; 
+    padding-top: 9%; 
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
   }

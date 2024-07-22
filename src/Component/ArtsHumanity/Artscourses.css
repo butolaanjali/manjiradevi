@@ -4,7 +4,7 @@
 .artsimage1 {
   background-image: linear-gradient(to left, rgba(60, 57, 55, 0.4), rgba(82, 79, 75, 0.4)), url("/public/manjiraimage1.jpg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 }

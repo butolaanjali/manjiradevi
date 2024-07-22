@@ -12,7 +12,7 @@ const Ballb = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >B.A in LLB</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt  " >B.A in LLB</h2></center>
    
   </div>
       </div>
@@ -22,7 +22,7 @@ const Ballb = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best B.A in LLB</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best B.A in LLB</span> University in Uttarkashi</h2>
     <p className='mt-3 arts-p'>
     At Smt. Manjira Devi University, the BA in LLB program offers a unique blend of legal education integrated with a strong foundation in arts disciplines. Spanning five years, this program aims to provide students with a deep understanding of both law and humanities subjects. The curriculum covers key aspects of law including constitutional, criminal, civil, and corporate law, while also incorporating subjects from fields like political science, sociology, and economics. The faculty comprises experienced legal professionals and scholars who bring practical insights into the classroom. Students engage in moot court competitions, internships, and legal clinics to gain hands-on experience and practical skills. Ethics and social responsibility are emphasized throughout the program, preparing graduates to become ethical and competent legal professionals. The BA in LLB program at Smt. Manjira Devi University ensures students are well-prepared for diverse career opportunities in the legal field and beyond.
     </p>

@@ -2,7 +2,7 @@
 .bnysimage {
   background-image: linear-gradient(to left, rgba(60, 57, 55, 0.4), rgba(82, 79, 75, 0.4)), url("/public/bnys.jpg");
   background-size: cover;
-  height: 550px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 }

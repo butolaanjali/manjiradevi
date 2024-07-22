@@ -11,7 +11,7 @@ const Bbatourism = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >Bachelor of Business Administration in Tourism</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt  " >Bachelor of Business Administration in Tourism</h2></center>
    
   </div>
       </div>
@@ -21,7 +21,7 @@ const Bbatourism = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best BBA in Tourism</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best BBA in Tourism </span>University in Uttarkashi</h2>
     <p className='mt-3 arts-p'>
     The BBA in Tourism at SMT Manjira Devi University is designed to equip students with the essential business and management skills needed for the dynamic tourism industry. Our comprehensive curriculum covers tourism management, marketing, hospitality operations, and sustainable tourism practices. Students benefit from hands-on learning through industry internships and field trips, providing real-world experience. The program is delivered by experienced faculty members who bring industry insights into the classroom. Cutting-edge facilities and strong industry connections enhance the educational experience. Emphasis is placed on customer service, cultural awareness, and innovative solutions. Graduates are prepared for diverse roles in travel agencies, tour operations, hospitality, and destination management. Join us to explore exciting career opportunities in the global tourism sector.
     </p>

@@ -11,7 +11,7 @@ const BaArts = () => {
           <div className="row">
             <div className="col-sm-12 mt-4">
               <center>
-                <h2 className="text-white display-3 artssmt mt-5" >
+                <h2 className="text-white display-3 artssmt " >
                 Bachelor of Arts (B.A.)
                 </h2>
               </center>
@@ -24,7 +24,7 @@ const BaArts = () => {
           <div className="row">
             <div className="col-md-6">
               <h2 className="mb-2 mt-2 arts-h1">
-                <span className="arts-span">Best B.A in Arts and Humanity</span> College in Uttarkashi
+                <span className="arts-span">Best B.A in Arts and  Humanities </span>University in Uttarkashi
               </h2>
               <p className="mt-3 arts-p">
                 At Smt. Manjira Devi University in Uttarkashi, BA in Arts and Humanities offers a comprehensive exploration of subjects like literature, history, philosophy, languages, and performing arts. This undergraduate program is designed to provide students with a well-rounded education in the liberal arts, emphasizing critical thinking, cultural appreciation, and communication skills. The curriculum integrates theoretical knowledge with practical applications through workshops, seminars, and cultural events. Faculty members are dedicated to fostering intellectual growth and preparing students for diverse career paths in education, journalism, public relations, and various creative and cultural industries.

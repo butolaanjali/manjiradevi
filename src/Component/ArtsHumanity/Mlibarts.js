@@ -11,7 +11,7 @@ const Mlibarts = () => {
           <div className="row">
             <div className="col-sm-12 mt-4">
               <center>
-                <h2 className="text-white display-3 artssmt mt-5" >
+                <h2 className="text-white display-3 artssmt " >
                 Master of Library and Information Science (M.Lib.)
                 </h2>
               </center>
@@ -24,7 +24,7 @@ const Mlibarts = () => {
           <div className="row">
             <div className="col-md-6">
               <h2 className="mb-2 mt-2 arts-h1">
-                <span className="arts-span">Best Master of Library and Information Science (M.Lib.)</span> College in Uttarkashi
+                <span className="arts-span">Best Master of Library and Information Science (M.Lib.)</span> University in Uttarkashi
               </h2>
               <p className="mt-3 arts-p">
               The Master of Library and Information Science (M.Lib.) program at Smt. Manjira Devi University in Uttarkashi provides an in-depth study of literature, history, philosophy, languages, and performing arts. Emphasizing advanced critical thinking and research skills, the curriculum combines theoretical knowledge with practical experience through workshops, seminars, and cultural events. Expert faculty members guide students in achieving intellectual growth and prepare them for leadership roles in education, journalism, public relations, and various creative and cultural industries. This program aims to develop proficient professionals equipped with a comprehensive understanding of the liberal arts.

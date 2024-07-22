@@ -12,7 +12,7 @@ function School4() {
           <div className="row">
             <div className="col-12 mt-4">
               <center>
-                <h2 className="text-white display-3 nursingsmt mt-5" data-aos="fade-down">
+                <h2 className="text-white display-3 nursingsmt " >
                 School of Agriculture
                 </h2>
               </center>

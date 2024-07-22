@@ -11,11 +11,11 @@ const Schoolhighlight = () => {
     <div>
     <div className='container-fluid  whycolor p-5'>
 <div className='container'>
-<h2 className="hightlight-school1">School  <span className="hightlight-school">Highlights</span></h2>
+<h2 className="hightlight-school1 ">School  <span className="hightlight-school">Highlights</span></h2>
     <div className='row'>
         <div className='col-md-8'>
 <div className='row'>
-<div className='col-md-6 high1 p-3 me-2 '>
+<div className='col-md-6 high1 p-3 mstud  '>
 <h1 className='text-center promise-h1'><i class="bi bi-calendar3 promise-bg"></i></h1>
 <h3 className='high-text'>Strong Placement Support</h3>
 <p className='high-p'>
@@ -24,7 +24,7 @@ Smt. Manjira Devi University offers excellent placement support through a dedica
 </p>
 </div>
 
-<div className='col-md-6 high1 p-3 ms-2   '>
+<div className='col-md-6 high1 p-3  mstud1  '>
 <h1 className='text-center promise-h1'><i class="bi bi-bag-check-fill promise-bg"></i></h1>
 <h3 className='high-text'>5I Pedagogy</h3>
 <p className='high-p'>
@@ -32,8 +32,8 @@ The 5I Pedagogy at Smt. Manjira Devi University enhances learning with interacti
 </p>
 </div>
 </div>
-<div className='row mt-3'>
-<div className='col-md-6 high1 p-3 me-2 '>
+<div className='row mstud3 mstud2'>
+<div className='col-md-6 high1 p-3 mstud '>
 <h1 className='text-center promise-h1'><i class="bi bi-book-fill promise-bg"></i></h1>
 <h3 className='high-text'>Experiential Learning</h3>
 <p className='high-p'>
@@ -42,7 +42,7 @@ Experiential learning at Smt. Manjira Devi University emphasizes hands-on experi
 </p>
 </div>
 
-<div className='col-md-6 high1 p-3 ms-2   '>
+<div className='col-md-6 high1 p-3  mstud1   '>
 <h1 className='text-center promise-h1'><i class="bi bi-calendar3 promise-bg"></i></h1>
 <h3 className='high-text'>Industry Interaction</h3>
 <p className='high-p'>
@@ -54,7 +54,7 @@ Industry interaction at Smt. Manjira Devi University bridges the gap between aca
         <div className='col-md-4 '>
 
 
-        <div className='row'>
+        <div className='row '>
     <h2 className='hightlight-school2 mt-1'>Here’s what you can avail yourself at MANJIRA</h2>
     <div className='col-6 col-md-4 high2 mt-3 ms-2 me-1'>
       <h1 className='text-center high4'><i class="bi bi-people-fill promise-bg"></i></h1>

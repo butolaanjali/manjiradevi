@@ -10,7 +10,7 @@ const Mayogic = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 mayogic-smt mt-5" data-aos="fade-down" >Master of Arts in Yoga (M.A – Yoga)</h2></center>
+   <center> <h2 class="text-white  display-3 mayogic-smt " >Master of Arts in Yoga (M.A – Yoga)</h2></center>
    
   </div>
       </div>
@@ -20,7 +20,7 @@ const Mayogic = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 mayogic-h1'><span className='mayogic-span'>Best Master of Arts in Yoga (M.A – Yoga)</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 mayogic-h1'><span className='mayogic-span'>Best Master of Arts in Yoga (M.A – Yoga) </span>University in Uttarkashi</h2>
     <p className='mt-3 mayogic-p'>
     Smt. Manjira Devi University offers an M.A. in Yogic Science and Naturopathy, a 2-year program emphasizing advanced theoretical and practical knowledge in yoga and natural healing methods. The curriculum covers advanced yoga practices, meditation, naturopathic therapies, diet and nutrition, holistic health, and wellness management. Students are trained in research methodologies and therapeutic applications. Graduates can become yoga therapists, naturopathy practitioners, wellness consultants, researchers, or educators. Admission requires a bachelor's degree in a related field. For more information, visit the university's official website or contact the admissions office.
 </p>

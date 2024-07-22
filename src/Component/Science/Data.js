@@ -10,7 +10,7 @@ function Data() {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" > Diploma - Artificial Intelligence and Machine Learning / Data Science & Cloud Technology / Cyber Security / Forensic Science</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt  "  > Diploma - Artificial Intelligence and Machine Learning / Data Science & Cloud Technology / Cyber Security / Forensic Science</h2></center>
    
   </div>
       </div>

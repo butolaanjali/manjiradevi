@@ -9,7 +9,7 @@
    
       background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts5.jpg");
       background-size: cover;
-      height: 530px;
+      height: 300px;
       width: 100%;
       background-repeat: no-repeat;
     
@@ -18,14 +18,14 @@
   .diplomaagriculture-image{
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/agr1.jpeg");
       background-size: cover;
-      height: 530px;
+      height: 300px;
       width: 100%;
       background-repeat: no-repeat;
      }
      .bscagriculture-image{
       background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/agr4.jpeg");
       background-size: cover;
-      height: 530px;
+      height: 300px;
       width: 100%;
       background-repeat: no-repeat;
 
@@ -33,7 +33,7 @@
      .mscagriculture-image{
       background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/agr2.jpeg");
       background-size: cover;
-      height: 530px;
+      height: 300px;
       width: 100%;
       background-repeat: no-repeat;
 
@@ -41,7 +41,7 @@
      .mschoragriculture-image{
       background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/hor1.jpeg");
       background-size: cover;
-      height: 530px;
+      height: 300px;
       width: 100%;
       background-repeat: no-repeat;
 

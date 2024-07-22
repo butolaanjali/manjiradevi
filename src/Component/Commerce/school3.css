@@ -1,7 +1,7 @@
 .commerce-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/commerce.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -9,7 +9,7 @@
 .bcomcommerce-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts.jpg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -18,7 +18,7 @@
 .mcomcommerce-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts1.jpg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -27,7 +27,7 @@
 .mbacommerce-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts2.jpg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -37,7 +37,7 @@
 .bbacommerce-image {
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science6.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -45,7 +45,7 @@
 .phdcommerce-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/arts3.jpg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 

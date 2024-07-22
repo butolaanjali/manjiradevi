@@ -11,7 +11,7 @@ const Bachelorhm = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >Bachelor of Hotel Management and Catering Technology (BHMCT)</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt  "  >Bachelor of Hotel Management and Catering Technology (BHMCT)</h2></center>
    
   </div>
       </div>
@@ -21,7 +21,7 @@ const Bachelorhm = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best  (BHMCT)</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best  (BHMCT) </span>University in Uttarkashi</h2>
     <p className='mt-3 arts-p'>
     The Bachelor of Hotel Management at SMT Manjira Devi University offers an in-depth program designed to develop future leaders in the hospitality industry. Our curriculum encompasses key areas such as front office management, culinary arts, food and beverage service, and hospitality marketing. Students gain hands-on experience through internships, practical workshops, and industry projects, ensuring they are well-prepared for real-world challenges. Taught by experienced faculty with extensive industry knowledge, the program emphasizes customer service excellence, operational efficiency, and innovative management practices. State-of-the-art facilities and strong industry partnerships enhance the learning experience. Graduates are equipped with the skills needed for diverse roles in hotels, resorts, restaurants, and event management. Join us to embark on a successful career in hotel management.
     </p>

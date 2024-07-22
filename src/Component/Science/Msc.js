@@ -10,7 +10,7 @@ function Msc() {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >  Master of Science - PCM/PCB/ZBC/CS</h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt " >  Master of Science - PCM/PCB/ZBC/CS</h2></center>
    
   </div>
       </div>

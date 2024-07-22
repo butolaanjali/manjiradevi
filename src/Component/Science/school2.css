@@ -2,7 +2,7 @@
   
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/school.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -10,7 +10,7 @@
 .BachelorofScience-image {
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science1.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -18,7 +18,7 @@
 .bca-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science6.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -26,7 +26,7 @@
 .ai-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science9.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -34,7 +34,7 @@
 .data-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science6.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -42,14 +42,14 @@
 .cyber-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science7.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 }
 .forensic-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science8.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -57,7 +57,7 @@
 .msc-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science2.jpeg");
   background-size: cover;
-  height: 530px;
+  height:300px;
   width: 100%;
   background-repeat: no-repeat;
 
@@ -65,7 +65,7 @@
 .mca-image{
   background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/science4.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
 

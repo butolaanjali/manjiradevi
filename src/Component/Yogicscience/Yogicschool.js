@@ -11,7 +11,7 @@ const Yogicschool = () => {
           <div className="row">
             <div className="col-sm-12 mt-4">
               <center>
-                <h2 className="text-white display-3 bnyssmt mt-5" data-aos="fade-down">
+                <h2 className="text-white display-3 bnyssmt ">
                   School of Yogic Science & Naturopathy
                 </h2>
               </center>

@@ -1,63 +1,63 @@
 .nursingimage1 {
-    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/medicalimage55.jpg");
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(31, 30, 29, 0.4)), url("/public/medicalimage55.jpg");
     background-size: cover;
-    height: 530px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .psychologyimage1 {
-    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/psychology.jpg");
+    background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/medicalimage55.jpg");
     background-size: cover;
-    height: 470px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .dpharmaimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/dpharma.jpg");
     background-size: cover;
-    height: 470px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .bpharmaimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/bpharma.jpg");
     background-size: cover;
-    height: 470px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .gnmimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/medicalimage33.jpg");
     background-size: cover;
-    height: 470px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .anmimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/medicalimage33.jpg");
     background-size: cover;
-    height: 470px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .mphimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/mph.jpg");
     background-size: cover;
-    height: 530px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
   .bptimage1 {
     background-image:linear-gradient(to left,rgba(60, 57, 55, 0.4),rgba(82, 79, 75, 0.4)), url("/public/theraphy.jpg");
     background-size: cover;
-    height: 470px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
   }
    .nursingsmt {
    
     font-weight: bold;
-    padding-top: 11%; 
+    padding-top: 8%; 
     font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
   }

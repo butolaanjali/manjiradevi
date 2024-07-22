@@ -11,7 +11,7 @@ const Phdarts = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >Doctor of Philosophy (Ph.D.)</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt  "  >Doctor of Philosophy (Ph.D.)</h2></center>
    
   </div>
       </div>
@@ -21,7 +21,7 @@ const Phdarts = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best Ph.D in Arts and Humanity</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best Ph.D in Arts and  Humanities </span> University in Uttarkashi</h2>
     <p className='mt-3 arts-p'>
     A PhD in Arts and Humanities at Smt. Manjira Devi University in Uttarkashi is a rigorous research program aimed at advancing scholarly understanding and contributing new knowledge to fields such as literature, history, philosophy, and languages. This doctoral program typically spans several years and involves in-depth study, original research, and the completion of a dissertation under the guidance of experienced faculty mentors. Students engage in critical analysis, interdisciplinary study, and theoretical exploration, preparing them for leadership roles in academia, research institutions, and cultural organizations. The university provides a supportive environment with access to resources, conferences, and collaborative opportunities to enhance scholarly growth and professional development in the arts and humanities.
     </p>

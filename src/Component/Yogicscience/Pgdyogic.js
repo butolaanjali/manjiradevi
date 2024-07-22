@@ -10,7 +10,7 @@ const Pgdyogic = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 pgdyogic-smt mt-5" data-aos="fade-down" >Post Graduation Diploma in Yoga (PGD - Yoga)</h2></center>
+   <center> <h2 class="text-white  display-3 pgdyogic-smt "  >Post Graduation Diploma in Yoga (PGD - Yoga)</h2></center>
    
   </div>
       </div>
@@ -20,7 +20,7 @@ const Pgdyogic = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 pgdyogic-h1'><span className='pgdyogic-span'>Best Post Graduation Diploma in Yoga (PGD - Yoga)  </span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 pgdyogic-h1'><span className='pgdyogic-span'>Best Post Graduation Diploma in Yoga (PGD - Yoga)  </span>University in Uttarkashi</h2>
     <p className='mt-3 pgdyogic-p'>
     Smt. Manjira Devi University offers a Postgraduate Diploma (PGD) in Yogic Science and Naturopathy, a 1-year program designed to provide specialized knowledge in yoga and natural health practices. The curriculum includes training in yoga asanas, pranayama, meditation, naturopathic treatments, diet and nutrition, and holistic health principles. This program is ideal for those seeking to enhance their skills in wellness and health management. Graduates can work as yoga instructors, naturopathy practitioners, wellness coaches, and holistic health consultants. Admission requires a bachelor's degree in any field. For more information, visit the university's official website or contact the admissions office.
 </p>

@@ -9,7 +9,7 @@ const Msccp = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 nursingsmt mt-5 " data-aos="fade-down" >Bachelor of Medical Laboratory Technology (BMLT) </h2></center>
+   <center> <h2 class="text-white  display-3 nursingsmt  "  >Bachelor of Medical Laboratory Technology (BMLT) </h2></center>
    
   </div>
       </div>
@@ -19,7 +19,7 @@ const Msccp = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 msc-h1'><span className='nursing-span'>Best Bachelor of Medical Laboratory Technology (BMLT)  </span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 msc-h1'><span className='nursing-span'>Best Bachelor of Medical Laboratory Technology (BMLT)  </span> University in Uttarkashi</h2>
     <p className='mt-3 nursing-p'>
     Smt. Manjira Devi University offers a Bachelor of Medical Laboratory Technology (BMLT) program. This program is designed to provide students with the necessary skills and knowledge to excel in the field of medical laboratory technology. Graduates are equipped to work in various medical and research laboratories, contributing to the diagnosis and treatment of diseases.
     

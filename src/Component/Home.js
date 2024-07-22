@@ -29,7 +29,7 @@ function Home() {
   <div class="container">
     <div class="row">
        <div class="col-sm-6 mt-4 ">
-    <h1 class="text-white  display-3 bg21 "  >Smt. <span className="bg22">Manjira</span><br/>Devi University</h1>
+    <h1 class="text-white  display-3 bg21 "  >Smt. Manjira <br/>Devi University</h1>
    
       <p class="text-white bg23"  >Established Under Govt. Of Uttarakhand Vide Act No.05 of 2024</p>
       <Link to="/contact" className="btn mt-3 px-4 py-3 anjali2  anjali24" >

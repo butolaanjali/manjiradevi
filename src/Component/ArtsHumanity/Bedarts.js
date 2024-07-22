@@ -11,7 +11,7 @@ const Bedarts = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >B.Ed in Arts and Humanity</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt  "  >B.Ed in Arts and  Humanities</h2></center>
    
   </div>
       </div>
@@ -21,7 +21,7 @@ const Bedarts = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best B.Ed in Arts and Humanity</span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best B.Ed in Arts and Humanities </span>University in Uttarkashi</h2>
     <p className='mt-3 arts-p'>
     A Bachelor of Education (B.Ed) in Arts and Humanities at Smt. Manjira Devi University in Uttarkashi is a specialized program designed to prepare students for teaching careers in subjects such as literature, history, philosophy, languages, and other humanities disciplines. The program typically spans 2 years and combines theoretical learning with practical teaching experiences. Students engage in pedagogical studies, curriculum development, educational psychology, and classroom management techniques. Faculty members are experienced educators who provide mentorship and guidance throughout the program. Graduates of the B.Ed program are equipped with the knowledge, skills, and certification necessary to pursue careers as teachers in schools, colleges, educational institutions, and other educational settings.
 </p>

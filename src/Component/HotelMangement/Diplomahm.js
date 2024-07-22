@@ -11,7 +11,7 @@ const Diplomahm = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 artssmt mt-5 " data-aos="fade-down" >Diploma In Hotel Management</h2></center>
+   <center> <h2 class="text-white  display-3 artssmt  "  >Diploma In Hotel Management</h2></center>
    
   </div>
       </div>
@@ -21,7 +21,7 @@ const Diplomahm = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best Diploma in H.M </span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 arts-h1'><span className='arts-span'>Best Diploma in H.M </span> University in Uttarkashi</h2>
     <p className='mt-3 arts-p'>
     The Diploma in Hotel Management at SMT Manjira Devi University offers a robust program designed to provide students with foundational knowledge and practical skills in the hospitality industry. Our curriculum includes courses in front office operations, housekeeping management, food and beverage service, and hospitality marketing. Students gain hands-on experience through internships and real-world projects, ensuring they are industry-ready upon graduation. The program is taught by experienced faculty with deep industry insights and connections. State-of-the-art training facilities and industry partnerships enhance the learning experience. Emphasizing customer service excellence, operational efficiency, and cultural awareness, the diploma prepares students for diverse career opportunities. Join us to embark on a rewarding journey in hotel management.
     </p>

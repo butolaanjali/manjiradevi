@@ -11,7 +11,7 @@ const Blibarts = () => {
           <div className="row">
             <div className="col-sm-12 mt-4">
               <center>
-                <h2 className="text-white display-3 artssmt mt-5" >
+                <h2 className="text-white display-3 artssmt " >
                 Bachelor of Library and Information Science (B.Lib.)
                 </h2>
               </center>
@@ -24,7 +24,7 @@ const Blibarts = () => {
           <div className="row">
             <div className="col-md-6">
               <h2 className="mb-2 mt-2 arts-h1">
-                <span className="arts-span">Best Bachelor of Library and Information Science (B.Lib.)</span> College in Uttarkashi
+                <span className="arts-span">Best Bachelor of Library and Information Science (B.Lib.)</span>University in Uttarkashi
               </h2>
               <p className="mt-3 arts-p">
               The Bachelor of Library and Information Science (B.Lib.) program at Smt. Manjira Devi University in Uttarkashi offers a comprehensive curriculum that explores literature, history, philosophy, languages, and performing arts. This program emphasizes critical thinking, cultural appreciation, and communication skills, integrating theoretical knowledge with practical applications through workshops and seminars. Dedicated faculty members foster intellectual growth and prepare students for diverse career paths in education, journalism, public relations, and creative and cultural industries. The program aims to equip students with a well-rounded education in the liberal arts.

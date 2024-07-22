@@ -10,7 +10,7 @@ const Certificateyoga = () => {
  <div class="container">
     <div class="row">
        <div class="col-sm-12 mt-4 ">
-   <center> <h2 class="text-white  display-3 bscyogic-smt mt-5" data-aos="fade-down" >Certificate in yoga</h2></center>
+   <center> <h2 class="text-white  display-3 bscyogic-smt "  >Certificate in yoga</h2></center>
    
   </div>
       </div>
@@ -20,7 +20,7 @@ const Certificateyoga = () => {
   <div className='container p-5'>
     <div className='row'>
     <div className='col-md-6 '>
-    <h2 className='mb-2 mt-2 bscyogic-h1'><span className='bscyogic-span'>Certificate in yoga  </span> College in Uttarkashi</h2>
+    <h2 className='mb-2 mt-2 bscyogic-h1'><span className='bscyogic-span'> Best Certificate in yoga  </span>University in Uttarkashi</h2>
     <p className='mt-3 bscyogic-p'>
     The Certificate in Yoga program at Smt. Manjira Devi University in Uttarkashi offers an introduction to the principles and practices of yoga. This program emphasizes physical, mental, and spiritual well-being through asanas, meditation, and breathing techniques. Students gain practical experience and theoretical knowledge under the guidance of experienced instructors. The program aims to promote holistic health and prepare students for careers in yoga instruction and wellness.
 

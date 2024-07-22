@@ -2,7 +2,7 @@
 .engineering-image, .diplomacse-image, .civil-image, .mechanical-image {
   background-image: linear-gradient(to left, rgba(60, 57, 55, 0.4), rgba(82, 79, 75, 0.4)), url("/public/science9.jpeg");
   background-size: cover;
-  height: 530px;
+  height: 300px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center; /* Center the image */
