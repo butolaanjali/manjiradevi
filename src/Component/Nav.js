@@ -125,7 +125,7 @@ function Nav() {
     <ul className="dropdown-menu " style={{ columns: '1' }}>
       <li><Link className="dropdown-item" to="/bsc">B.Sc</Link></li>
       <li><Link className="dropdown-item" to="/bca">BCA</Link></li>
-      <li><Link className="dropdown-item" to="/data">Diploma in Data Science & Cloud Technology</Link></li>
+      <li><Link className="dropdown-item" to="/data">Diploma in AI and ML / Data Science & Cloud Technology / Cyber Security / Forensic Science</Link></li>
       <li><Link className="dropdown-item" to="/msc">M.Sc</Link></li>
       <li><Link className="dropdown-item" to="/mca">MCA</Link></li>
     </ul>
@@ -137,7 +137,7 @@ function Nav() {
   onMouseLeave={() => toggleSubDropdown(null)}
 >
   <Link className="dropdown-item mt-2" to="/artsschool">
-    School of Arts and Humanity
+    School of Arts and Humanities
     <i className="fas fa-angle-right float-end"></i>
   </Link>
   {activeSubDropdown === 'arts' && (
@@ -145,9 +145,9 @@ function Nav() {
     <li><Link className="dropdown-item" to="/baarts">B.A</Link></li>
     <li><Link className="dropdown-item" to="/bedarts">B.Ed</Link></li>
     <li><Link className="dropdown-item" to="/maarts">M.A</Link></li>
-    <li><Link className="dropdown-item" to="/phdarts">Ph.D</Link></li>
     <li><Link className="dropdown-item" to="/blibarts">B.Lib</Link></li>
     <li><Link className="dropdown-item" to="/mlibarts">M.Lib</Link></li>
+    <li><Link className="dropdown-item" to="/phdarts">Ph.D</Link></li>
   </ul>
   )}
 </li>
@@ -157,7 +157,7 @@ function Nav() {
   onMouseLeave={() => toggleSubDropdown(null)}
 >
   <Link className="dropdown-item mt-2" to="/nursingschool">
-    School of Nursing and Paramedical Science
+    School of Nursing, Paramedical & Allied Science
     <i className="fas fa-angle-right float-end"></i>
   </Link>
   {activeSubDropdown === 'nursing' && (

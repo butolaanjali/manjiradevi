@@ -11,35 +11,32 @@ function Program() {
 
   const programs = {
     UNDERGRADUATE: [
-      { school: 'School of Science And Technology', courses: ['B.Sc', 'BCA'] },
-      { school: 'School Of Commerce And Management Studies', courses: ['B.Com', 'BBA'] },
-      { school: 'School of Agriculture', courses: ['B.Sc (Agriculture)'] },
-      { school: 'School of Arts and Humanity', courses: ['BA (Hindi/Sanskrit/English/Sociology/Education/Master of Social Work)', 'BA (Economics/History/ Political Science/Library Science)'] },
-      { school: 'School of Yogic Science and Naturopathy', courses: ['BNYS', 'BSC'] },
-      { school: 'School of Nursing, Paramedical and Allied Science', courses: ['B.Pharma', 'B.Sc Nursing', 'BPT'] },
-      { school: 'School of Legal Studies', courses: ['BALLB', 'LLB'] },
-      { school: 'School of Hotel Management & Tourism', courses: ['Bachelor of Hotel Management', 'BBA - Tourism'] },
+      { school: 'School of Science And Technology', courses: [{ name: 'B.Sc', url: '/bsc' }, { name: 'BCA', url: '/bca' }] },
+      { school: 'School Of Commerce And Management Studies', courses: [{ name: 'B.Com', url: '/bcom' }, { name: 'BBA', url: '/bba' }] },
+      { school: 'School of Agriculture', courses: [{ name: 'B.Sc (Agriculture)', url: '/bscagr' }] },
+      { school: 'School of Arts and Humanities', courses: [{ name: 'BA (Hindi/Sanskrit/English/Sociology/Education/Political Science/History/Economics)', url: '/baarts' }] },
+      { school: 'School of Yogic Science and Naturopathy', courses: [{ name: 'BNYS', url: '/yogicbnys' }, { name: 'BSC', url: '/yogicbsc' }] },
+      { school: 'School of Nursing Paramedical & Allied Science', courses: [{ name: 'B.Pharma', url: '/School of Nursing and Paramedical Science' }, { name: 'B.Sc Nursing', url: '/nursingbsc' }, { name: 'BPT', url: '/nursingbpt' }] },
+      { school: 'School of Legal Studies', courses: [{ name: 'BALLB', url: '/legalballb' }, { name: 'LLB', url: '/legalllb' }] },
+      { school: 'School of Hotel Management & Tourism', courses: [{ name: 'Bachelor of Hotel Management', url: '/hotelbhm' }, { name: 'BBA - Tourism', url: '/hotelbba' }] },
     ],
     POSTGRADUATE: [
-      { school: 'School of Science And Technology', courses: ['M.Sc', 'MCA' ] },
-      { school: 'School Of Commerce And Management Studies', courses: ['M.Com', 'MBA', 'Ph.D'] },
-      { school: 'School of Agriculture', courses: ['M.Sc (Agriculture/Horticulture)'] },
-      { school: 'School of Arts and Humanity', courses: ['MA'] },
-      { school: 'School of Yogic Science and Naturopathy', courses: ['M.A', 'Ph.D.', 'M.Sc'] },
-      { school: 'School of Nursing, Paramedical and Allied Science', courses: ['MPH', 'M.Sc.(Clinical Psychology)'] },
+      { school: 'School of Science And Technology', courses: [{ name: 'M.Sc', url: '/msc' }, { name: 'MCA', url: '/mca' }] },
+      { school: 'School Of Commerce And Management Studies', courses: [{ name: 'M.Com', url: '/mcom' }, { name: 'MBA', url: '/mba' }, { name: 'Ph.D', url: '/phd-commerce' }] },
+      { school: 'School of Agriculture', courses: [{ name: 'M.Sc in Agriculture', url: '/mscagr' },{name:'M.Sc in Horticulture', url:'/mschor'}] },
+      { school: 'School of Arts and Humanities', courses: [{ name: 'MA', url: '/maarts' }] },
+      { school: 'School of Yogic Science and Naturopathy', courses: [{ name: 'M.A', url: '/yogicma' }, { name: 'M.Sc', url: '/yogicmsc' }] },
     ],
     DIPLOMA: [
-      { school: 'School of Engineering', courses: ['Diploma in CE', 'Diploma in ME', 'Diploma in CSE'] },
-      { school: 'School of Science And Technology', courses: ['Diploma in AI and Machine Learning', 'Data Science & Cloud Technology', 'Cyber Security','Forensic Science'] },
-      { school: 'School of Agriculture', courses: ['Diploma in Agriculture'] },
-      { school: 'School of Yogic Science and Naturopathy', courses: [ 'PGD-Yoga'] },
-      { school: 'School of Nursing, Paramedical and Allied Science', courses: ['ANM', 'GNM', 'D.Pharma'] },
-      { school: 'School of Hotel Management & Tourism', courses: ['Diploma - Hotel Management'] },
+      { school: 'School of Engineering', courses: [{ name: 'Diploma in CE', url: '/engineer' }, { name: 'Diploma in ME', url: '/mechanic' }, { name: 'Diploma in CSE', url: '/cse' }] },
+      { school: 'School of Science And Technology', courses: [ { name: 'AI and ML / Data Science & Cloud Technology / Cyber Security / Forensic Science', url: '/data' },] },
+      { school: 'School of Agriculture', courses: [{ name: 'Diploma in Agriculture', url: '/diploma' }] },
+      { school: 'School of Nursing Paramedical & Allied Science', courses: [{ name: 'ANM', url: '/nursinganm' }, { name: 'GNM', url: '/nursinggnm' }, { name: 'D.Pharma', url: '/nursingdpharma' }] },
+      { school: 'School of Hotel Management & Tourism', courses: [{ name: 'Diploma - Hotel Management', url: '/hoteldiploma' }] },
     ],
     DOCTORATE: [
-      { school: 'School Of Commerce And Management Studies', courses: ['Ph.D'] },
-      { school: 'School of Arts and Humanity', courses: ['Ph.D.'] },
-      { school: 'School of Yogic Science and Naturopathy', courses: ['Ph.D.'] },
+      { school: 'School Of Commerce And Management Studies', courses: [{ name: 'Ph.D', url: '/phd' }] },
+      { school: 'School of Arts and Humanities', courses: [{ name: 'Ph.D.', url: '/phdarts' }] },
     ],
   };
 
@@ -64,7 +61,9 @@ function Program() {
                 <h3>{section.school}</h3>
                 <ul>
                   {section.courses.map((course, i) => (
-                    <li key={i}>{course}</li>
+                    <li key={i}>
+                      <Link to={course.url}>{course.name}</Link>
+                    </li>
                   ))}
                 </ul>
               </div>
