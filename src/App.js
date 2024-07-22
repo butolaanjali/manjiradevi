@@ -99,7 +99,7 @@ function App() {
           <Route path="school" element={<OurSchool/>}/>
           <Route path="admission" element={<Admission/>}/>
           <Route path="academics" element={<Academics/>}/>
-          <Route path="research" element={<Research/>}/>
+          <Route path="gallery1" element={<Research/>}/>
           <Route path="layout" element={<Layout/>}/>
           <Route path="lifemanjira" element={<Lifemanjira/>}/>
           <Route path="vision" element={<Vision/>}/>

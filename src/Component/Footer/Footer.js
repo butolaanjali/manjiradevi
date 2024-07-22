@@ -69,18 +69,15 @@ const Footer = () => {
                 <div className="schools">
                     <h2>SCHOOLS</h2>
                     <br/>
-                    <a href="#">School of Engineering and Computing</a>
-                    <a href="#">School of Management & Commerce</a>
-                    <a href="#">School of Pharmacy and Research</a>
-                    <a href="#">School of Hotel Management & Tourism</a>
-                    <a href="#">School of Journalism and Liberal Arts</a>
-                    <a href="#">School of Allied Science</a>
-                    <a href="#">School of Agriculture</a>
-                    <a href="#">School of Architecture, Planning & Design</a>
-                    <a href="#">School of Nursing</a>
-                    <a href="#">Manjira Devi Medical College of Paramedical Sciences</a>
-                    <a href="#">Manjira Devi Medical College of Ayurveda & Hospital</a>
-                    <a href="#">Manjira Devi Institute of Polytechnic</a>
+                    <a href="/school1">School of Engineering</a>
+                    <a href="/school2">School of Science And Technology</a>
+                    <a href="/artsschool">School of Arts and Humanities</a>
+                    <a href="/nursingschool">School of Nursing, Paramedical & Allied Science</a>
+                    <a href="/school3">School Of Commerce And Management Studies</a>
+                    <a href="/school4">School of Agriculture</a>
+                    <a href="/yogicschool">School of Yogic Science and Naturopathy</a>
+                    <a href="/schoollegal">School of Legal Studies</a>
+                    <a href="/hotelschool">School of Hotel Management & Tourism</a>
                 </div>
 
                 <div className="admissions">

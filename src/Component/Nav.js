@@ -93,34 +93,84 @@ function Nav() {
                         <i className="fas fa-angle-right float-end"></i>
                       </Link>
                       {activeSubDropdown === 'engineering' && (
-                        <ul className="dropdown-menu">
-                          <li><Link className="dropdown-item" to="/engineer">Diploma in CE</Link></li>
-                          <li><Link className="dropdown-item" to="/mechanic">Diploma in ME</Link></li>
-                          <li><Link className="dropdown-item" to="/cse">Diploma in CSE</Link></li>
-                          <li><Link className="dropdown-item" to="/electrical">Diploma in Electrical Engineering</Link></li>
-                          <li><Link className="dropdown-item" to="/computer">B.Tech CS & Engineering</Link></li>
-                        </ul>
+      <ul className="dropdown-menu" style={{ columns: '1' }}>
+        <li style={{ display: 'block' }}>
+          <Link className="dropdown-item" to="/engineer">Diploma in CE</Link>
+        </li>
+        <li style={{ display: 'block' }}>
+          <Link className="dropdown-item" to="/mechanic">Diploma in ME</Link>
+        </li>
+        <li style={{ display: 'block' }}>
+          <Link className="dropdown-item" to="/cse">Diploma in CSE</Link>
+        </li>
+        <li style={{ display: 'block' }}>
+          <Link className="dropdown-item" to="/electrical">Diploma in Electrical Engineering</Link>
+        </li>
+        <li style={{ display: 'block' }}>
+          <Link className="dropdown-item" to="/computer">B.Tech CS & Engineering</Link>
+        </li>
+      </ul>
                       )}
                     </li>
                     <li
-                      className={`dropdown-submenu ${activeSubDropdown === 'science' ? 'show' : ''}`}
-                      onMouseEnter={() => toggleSubDropdown('science')}
-                      onMouseLeave={() => toggleSubDropdown(null)}
-                    >
-                      <Link className="dropdown-item mt-2" to="/school2">
-                        School of Science And Technology
-                        <i className="fas fa-angle-right float-end"></i>
-                      </Link>
-                      {activeSubDropdown === 'science' && (
-                        <ul className="dropdown-menu">
-                          <li><Link className="dropdown-item" to="/bsc">B.Sc</Link></li>
-                          <li><Link className="dropdown-item" to="/bca">BCA</Link></li>
-                          <li><Link className="dropdown-item" to="/data">Diploma in Data Science & Cloud Technology</Link></li>
-                          <li><Link className="dropdown-item" to="/msc">M.Sc</Link></li>
-                          <li><Link className="dropdown-item" to="/mca">MCA</Link></li>
-                        </ul>
-                      )}
-                    </li>
+  className={`dropdown-submenu ${activeSubDropdown === 'science' ? 'show' : ''}`}
+  onMouseEnter={() => toggleSubDropdown('science')}
+  onMouseLeave={() => toggleSubDropdown(null)}
+>
+  <Link className="dropdown-item mt-2" to="/school2">
+    School of Science And Technology
+    <i className="fas fa-angle-right float-end"></i>
+  </Link>
+  {activeSubDropdown === 'science' && (
+    <ul className="dropdown-menu " style={{ columns: '1' }}>
+      <li><Link className="dropdown-item" to="/bsc">B.Sc</Link></li>
+      <li><Link className="dropdown-item" to="/bca">BCA</Link></li>
+      <li><Link className="dropdown-item" to="/data">Diploma in AI and ML / Data Science & Cloud Technology / Cyber Security / Forensic Science</Link></li>
+      <li><Link className="dropdown-item" to="/msc">M.Sc</Link></li>
+      <li><Link className="dropdown-item" to="/mca">MCA</Link></li>
+    </ul>
+  )}
+</li>
+<li
+  className={`dropdown-submenu ${activeSubDropdown === 'arts' ? 'show' : ''}`}
+  onMouseEnter={() => toggleSubDropdown('arts')}
+  onMouseLeave={() => toggleSubDropdown(null)}
+>
+  <Link className="dropdown-item mt-2" to="/artsschool">
+    School of Arts and Humanities
+    <i className="fas fa-angle-right float-end"></i>
+  </Link>
+  {activeSubDropdown === 'arts' && (
+    <ul className="dropdown-menu" style={{ columns: '1' }}>
+    <li><Link className="dropdown-item" to="/baarts">B.A</Link></li>
+    <li><Link className="dropdown-item" to="/bedarts">B.Ed</Link></li>
+    <li><Link className="dropdown-item" to="/maarts">M.A</Link></li>
+    <li><Link className="dropdown-item" to="/blibarts">B.Lib</Link></li>
+    <li><Link className="dropdown-item" to="/mlibarts">M.Lib</Link></li>
+    <li><Link className="dropdown-item" to="/phdarts">Ph.D</Link></li>
+  </ul>
+  )}
+</li>
+<li
+  className={`dropdown-submenu ${activeSubDropdown === 'nursing' ? 'show' : ''}`}
+  onMouseEnter={() => toggleSubDropdown('nursing')}
+  onMouseLeave={() => toggleSubDropdown(null)}
+>
+  <Link className="dropdown-item mt-2" to="/nursingschool">
+    School of Nursing, Paramedical & Allied Science
+    <i className="fas fa-angle-right float-end"></i>
+  </Link>
+  {activeSubDropdown === 'nursing' && (
+     <ul className="dropdown-menu" style={{ columns: '1' }}>
+     <li><Link className="dropdown-item" to="/nursingbpharma">B.Pharma</Link></li>
+     <li><Link className="dropdown-item" to="/nursingbsc">B.Sc Nursing</Link></li>
+     <li><Link className="dropdown-item" to="/nursingbpt">BPT</Link></li>
+     <li><Link className="dropdown-item" to="/nursinggnm">GNM</Link></li>
+     <li><Link className="dropdown-item" to="/nursinganm">ANM</Link></li>
+     <li><Link className="dropdown-item" to="/nursingdpharma">D.Pharma</Link></li>
+   </ul>
+  )}
+</li>
                     <li
                       className={`dropdown-submenu ${activeSubDropdown === 'commerce' ? 'show' : ''}`}
                       onMouseEnter={() => toggleSubDropdown('commerce')}
@@ -131,7 +181,7 @@ function Nav() {
                         <i className="fas fa-angle-right float-end"></i>
                       </Link>
                       {activeSubDropdown === 'commerce' && (
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu" style={{ columns: '1' }}>
                           <li><Link className="dropdown-item" to="/bcom">B.Com</Link></li>
                           <li><Link className="dropdown-item" to="/bba">BBA</Link></li>
                           <li><Link className="dropdown-item" to="/mcom">M.Com</Link></li>
@@ -150,7 +200,7 @@ function Nav() {
                         <i className="fas fa-angle-right float-end"></i>
                       </Link>
                       {activeSubDropdown === 'agriculture' && (
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu" style={{ columns: '1' }}>
                           <li><Link className="dropdown-item" to="/diploma">Diploma in Agriculture</Link></li>
                           <li><Link className="dropdown-item" to="/bscagr">B.Sc in agriculture</Link></li>
                           <li><Link className="dropdown-item" to="/mscagr">M.Sc in Agriculture</Link></li>
@@ -158,26 +208,7 @@ function Nav() {
                         </ul>
                       )}
                     </li>
-                    <li
-                      className={`dropdown-submenu ${activeSubDropdown === 'arts' ? 'show' : ''}`}
-                      onMouseEnter={() => toggleSubDropdown('arts')}
-                      onMouseLeave={() => toggleSubDropdown(null)}
-                    >
-                      <Link className="dropdown-item mt-2" to="/artsschool">
-                        School of Arts and Humanity
-                        <i className="fas fa-angle-right float-end"></i>
-                      </Link>
-                      {activeSubDropdown === 'arts' && (
-                        <ul className="dropdown-menu">
-                          <li><Link className="dropdown-item" to="/baarts">B.A</Link></li>
-                          <li><Link className="dropdown-item" to="/bedarts">B.Ed</Link></li>
-                          <li><Link className="dropdown-item" to="/maarts">M.A</Link></li>
-                          <li><Link className="dropdown-item" to="/phdarts">Ph.D</Link></li>
-                          <li><Link className="dropdown-item" to="/blibarts">B.Lib</Link></li>
-                          <li><Link className="dropdown-item" to="/mlibarts">M.Lib</Link></li>
-                        </ul>
-                      )}
-                    </li>
+                   
                     <li
                       className={`dropdown-submenu ${activeSubDropdown === 'yogic' ? 'show' : ''}`}
                       onMouseEnter={() => toggleSubDropdown('yogic')}
@@ -188,7 +219,7 @@ function Nav() {
                         <i className="fas fa-angle-right float-end"></i>
                       </Link>
                       {activeSubDropdown === 'yogic' && (
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu" style={{ columns: '1' }}>
                           <li><Link className="dropdown-item" to="/yogicbnys">BNYS</Link></li>
                           <li><Link className="dropdown-item" to="/yogicbsc">B.Sc</Link></li>
                           <li><Link className="dropdown-item" to="/yogicma">M.A</Link></li>
@@ -196,26 +227,7 @@ function Nav() {
                         </ul>
                       )}
                     </li>
-                    <li
-                      className={`dropdown-submenu ${activeSubDropdown === 'nursing' ? 'show' : ''}`}
-                      onMouseEnter={() => toggleSubDropdown('nursing')}
-                      onMouseLeave={() => toggleSubDropdown(null)}
-                    >
-                      <Link className="dropdown-item mt-2" to="/nursingschool">
-                        School of Nursing and Paramedical Science
-                        <i className="fas fa-angle-right float-end"></i>
-                      </Link>
-                      {activeSubDropdown === 'nursing' && (
-                        <ul className="dropdown-menu">
-                          <li><Link className="dropdown-item" to="/nursingbpharma">B.Pharma</Link></li>
-                          <li><Link className="dropdown-item" to="/nursingbsc">B.Sc Nursing</Link></li>
-                          <li><Link className="dropdown-item" to="/nursingbpt">BPT</Link></li>
-                          <li><Link className="dropdown-item" to="/nursinggnm">GNM</Link></li>
-                          <li><Link className="dropdown-item" to="/nursinganm">ANM</Link></li>
-                          <li><Link className="dropdown-item" to="/nursingdpharma">D.Pharma</Link></li>
-                        </ul>
-                      )}
-                    </li>
+                   
                     <li
                       className={`dropdown-submenu ${activeSubDropdown === 'legal' ? 'show' : ''}`}
                       onMouseEnter={() => toggleSubDropdown('legal')}
@@ -226,23 +238,23 @@ function Nav() {
                         <i className="fas fa-angle-right float-end"></i>
                       </Link>
                       {activeSubDropdown === 'legal' && (
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu"style={{ columns: '1' }}>
                           <li><Link className="dropdown-item" to="/legalballb">BALLB</Link></li>
                           <li><Link className="dropdown-item" to="/legalllb">LLB</Link></li>
                         </ul>
                       )}
                     </li>
                     <li
-                      className={`dropdown-submenu ${activeSubDropdown === 'hotel' ? 'show' : ''}`}
+                      className={`dropdown-submenu mb-0  ${activeSubDropdown === 'hotel' ? 'show' : ''}`}
                       onMouseEnter={() => toggleSubDropdown('hotel')}
                       onMouseLeave={() => toggleSubDropdown(null)}
                     >
-                      <Link className="dropdown-item mt-2" to="/hotelschool">
+                      <Link className="dropdown-item mt-2  " to="/hotelschool">
                         School of Hotel Management & Tourism
                         <i className="fas fa-angle-right float-end"></i>
                       </Link>
                       {activeSubDropdown === 'hotel' && (
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu" style={{ columns: '1' }}>
                           <li><Link className="dropdown-item" to="/hotelbhm">BHM</Link></li>
                           <li><Link className="dropdown-item" to="/hotelbba">BBA in Tourism</Link></li>
                           <li><Link className="dropdown-item" to="/hoteldiploma">Diploma in HM</Link></li>
@@ -262,7 +274,7 @@ function Nav() {
                 <Link className="nav-link text-white ms-4" to="/academics">Academics</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white ms-4" to="/research">Research</Link>
+                <Link className="nav-link text-white ms-4" to="/gallery1">Gallery</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white ms-4" to="/layout">Placements</Link>

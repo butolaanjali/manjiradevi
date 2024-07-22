@@ -99,6 +99,7 @@
   background-size: cover;
   height: 600px;
 }
+
 .bg7 {
   border-radius: 10px;
   background-color: #FFFFFF;
@@ -704,6 +705,15 @@
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  z-index: 1000;
+}
+
+.navbar-nav .dropdown:hover > .dropdown-menu {
+  display: block;
 }
 
 .dropdown-menu li {
@@ -724,6 +734,13 @@
 .dropdown-menu .dropdown-submenu.show .dropdown-menu {
   display: block;
 }
+ 
+
+
+.dropdown-menu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+
 .navbar-nav .dropdown-menu .dropdown-item {
   display: flex;
   justify-content: space-between;
@@ -733,6 +750,7 @@
 .navbar-nav .dropdown-menu .dropdown-submenu .dropdown-item i {
   font-size: 12px;
 }
+
 /* Custom CSS for mobile view  of school*/
 @media (max-width: 768px) {
   .dropdown-menu {
@@ -762,5 +780,6 @@
   .dropdown-menu > li > .dropdown-menu {
     top: 0 !important; 
     left: 100%; 
+    text-decoration: none;
   }
 }
