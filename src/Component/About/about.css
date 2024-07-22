@@ -1,14 +1,14 @@
-.aboutimage {
+.aboutimagebb1 {
     background-image: linear-gradient(to left, rgba(53, 50, 48, 0.4), rgba(41, 39, 37, 0.4)), url("/public/msgimage.jpg");
     background-size: cover;
-    height: 400px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
 }
-.msgimage {
+.msgimage11 {
     background-image: linear-gradient(to left, rgba(53, 50, 48, 0.4), rgba(41, 39, 37, 0.4)), url("/public/msgimage.jpg");
     background-size: cover;
-    height: 450px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@
   }
 .msgsmt {
     font-weight: bold;
-    padding-top: 12%;
+    padding-top: 7%;
     font-size: 45px;
     font-family: serif;
 }

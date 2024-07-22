@@ -1,5 +1,5 @@
 .aboutimage {
-    background-image: linear-gradient(to left, rgba(24, 23, 23, 0.4), rgba(11, 11, 11, 0.4)), url("/public/galleryimage.jpg");
+    background-image: linear-gradient(to left, rgba(24, 23, 23, 0.4), rgba(11, 11, 11, 0.4)), url("/public/msgimage.jpg");
     background-size: cover;
     height:300px;
     width: 100%;

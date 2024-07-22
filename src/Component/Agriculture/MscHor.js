@@ -41,7 +41,7 @@ function MscHor() {
                 <span> 
                 <span className="nursing-span">Career Opportunities: </span>
                 <span> <br/>
-                 <b>1.oHorticulturist, </b> <br/>
+                 <b>1.Horticulturist, </b> <br/>
                  <b>2.Plant Breeder, </b><br/>
                  <b>3.Nursery Manager,</b><br/>
                  <b>4.Landscape Designer,</b><br/>

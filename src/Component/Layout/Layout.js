@@ -74,7 +74,14 @@ const Layout = () => {
     },
     {
       title: 'Placement Highlight 2',
-      image: 'image1.jpeg',
+      image: 'img3.jpeg',
+    },
+    {
+      title: 'Placement Highlight 2',
+      image: 'img2.jpg',
+    },{
+      title: 'Placement Highlight 2',
+      image: 'img4.jpeg',
     },
     // Add more slides for placement highlights section as needed
   ];
@@ -82,7 +89,7 @@ const Layout = () => {
   return (
     <div className="dbuu-layout">
       <div className="left-column">
-        <section className="happening">
+        {/* <section className="happening">
           <h1 className="section-title"><span className='happening'>Happening</span> @Manjira Devi</h1>
           <Slider {...settings}>
             {slides.map((slide, index) => (
@@ -97,7 +104,7 @@ const Layout = () => {
               </div>
             ))}
           </Slider>
-        </section>
+        </section> */}
         <section className="placement-highlights">
           <h2 className="section-title"><span className='happening'>Placement</span> Highlights</h2>
           <Slider {...sliderSettings}>
@@ -111,7 +118,7 @@ const Layout = () => {
       </div>
       <div className="right-column">
         <section className="campus-life">
-          <h2 className="section-title text-center"><span className='happening'>Campus Life</span> @DBUU</h2>
+          <h2 className="section-title text-center"><span className='happening'>Campus Life</span> @Manjira Devi University</h2>
           <div className="campus-life-content">
             <div className="campus-life-item">
               <img src="image1.jpeg" alt="Students on campus" className="campus-image" />

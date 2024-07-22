@@ -88,7 +88,7 @@ const OurSchool = () => {
       link: '#',
     },
     {
-      title: 'School of Legal',
+      title: 'School of Legal Studies',
       image: 'ourschool3.png',
       link: '#',
     },

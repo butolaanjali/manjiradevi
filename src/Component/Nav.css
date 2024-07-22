@@ -3,8 +3,6 @@
   color: #FD5F00;
 }
 
-
-
 .bg1 {
   background-color: #FD5F00;
   color: white;
@@ -123,7 +121,7 @@
 }
 .bg23 {
   margin-left: 5px;
-  font-size: 20px; /* using em instead of px */
+  font-size: 19px; /* using em instead of px */
 }
 
 .anjali24 {
@@ -313,14 +311,12 @@
   max-width: 100%; /* Adjusted to allow full width */
   overflow-x: hidden;
 }
-/* Add your existing styles above */
-/* Styles for dropdown menu */
 .dropdown-menu-columns {
   display: flex;
   flex-direction: column;
 }
 .dropdown-menu {
-  columns: 2;
+  columns: 1;
 }
 .dropdown-fullpage {
   position: absolute;
@@ -707,6 +703,8 @@
   }
 }
 .navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
   position: absolute;
   left: 0;
   top: 100%;
@@ -731,8 +729,13 @@
   position: absolute;
   left: 100%;
   top: 0;
- 
 }
+
+.dropdown-menu .dropdown-submenu.show .dropdown-menu {
+  display: block;
+}
+ 
+
 
 .dropdown-menu .dropdown-submenu:hover .dropdown-menu {
   display: block;

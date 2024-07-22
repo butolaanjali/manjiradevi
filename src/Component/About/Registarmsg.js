@@ -7,7 +7,7 @@ import Library from '../Library/Library';
 const Registarmsg = () => {
   return (
     <div>
-      <div className="container-fluid msgimage">
+      <div className="container-fluid msgimage11">
         <div className="container">
           <div className="row">
             <div className="col-12 mt-4">

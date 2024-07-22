@@ -7,11 +7,11 @@ import Library from '../Library/Library';
 const About = () => {
   return (
     <div>
-      <div className="container-fluid aboutimage">
+      <div className="container-fluid aboutimagebb1">
         <div className="container">
           <div className="row">
             <div className="col-12 mt-4">
-              <center><h2 className="text-white display-3 aboutsmt" data-aos="fade-down">Smt. Manjira Devi University</h2></center>
+              <center><h2 className="text-white display-3 aboutsmt" >Smt. Manjira Devi University</h2></center>
             </div>
           </div>
         </div>

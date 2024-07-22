@@ -30,7 +30,7 @@ const Notnav = () => {
             </p>
           </div>
           <div className="col-md-3">
-            <button className="open-form-btn p-2 lo" onClick={togglePopup}>Admissions Open 2024</button>
+            <button className="open-form-btn p-2 lo" onClick={togglePopup}>Enquiry Form  2024</button>
             <PopupForm show={showPopup} handleClose={togglePopup} />
             <h6 className="ml-2 cl mt-1">Click here Fee payment</h6>
           </div>
