@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                     <br/>
                     <div className="footer-logo">
-                        <img src="manjira.png" height="100px" width="120px" alt="Manjira Devi University" />
+                        <img src="logo.png" height="100px" width="120px" alt="Manjira Devi University" />
                         <span>Manjira Devi University</span>
                     </div>
                 </div>
