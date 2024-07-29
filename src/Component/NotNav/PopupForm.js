@@ -29,7 +29,7 @@ const PopupForm = ({ show, handleClose }) => {
                
                
                 <div className="row p-5">
-                <center><h3 className='po'>Register to Admission 2024
+                <center><h3 className='po'>Enquiry Form 2024
                 </h3></center>
                     <div className="col-md-12  p-4">
                         <div className="mb-3">
@@ -88,7 +88,7 @@ const PopupForm = ({ show, handleClose }) => {
                             className="btn bp" 
                             onClick={handleSubmit}
                         >
-                            Register
+                            Submit
                         </button>
                     </div>
                 </div>

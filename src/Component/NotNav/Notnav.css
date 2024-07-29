@@ -1,12 +1,17 @@
 .a {
     color: #FD5F00;
-  }
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
   
   .a1 {
     color: #FD5F00;
-    font-size: 18px;
+   
     font-weight: bold;
     margin-top: 30px;
+    font-family: sans-serif;
+    
   }
   
   .ww3 {
@@ -16,6 +21,16 @@
   .lo {
     margin-top: 30px;
     
+  }
+  .lo1{
+    background-color: #FD5F00;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+   margin-top: 10px;
+  }
+  .lo1:hover{
+    color: white;
   }
   
   .cl {

@@ -24,15 +24,18 @@ const Notnav = () => {
           
           <div className="col-md-3">
             <p className="a1">
-              <i className="bi bi-telephone-fill a me-2 mb-0"></i>+917017388084
-              <br />
-              <i className="fa-brands fa-whatsapp a me-2"></i>+917017388084
-            </p>
+            <a href="tel:8958851281" className="bi bi-telephone-fill a me-2 mb-0 "><span className="me-5">+917017388084</span></a>
+            <br />
+            <a href="tel:8958851281" className="bi bi-telephone-fill a me-2 mb-0 "><span className="me-5">+917017388084</span></a>
+          
+          {/*  <a  href="https://wa.me/917017388084" className="fa-brands fa-whatsapp -/* a me-2 mb-0 "><span className="me-5">+917017388084</span></a>*/}
+           
+</p>
           </div>
-          <div className="col-md-3">
-            <button className="open-form-btn p-2 lo" onClick={togglePopup}>Enquiry Form  2024</button>
-            <PopupForm show={showPopup} handleClose={togglePopup} />
-            <h6 className="ml-2 cl mt-1">Click here Fee payment</h6>
+          <div className="col-md-3 lo">
+            
+            <Link to="/enquiryform" className=" p-2 lo1 " >Enquiry Form  2024</Link>
+            <h6 className="ml-2 cl mt-2">Click here Fee payment</h6>
           </div>
           <div className="col-md-2">
             <Link to="/entrancepdf" className="n" data-aos="fade-up">

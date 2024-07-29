@@ -32,7 +32,7 @@ function Home() {
     <h1 class="text-white  display-3 bg21 "  >Smt. Manjira <br/>Devi University</h1>
    
       <p class="text-white bg23"  >Established Under Govt. Of Uttarakhand Vide Act No.05 of 2024</p>
-      <Link to="/contact" className="btn mt-3 px-4 py-3 anjali2  anjali24" >
+      <Link to="/contact" className="btn  anjali4  " >
     Contact Us
   </Link>
                 </div>

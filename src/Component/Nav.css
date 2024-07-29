@@ -124,19 +124,73 @@
   font-size: 19px; /* using em instead of px */
 }
 
-.anjali24 {
+.anjali4 {
   background-color: #FD5F00;
-  margin-left: 5px;
-
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 18px 25px;
   color: white;
   font-size: 17px;
   font-weight: bold;
   border-radius: 20px;
 }
-.anjali24:hover {
+
+.anjali4:hover {
   background-color: #0D1128;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .anjali4 {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 769px)  {
+  .anjali4 {
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+
+}
+@media (min-width: 775px) {
+  .anjali4 {
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+}
+@media (min-width: 847px) {
+  .anjali4 {
+    margin-left: 70px;
+    margin-top: -10px;
+  }
+}
+@media (min-width: 934px) {
+  .anjali4 {
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+}
+@media (min-width: 978px) {
+  .anjali4 {
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .anjali4 {
+    margin-left: 10px;
+    margin-top: 5px; /* Reset margin for larger screens */
+  }
+}
+@media (max-width: 480px) {
+  .anjali4 {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+
 .bg11 {
   background-color: #FD5F00;
   color: white;
@@ -168,23 +222,28 @@
   position: absolute;
 }
 /* Media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
   /* styles for mobile devices */
   .bg6 {
     height: 400px;
   }
-  .anjali24 {
-    margin-left:5px;
-    width:40%;
-    margin-bottom: 5px;
-  }
+  
   .bg24:hover {
     background-color: #0D1128;
     color: white;
   }
+  .anjali4
+  {
+    margin-left: 10px;
+  }
   
   
 }
+
+
+
+
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* styles for tablets */
   .bg6 {
@@ -196,9 +255,8 @@
   .bg21{
     margin-left: 20%;
   }
-  .anjali2 {
-    margin-left: 20%;
-  }
+  
+  
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .bf4 {

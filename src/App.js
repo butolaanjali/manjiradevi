@@ -82,6 +82,7 @@ import Certificateyoga from './Component/Yogicscience/Certificateyoga';
 import Msg from './Component/About/Msg';
 import Registarmsg from './Component/About/Registarmsg';
 import Visemsg from './Component/About/Visemsg';
+import Enquiryform from './Component/Admission/Enquiryform';
 
 
 
@@ -180,6 +181,7 @@ function App() {
           <Route path='msg' element={<Msg/>}/>
           <Route path='registarmsg' element={<Registarmsg/>}/>
           <Route path='visemsg' element={<Visemsg/>}/>
+          <Route path='enquiryform' element={<Enquiryform/>}/>
 </Routes>
       
         <Footer/>
