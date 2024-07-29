@@ -16,7 +16,7 @@ const Vision = () => {
           <div className="vision">
             <h2 className="mission2">Our Vision</h2>
             <p className="mission1 mt-3">
-            Our vision at <span className="history-span"> Smt. Manjeera Devi University</span>  is to emerge as a beacon of educational excellence in the Himalayan region, dedicated to nurturing holistic development and promoting sustainable practices. Grounded in the cultural and environmental richness of Uttarakhand, our university aspires to:
+            Our vision at <span className="history-span"> Smt. Manjira Devi University</span>  is to emerge as a beacon of educational excellence in the Himalayan region, dedicated to nurturing holistic development and promoting sustainable practices. Grounded in the cultural and environmental richness of Uttarakhand, our university aspires to:
 
             </p>
             <p className="mission1 mt-2 p-1">
@@ -43,7 +43,7 @@ const Vision = () => {
 
                 </p>
                 <p className="mission1 mt-2 ">
-                Through these guiding principles,<span className="history-span"> Smt. Manjeera Devi University </span> aims to empower individuals with knowledge, skills, and values that enable them to contribute meaningfully to the sustainable development and cultural richness of the Himalayan region and beyond.
+                Through these guiding principles,<span className="history-span"> Smt. Manjira Devi University </span> aims to empower individuals with knowledge, skills, and values that enable them to contribute meaningfully to the sustainable development and cultural richness of the Himalayan region and beyond.
 
 
                 </p>
@@ -51,7 +51,7 @@ const Vision = () => {
           <div className="mission">
             <h2 className="mission2">Our Mission</h2>
             <p className="mission1 mt-3">
-            Our mission at<span className="history-span"> Smt. Manjeera Devi University</span> is driven by a commitment to promote education in the Himalayan region, empower local communities, and sustain the ecological balance. Our mission encompasses the following key objectives:
+            Our mission at<span className="history-span"> Smt. Manjira Devi University</span> is driven by a commitment to promote education in the Himalayan region, empower local communities, and sustain the ecological balance. Our mission encompasses the following key objectives:
 
             </p>
             <p className="mission1 mt-2 p-1">

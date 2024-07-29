@@ -26,7 +26,10 @@ function Nav() {
   const toggleSubDropdown = (subDropdown) => {
     setActiveSubDropdown(activeSubDropdown === subDropdown ? null : subDropdown);
   };
-
+  const handleAdmissionClick = () => {
+    const pdfUrl = '/admission.pdf'; // Make sure this path is correct
+    window.open(pdfUrl, '_blank');
+  };
   return (
     <div>
       <TopNavBar />
@@ -269,23 +272,22 @@ function Nav() {
                 <Link className="nav-link text-white ms-4" to="/program">Programmes</Link>
               </li>
               <li className="nav-item dropdown">
-                <Link
-                  className="nav-link text-white ms-4 dropdown-toggle-no-arrow"
-                  id="navbarDropdownAddmissions"
-                  role="button"
-                  onClick={() => toggleDropdown('admission')}
-                  aria-expanded={activeDropdown === 'admission'}
-                >
-                  Addmissions
-                </Link>
-                {activeDropdown === 'admission' && (
-                  <ul className="dropdown-menu no-arrow mt-2" aria-labelledby="navbarDropdownAddmissions" style={{ columns: '1' }}>
-                    <li><Link className="dropdown-item mt-2" to="/enquiryform">Enquiry Form</Link></li><hr className="hr1nav" />
-                    <li><Link className="dropdown-item mt-2" to="/admission">Addmission Form</Link></li>
-                   
-                  </ul>
-                )}
-              </li>
+      <Link
+        className="nav-link text-white ms-4 dropdown-toggle-no-arrow"
+        id="navbarDropdownAddmissions"
+        role="button"
+        onClick={() => toggleDropdown('admission')}
+        aria-expanded={activeDropdown === 'admission'}
+      >
+        Addmissions
+      </Link>
+      {activeDropdown === 'admission' && (
+        <ul className="dropdown-menu no-arrow mt-2" aria-labelledby="navbarDropdownAddmissions" style={{ columns: '1' }}>
+          <li><Link className="dropdown-item mt-2" to="/enquiryform">Enquiry Form</Link></li><hr className="hr1nav" />
+          <li><Link className="dropdown-item mt-2" onClick={handleAdmissionClick}>Admission Form</Link></li>
+        </ul>
+      )}
+    </li>
               <li className="nav-item">
                 <Link className="nav-link text-white ms-4" to="/academics">Academics</Link>
               </li>
