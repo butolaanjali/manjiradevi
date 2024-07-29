@@ -279,7 +279,7 @@ function Nav() {
         onClick={() => toggleDropdown('admission')}
         aria-expanded={activeDropdown === 'admission'}
       >
-        Addmissions
+        Admissions
       </Link>
       {activeDropdown === 'admission' && (
         <ul className="dropdown-menu no-arrow mt-2" aria-labelledby="navbarDropdownAddmissions" style={{ columns: '1' }}>
