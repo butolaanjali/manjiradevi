@@ -26,6 +26,10 @@
   hr {
     margin: 1rem 0;
   }
+  .rotate-icon {
+    display: inline-block;
+    transform: rotate(100deg); /* Adjust the degree of rotation as needed */
+  }
   
   .map iframe {
     width: 100%;

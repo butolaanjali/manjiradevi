@@ -16,14 +16,11 @@ const ContactUs = () => {
         <div className="col-md-6">
           <div className="d-flex justify-content-left mb-4">
             <a href="tel:+917017388084" className="btn mr-2" style={{ background: "orange", color: "white" }}>
-              <i className="fas fa-phone-alt"></i> Call us
+              <i className="fas fa-phone-alt rotate-icon"></i> Call us
             </a>
             <a href="https://wa.me/+917017388084" className="btn mr-2" style={{ background: "orange", color: "white" }}>
               <i className="fab fa-whatsapp"></i> WhatsApp
             </a>
-          </div>
-          <div>
-            <h3>Contact Information</h3>
           </div>
         </div>
         <div className="col-md-6">
@@ -38,9 +35,9 @@ const ContactUs = () => {
             <hr />
             <h3>Email</h3>
             <p>
-              General: smtmanjiradeviuniversity2024@gmail.com
+              General: info@smdu.edu.in 
               <br />
-              Admissions: smtmanjiradeviuniversity2024@gmail.com
+              Admissions: admissioncell@smdu.edu.in
             </p>
             <hr />
             <div className='map'>
