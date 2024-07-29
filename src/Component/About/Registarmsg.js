@@ -20,16 +20,16 @@ const Registarmsg = () => {
      
 
       
-      <div className='container-fluid mt-5 whycolor p-5'>
+      <div className='container-fluid  whycolor p-5'>
 <div className='container'>
 <div className='row'>
 <h2 className=' about-history'>Registrar's  <span className='about-span'> Message</span></h2>
 <p className='history1 mt-3'>
-Welcome to Smt. Manjeera Devi University, nestled in the serene and majestic Himalayan region of Uttarakshi, Uttarakhand!
+Welcome to Smt. Manjira Devi University, nestled in the serene and majestic Himalayan region of Uttarakshi, Uttarakhand!
 
 </p>
 <p className='history1 mt-2'>
-As the Registrar of this esteemed institution, it is my privilege to welcome you to our vibrant academic community. At Smt. Manjeera Devi University, we are dedicated to providing an exceptional educational experience that combines academic excellence with the unique cultural and environmental richness of the Himalayas.
+As the Registrar of this esteemed institution, it is my privilege to welcome you to our vibrant academic community. At Smt. Manjira Devi University, we are dedicated to providing an exceptional educational experience that combines academic excellence with the unique cultural and environmental richness of the Himalayas.
 </p>
 <p className='history1 mt-2'>
 Our university stands as a testament to the transformative power of education in the heart of the Himalayas. The majestic surroundings of Uttarakhand provide a unique backdrop for learning, research, and personal growth. As we embrace our new status, we reaffirm our dedication to providing a holistic educational experience that prepares our students to navigate the complexities of the modern world while honoring the rich cultural heritage and ecological significance of our region.
@@ -48,7 +48,7 @@ Our dedicated faculty members are not only experts in their disciplines but also
 
 </p>
 <p className='history1 mt-2'>
-At Smt. Manjeera Devi University, we place a strong emphasis on sustainability and environmental stewardship. Given our location in the Himalayas, we are acutely aware of the importance of preserving our natural resources and promoting sustainable development. Our academic programs, research initiatives, and community outreach activities are all geared towards fostering a deeper understanding of environmental issues and sustainable practices.
+At Smt. Manjira Devi University, we place a strong emphasis on sustainability and environmental stewardship. Given our location in the Himalayas, we are acutely aware of the importance of preserving our natural resources and promoting sustainable development. Our academic programs, research initiatives, and community outreach activities are all geared towards fostering a deeper understanding of environmental issues and sustainable practices.
 
 </p>
 <p className='history1 mt-2'>
@@ -64,11 +64,14 @@ As we continue to grow and evolve, we remain dedicated to our mission of providi
 
 </p>
 <p className='history1 mt-2'>
-Thank you for being a part of Smt. Manjeera Devi University. Together, let us embark on a journey of academic excellence, innovation, and meaningful contributions to society.
+Thank you for being a part of Smt. Manjira Devi University. Together, let us embark on a journey of academic excellence, innovation, and meaningful contributions to society.
 
 </p>
 <p className='history1 mt-2'> 
 Warm regards
+</p>
+<p className='history1 mt-2'> 
+Dr. Vadrevu Bhaskar
 </p>
 </div>
 </div>

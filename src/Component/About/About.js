@@ -17,7 +17,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="container-fluid mt-5 aboutbg2">
+      <div className="container-fluid  aboutbg2">
         <div className="container">
           <div className="row">
             <div className="col-md-6 p-4 ">
@@ -30,7 +30,7 @@ const About = () => {
 
               </p>
               <p className='mt-2 about-p'>
-              Smt. Manjeera Devi University, located in the serene Himalayan region of Uttarakshi, Uttarakhand, emerged from over two decades of experience as a group of institutions. Founded on principles of academic excellence, cultural preservation, and environmental stewardship, the university stands as a beacon of holistic education and community empowerment.
+              Smt. Manjira Devi University, located in the serene Himalayan region of Uttarakshi, Uttarakhand, emerged from over two decades of experience as a group of institutions. Founded on principles of academic excellence, cultural preservation, and environmental stewardship, the university stands as a beacon of holistic education and community empowerment.
 
               </p>
             </div>
@@ -71,7 +71,7 @@ Its holds deep cultural roots and spiritual significance in the Indian Himalayas
 
 </p>
 <p className='history1 mt-2'>
-In summary,<span className='history-span'> Smt. Manjeera Devi University</span> exemplifies a blend of tradition and modernity, dedicated to shaping future leaders who are grounded in local ethos yet globally competent, while championing sustainable development in the Himalayan region
+In summary,<span className='history-span'> Smt. Manjira Devi University</span> exemplifies a blend of tradition and modernity, dedicated to shaping future leaders who are grounded in local ethos yet globally competent, while championing sustainable development in the Himalayan region
 
 </p>
 </div>
