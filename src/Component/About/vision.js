@@ -82,7 +82,7 @@ const Vision = () => {
 
               </p>
               <p className="mission1 mt-2 ">
-              Through these mission objectives,<span className="history-span"> Smt. Manjeera Devi University</span> endeavors to be a catalyst for positive change in the Himalayan region, empowering individuals with knowledge, skills, and values that promote sustainable development, cultural preservation, and community well-being.
+              Through these mission objectives,<span className="history-span"> Smt. Manjira Devi University</span> endeavors to be a catalyst for positive change in the Himalayan region, empowering individuals with knowledge, skills, and values that promote sustainable development, cultural preservation, and community well-being.
 
               </p>
           </div>

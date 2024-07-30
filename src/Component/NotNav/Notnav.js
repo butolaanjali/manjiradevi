@@ -11,8 +11,6 @@ const Notnav = () => {
     setShowPopup(!showPopup);
   };
 
-  
-
  
   return (
     <div>
