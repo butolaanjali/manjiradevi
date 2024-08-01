@@ -98,65 +98,66 @@ function School1() {
 </div>
 </div>
 <div className='container-fluid mt-4 baartsbg2 p-4'>
-<div className="container mt-3">
-<h1 className=' baarts-heading mb-3'>Our <span className='baarts-span'>Courses</span> </h1>
-        <div className="row mt-5">
-          <div className="col-md-4">
-            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h4 className="card-title khusbhucard-heading">Diploma - Civil Engineering</h4>
-              <p className="card-text khusbhucard-paiding">
-                Learn the fundamentals of Civil Engineering and develop skills in
-                designing, building, and maintaining infrastructure.
-              </p>
-              <Link to="/engineer" className="btn btn-primary">Know more</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title khusbhucard-heading">Diploma - Mechanical Engineering</h5>
-              <p className="card-text khusbhucard-paiding">
-                Explore the world of Mechanical Engineering and develop skills in
-                designing, manufacturing, and maintaining mechanical systems.
-              </p>
-              <Link to="/mechanic" className="btn btn-primary">Know more</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title khusbhucard-heading">Diploma - CS & Engineering</h5>
-              <p className="card-text khusbhucard-paiding">
-                Dive into the world of Computer Science and Engineering and
-                develop skills in designing, developing, and maintaining software
-                systems.
-              </p>
-              <Link to="/cse" className="btn btn-primary">Know more</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title khusbhucard-heading">Diploma - Electrical Engineering</h5>
-              <p className="card-text khusbhucard-paiding">
-                Dive into the world of Electrical Engineering and
-                develop skills in designing, developing, and maintaining
-                systems.
-              </p>
-              <Link to="/electrical" className="btn btn-primary">Know more</Link>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(00,0,0)' }}>
-              <h5 className="card-title khusbhucard-heading">B.Tech CS & Engineering </h5>
-              <p className="card-text khusbhucard-paiding">
-                Dive into the world of CS & Engineering and
-                develop skills in designing, developing, and maintaining software
-                systems.
-              </p>
-              <Link to="/computer" className="btn btn-primary">Know more</Link>
-            </div>
-          </div>
+  <div className="container mt-3">
+    <h1 className='baarts-heading mb-3'>Our <span className='baarts-span'>Courses</span></h1>
+    <div className="row mt-4">
+      <div className="col-md-4">
+        <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(0,0,0)' }}>
+          <h4 className="card-title khusbhucard-heading">Diploma - Civil Engineering</h4>
+          <p className="card-text khusbhucard-paiding">
+            Learn the fundamentals of Civil Engineering and develop skills in
+            designing, building, and maintaining infrastructure.
+          </p>
+          <Link to="/engineer" className="btn btn-primary">Know more</Link>
         </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(0,0,0)' }}>
+          <h5 className="card-title khusbhucard-heading">Diploma - Mechanical Engineering</h5>
+          <p className="card-text khusbhucard-paiding">
+            Explore the world of Mechanical Engineering and develop skills in
+            designing, manufacturing, and maintaining mechanical systems.
+          </p>
+          <Link to="/mechanic" className="btn btn-primary">Know more</Link>
         </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(0,0,0)' }}>
+          <h5 className="card-title khusbhucard-heading">Diploma - CS & Engineering</h5>
+          <p className="card-text khusbhucard-paiding">
+            Dive into the world of Computer Science and Engineering and
+            develop skills in designing, developing, and maintaining software
+            systems.
+          </p>
+          <Link to="/cse" className="btn btn-primary">Know more</Link>
         </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(0,0,0)' }}>
+          <h5 className="card-title khusbhucard-heading">Diploma - Electrical Engineering</h5>
+          <p className="card-text khusbhucard-paiding">
+            Dive into the world of Electrical Engineering and
+            develop skills in designing, developing, and maintaining
+            systems.
+          </p>
+          <Link to="/electrical" className="btn btn-primary">Know more</Link>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card1" style={{ border: '2px', boxShadow: '0px 10px 10px rgb(0,0,0)' }}>
+          <h5 className="card-title khusbhucard-heading">B.Tech CS & Engineering</h5>
+          <p className="card-text khusbhucard-paiding">
+            Dive into the world of CS & Engineering and
+            develop skills in designing, developing, and maintaining software
+            systems, with a strong foundation in Electrical Engineering principles.
+          </p>
+          <Link to="/computer" className="btn btn-primary">Know more</Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">

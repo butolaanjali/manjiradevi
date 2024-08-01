@@ -83,6 +83,7 @@ import Msg from './Component/About/Msg';
 import Registarmsg from './Component/About/Registarmsg';
 import Visemsg from './Component/About/Visemsg';
 import Enquiryform from './Component/Admission/Enquiryform';
+import Placement from './Component/Placement/Placement';
 
 
 
@@ -182,6 +183,7 @@ function App() {
           <Route path='registarmsg' element={<Registarmsg/>}/>
           <Route path='visemsg' element={<Visemsg/>}/>
           <Route path='enquiryform' element={<Enquiryform/>}/>
+          <Route path="placement" element={<Placement/>}/>
 </Routes>
       
         <Footer/>
