@@ -278,3 +278,117 @@
   height: auto;
   border-radius: 10px;
 }
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-item {
+    flex: 1 1 100%;
+    margin: 5px 0;
+  }
+
+  .impeccable-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description, .images {
+    margin: 0;
+    padding: 0;
+  }
+
+  .vision-section {
+    padding: 20px 10px;
+  }
+
+  .vision-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vision-card {
+    min-width: 100%;
+    margin: 10px 0;
+  }
+
+  .dbuu-layout {
+    flex-direction: column;
+  }
+
+  .mission2-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .mission2-text {
+    text-align: center;
+  }
+
+  .mission2-image {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .vision-section h2 {
+    font-size: 1.5em;
+  }
+
+  .vision-section p {
+    font-size: 1em;
+  }
+
+  .mission2-text h2 {
+    font-size: 28px;
+  }
+
+  .mission2-text p {
+    font-size: 14px;
+  }
+}
+
+/* Ensure images come below the context in mobile view */
+@media (max-width: 768px) {
+  .impeccable-content {
+    flex-direction: column;
+  }
+
+  .description {
+    order: 1;
+  }
+
+  .images {
+    order: 2;
+  }
+
+  .mission2-content {
+    flex-direction: column;
+  }
+
+  .mission2-text {
+    order: 1;
+  }
+
+  .mission2-image {
+    order: 2;
+  }
+}
