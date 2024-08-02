@@ -1,5 +1,4 @@
 .placements-overview {
-    padding: 20px;
     color: black;
     text-align: left;
     background-image: url('/public/gnm2.jpg'); /* Use the actual URL or path of your background image */
@@ -129,10 +128,7 @@
     text-align: center;
     padding: 10px;
   }
-  
-  .container {
-    padding: 20px;
-  }
+ 
   
   .impeccable-placements {
     margin: 20px 0;
@@ -241,4 +237,44 @@
     width: 100%;
     border-radius: 10px;
   }
-  
+.mission2-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.mission2-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mission2-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.mission2-text h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.mission2-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mission2-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission2-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
