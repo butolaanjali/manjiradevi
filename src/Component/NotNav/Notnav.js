@@ -17,7 +17,7 @@ const Notnav = () => {
       <div className="container-fluid ww3">
         <div className="row mb-0">
           <div className="col-md-4 mt-1 ">
-            <img src="Smt3.png" height="110px" width="230px" alt="Manjira Logo" />
+            <img src="smt3.png" height="110px" width="230px" alt="Manjira Logo" />
           </div>
           
           <div className="col-md-3">

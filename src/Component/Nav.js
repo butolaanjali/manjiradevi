@@ -295,7 +295,7 @@ function Nav() {
                 <Link className="nav-link text-white ms-4" to="/gallery1">Gallery</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white ms-4" to="/layout">Placements</Link>
+                <Link className="nav-link text-white ms-4" to="/placement">Placements</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white ms-4" to="/lifemanjira">Life@MANJIRA</Link>
