@@ -4,6 +4,7 @@ import '../Layout/layout.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import StudentSpeak from '../Testimonial/StudentSpeak';
 
 function Placement() {
   const sliderSettings = {
@@ -41,8 +42,8 @@ function Placement() {
     <div>
       <div className="placements-overview">
         <div className="header">
-          <h1 className="overview-title"><b>Placements Overview</b></h1>
-          <p className="overview-motto"><b>Our Motto is Arise, Awake & Achieve!</b></p>
+          <h1 className="overview-title" style={{textAlign:"left"}}><b>Placements Overview</b></h1>
+          <p className="overview-motto" style={{textAlign:"left"}}><b>Our Motto is Arise, Awake & Achieve!</b></p>
         </div>
         <div className="stats">
           <div className="stat-item">
@@ -63,11 +64,11 @@ function Placement() {
         <div className="impeccable-placements">
           <div className="impeccable-header">
             <h1>Impeccable Placements</h1>
-            <p style={{fontSize:"20px"}}>Bridging the gap between industry & Academia</p>
+            <p style={{ fontSize: "20px" }}>Bridging the gap between industry & Academia</p>
           </div>
           <div className="impeccable-content">
             <div className="description">
-              <p style={{fontSize:"18px"}}>At Smt. Manjira Devi University, the Placement department constantly keeps working towards bridging the gap between industry & Academia. Our endeavor is to keep the needs of the industry perspective and in turn make the learning more pragmatic and applicable. The placement activities are for the students and by the students. Manjira Devi has been successful in adding more and more companies in the list of its recruiters in the last few years. The Training and placement cell of Manjira Devi strives for converting every student into a 100% employable asset while they are pursuing their education with us and endeavors for accomplishing the concept – “One Person One Job.”</p>
+              <p style={{ fontSize: "18px" }}>At Smt. Manjira Devi University, the Placement department constantly keeps working towards bridging the gap between industry & Academia. Our endeavor is to keep the needs of the industry perspective and in turn make the learning more pragmatic and applicable. The placement activities are for the students and by the students. Manjira Devi has been successful in adding more and more companies in the list of its recruiters in the last few years. The Training and placement cell of Manjira Devi strives for converting every student into a 100% employable asset while they are pursuing their education with us and endeavors for accomplishing the concept – “One Person One Job.”</p>
             </div>
             <div className="images">
               <img style={{ height: "310px", width: "410px" }} src="labgallery1.jpg" alt="Placement 1" className="thumbnail" />
@@ -75,28 +76,7 @@ function Placement() {
           </div>
         </div>
       </div>
-      <div className="vision-section">
-        <h2>Our Vision</h2>
-        <p>Best Campus Experience, Best Placements and Best Culture</p>
-        <div className="vision-cards">
-          <div className="vision-card">
-            <h3>Professional Skill Development</h3>
-            <p>Equip students with relevant professional skills for their bright career.</p>
-          </div>
-          <div className="vision-card">
-            <h3>Maximum Opportunities</h3>
-            <p>Create maximum opportunities for the students for their bright future.</p>
-          </div>
-          <div className="vision-card">
-            <h3>Employable Graduates</h3>
-            <p>Develop employable and market-ready graduates.</p>
-          </div>
-          <div className="vision-card">
-            <h3>Professional Skill Development</h3>
-            <p>Guide students towards the bright career with core values of sincerity, honesty and hard work.</p>
-          </div>
-        </div>
-      </div>
+     
       <div className="dbuu-layout">
         <div className="left-column">
           <section className="placement-highlights">
@@ -126,6 +106,41 @@ function Placement() {
           </section>
         </div>
       </div>
+      <div className="vision-section">
+        <h2>Our Vision</h2>
+        <p>Best Campus Experience, Best Placements and Best Culture</p>
+        <div className="vision-cards">
+          <div className="vision-card">
+            <h3>Professional Skill Development</h3>
+            <p>Equip students with relevant professional skills for their bright career.</p>
+          </div>
+          <div className="vision-card">
+            <h3>Maximum Opportunities</h3>
+            <p>Create maximum opportunities for the students for their bright future.</p>
+          </div>
+          <div className="vision-card">
+            <h3>Employable Graduates</h3>
+            <p>Develop employable and market-ready graduates.</p>
+          </div>
+          <div className="vision-card">
+            <h3>Professional Skill Development</h3>
+            <p>Guide students towards the bright career with core values of sincerity, honesty and hard work.</p>
+          </div>
+        </div>
+      </div>
+      <div className="mission2-section">
+        <div className="mission2-content">
+          <div className="mission2-text">
+            <h2>Our Mission</h2>
+            <p><b>Best Campus Experience, Best Placements and Best Culture</b></p>
+            <p>The organization aims to fortify its bonds with industries through robust campus connections, fostering mutually beneficial relationships. It seeks to cultivate enduring partnerships with businesses, facilitating meaningful student placements. Additionally, the organization is committed to offering comprehensive guidance for the holistic development of students and job seekers, ensuring their preparedness for professional endeavors.</p>
+          </div>
+          <div className="mission-image">
+            <img src="newimage00.jpg" alt="Our Mission" />
+          </div>
+        </div>
+      </div>
+      <StudentSpeak/>
     </div>
   );
 }
